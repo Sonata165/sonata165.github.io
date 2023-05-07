@@ -53,20 +53,17 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 <br>
 
 # Publication
-- **Research Achievement Award** (2022/2023), issued by School of Computing, NUS, 2023.5.
-- **Top Paper Award** (2% of accepted full papers), issued by ACM Multimedia 2022, 2022.11.
-- **Honor Degree of Bachelor of Engineering**, issued by Harbin Institute of Technology Honors School, 2021.6.
-- **People Scholarship** (6%), issued by Harbin Institute of Technology, 2020.6.
-- **Third Prize**, Sogou Innovative Practice Project for College Student, 2018.10.
+- **Longshen Ou**, Xichu Ma, Min-Yen Kan, Ye Wang. "Songs Across Borders: Singable and Controllable Neural Lyric Translation." In *The 61st Annual Meeting of the Association for Computational Linguistics (ACL’23)*.
+- Xiangming Gu, Wei Zeng, Jianan Zhang, **Longshen Ou**, and Ye Wang. "Deep Audio-Visual Singing Voice Transcription based on Self-Supervised Learning Models." arXiv preprint arXiv:2304.12082 (2023).
+- Xiangming Gu\*, **Longshen Ou**\*, Danielle Ong, and Ye Wang. "MM-ALT: A multimodal automatic lyric transcription system." In *Proceedings of the 30th ACM International Conference on Multimedia (ACM Multimedia 2022)*.
+- **Longshen Ou**\*, Xiangming Gu\*, and Ye Wang. "Transfer learning of wav2vec 2.0 for automatic lyric transcription." In *(ISMIR 2022)*.
+- **Longshen Ou**, Ziyi Guo, Emmanouil Benetos, Jiqing Han, and Ye Wang. "Exploring transformer’s potential on automatic piano transcription." In *2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2022)*.
+- Chen, Bozhou, Kaixin Zhang, **Longshen Ou**, Chenmin Ba, Hongzhi Wang, and Chunnan Wang. "Automatic Hyper-Parameter Optimization Based on Mapping Discovery from Data to Hyper-Parameters." arXiv preprint arXiv:2003.01751 (2020).
 
 <br>
 
 # Other Projects
-- **Research Achievement Award** (2022/2023), issued by School of Computing, NUS, 2023.5.
-- **Top Paper Award** (2% of accepted full papers), issued by ACM Multimedia 2022, 2022.11.
-- **Honor Degree of Bachelor of Engineering**, issued by Harbin Institute of Technology Honors School, 2021.6.
-- **People Scholarship** (6%), issued by Harbin Institute of Technology, 2020.6.
-- **Third Prize**, Sogou Innovative Practice Project for College Student, 2018.10.
+- Will be updated soon.
 
 <br>
 
