@@ -23,11 +23,11 @@ Academic Reviewers
 # I'm a violinist, guitarist, and CS researcher.
 
 <div style="display: flex; align-items: center;">
-  <img src="/images/myself.png" alt="Image description" style="width: 200px; margin-right: 30px;">
+  <img src="/assets/images/myself.png" alt="Image description" style="width: 200px; margin-right: 30px;">
   <p>
-  I am currently a proud PhD student (2nd year) at the School of Computing, National University of Singapore. My research centers on solving music information retrieval challenges using machine learning techniques. I am particularly interested in the automatic transcription of music and lyrics, as well as lyric generation. Prior to joining NUS, I earned my Bachelor's degree in Computer Science with honors from the Harbin Institute of Technology. 
+    I am currently a proud PhD student (2nd year) at the School of Computing, National University of Singapore. My research centers on solving music information retrieval challenges using machine learning techniques. I am particularly interested in the automatic transcription of music and lyrics, as well as lyric generation. Prior to joining NUS, I earned my Bachelor's degree in Computer Science with honors from the Harbin Institute of Technology. 
     <br> <br>
-Moreover, I am a professional-level violinist and guitarist. Please visit the "<a href="/musician">As Musician</a>" page to explore my music portfolio. I feel incredibly fortunate to have discovered my passion for music and to have the opportunity to work and conduct research in a music-related field. My love for music fuels my excitement and drive for continued growth and success in this area.
+    Moreover, I am a professional-level violinist and guitarist. Please visit the "<a href="/musician">As Musician</a>" page to explore my music portfolio. I feel incredibly fortunate to have discovered my passion for music and to have the opportunity to work and conduct research in a music-related field. My love for music fuels my excitement and drive for continued growth and success in this area.
   </p>
 </div>
 
@@ -67,12 +67,34 @@ Moreover, I am a professional-level violinist and guitarist. Please visit the "A
 <br>
 
 # Publication
-- **Longshen Ou**, Xichu Ma, Min-Yen Kan, Ye Wang. "Songs Across Borders: Singable and Controllable Neural Lyric Translation." In *The 61st Annual Meeting of the Association for Computational Linguistics (ACL’23)*.
-- Xiangming Gu, Wei Zeng, Jianan Zhang, **Longshen Ou**, and Ye Wang. "Deep Audio-Visual Singing Voice Transcription based on Self-Supervised Learning Models." arXiv preprint arXiv:2304.12082 (2023).
-- Xiangming Gu\*, **Longshen Ou**\*, Danielle Ong, and Ye Wang. "MM-ALT: A multimodal automatic lyric transcription system." In *Proceedings of the 30th ACM International Conference on Multimedia (ACM Multimedia 2022)*.
-- **Longshen Ou**\*, Xiangming Gu\*, and Ye Wang. "Transfer learning of wav2vec 2.0 for automatic lyric transcription." In *(ISMIR 2022)*.
-- **Longshen Ou**, Ziyi Guo, Emmanouil Benetos, Jiqing Han, and Ye Wang. "Exploring transformer’s potential on automatic piano transcription." In *2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2022)*.
-- Chen, Bozhou, Kaixin Zhang, **Longshen Ou**, Chenmin Ba, Hongzhi Wang, and Chunnan Wang. "Automatic Hyper-Parameter Optimization Based on Mapping Discovery from Data to Hyper-Parameters." arXiv preprint arXiv:2003.01751 (2020).
+- **Songs Across Borders: Singable and Controllable Neural Lyric Translation**  
+  **Longshen Ou**, Xichu Ma, Min-Yen Kan, Ye Wang  
+  *The 61st Annual Meeting of the Association for Computational Linguistics (ACL 2023)*  
+  [pdf](assets/pdf/ACL_2023_Lyric_Translation%2023.5.7.pdf)
+  
+- **Deep Audio-Visual Singing Voice Transcription based on Self-Supervised Learning Models**  
+  Xiangming Gu, Wei Zeng, Jianan Zhang, **Longshen Ou**, and Ye Wang  
+  *arXiv:2304.12082 (2023)*
+  
+- **Transfer learning of wav2vec 2.0 for automatic lyric transcription**  
+  **Longshen Ou**\*, Xiangming Gu\*, and Ye Wang  
+  *Proceedings of the 23rd International Society for Music Information Retrieval Conf. (ISMIR 2022)*
+
+  In this project, we did something great.
+
+- **MM-ALT: A multimodal automatic lyric transcription system**  
+  Xiangming Gu\*, **Longshen Ou**\*, Danielle Ong, and Ye Wang  
+  *Proceedings of the 30th ACM International Conference on Multimedia (ACM Multimedia 2022)*
+  
+- [**Exploring transformer’s potential on automatic piano transcription**](https://ieeexplore.ieee.org/abstract/document/9746789)  
+  **Longshen Ou**, [Ziyi Guo](https://www.linkedin.com/in/zi-yi-guo/), [Emmanouil Benetos](https://www.eecs.qmul.ac.uk/~emmanouilb/), [Jiqing Han](https://dblp.org/pid/h/JiqingHan.html), and [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/)    
+  *2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2022)*
+  
+  In this project, we did some other great things.
+
+- **Automatic Hyper-Parameter Optimization Based on Mapping Discovery from Data to Hyper-Parameters**  
+  Chen, Bozhou, Kaixin Zhang, **Longshen Ou**, Chenmin Ba, Hongzhi Wang, and Chunnan Wang.  
+  *arXiv:2003.01751* (2020)
 
 <br>
 
