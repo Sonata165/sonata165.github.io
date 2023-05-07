@@ -22,7 +22,10 @@ Academic Reviewers
 
 # I'm a violinist, guitarist, and CS researcher.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+I am currently a confident and enthusiastic PhD student at the School of Computing, National University of Singapore. My research centers on solving music information retrieval challenges using machine learning techniques. I am particularly interested in the automatic transcription of music and lyrics, as well as lyric generation. Prior to joining NUS, I earned my Bachelor's degree in Computer Science with honors from the Harbin Institute of Technology.
+
+Moreover, I am a professional-level violinist and guitarist. Please visit the "As Musician" page to explore my music portfolio. I feel incredibly fortunate to have discovered my passion for music and to have the opportunity to work and conduct research in a music-related field. My love for music fuels my excitement and drive for continued growth and success in this area.
+
 
 <!-- Email ` Scholar ` CV/LinkedIn ` Twitter -->
 <div style="text-align:center;">
@@ -63,7 +66,9 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 <br>
 
 # Other Projects
-- Will be updated soon.
+- [**GNN-based Music Recommender**](https://github.com/Sonata165/MusicRecommenderGCN): This project aims to tackle the music artist recommendation challenge using Graph Convolutional Networks (GCNs). By modeling artist and user identities through their interactive relationships, the network predicts affinity scores between users and previously unexplored artists to generate personalized recommendations. I implemented the original GCN as a baseline and proposed three enhancements: incorporating edge weight for aggregation, augmenting edge weight with attention mechanisms, and implementing data augmentation by introducing noise to edge values.
+
+- [**DNA Storage Simulation**](https://github.com/Sonata165/DNA-Storage-Simulation): DNA-based storage systems present unique challenges, as reading and writing operations can sometimes result in alterations to the original information. To model the changes introduced by such storage systems in a wet lab environment, we designed a simulation system to emulate DNA behavioral changes. This system includes a rule-based method, a Multi-Layer Perceptron (MLP) method, and a sequence-to-sequence attention-based Recurrent Neural Network (RNN). Our experiments based on the Microsoft Nanopore dataset shows our sequence-to-sequence method is highly effective.
 
 <br>
 
