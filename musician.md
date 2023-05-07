@@ -1,7 +1,7 @@
 ---
 layout: page
 title: As Musician
-permalink: /musician/
+permalink: /musician
 ---
 
 <!-- 

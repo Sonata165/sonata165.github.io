@@ -22,14 +22,25 @@ Academic Reviewers
 
 # I'm a violinist, guitarist, and CS researcher.
 
-I am currently a confident and enthusiastic PhD student at the School of Computing, National University of Singapore. My research centers on solving music information retrieval challenges using machine learning techniques. I am particularly interested in the automatic transcription of music and lyrics, as well as lyric generation. Prior to joining NUS, I earned my Bachelor's degree in Computer Science with honors from the Harbin Institute of Technology.
+<div style="display: flex; align-items: center;">
+  <img src="/images/myself.png" alt="Image description" style="width: 200px; margin-right: 30px;">
+  <p>
+  I am currently a proud PhD student (2nd year) at the School of Computing, National University of Singapore. My research centers on solving music information retrieval challenges using machine learning techniques. I am particularly interested in the automatic transcription of music and lyrics, as well as lyric generation. Prior to joining NUS, I earned my Bachelor's degree in Computer Science with honors from the Harbin Institute of Technology. 
+    <br> <br>
+Moreover, I am a professional-level violinist and guitarist. Please visit the "<a href="/musician">As Musician</a>" page to explore my music portfolio. I feel incredibly fortunate to have discovered my passion for music and to have the opportunity to work and conduct research in a music-related field. My love for music fuels my excitement and drive for continued growth and success in this area.
+  </p>
+</div>
 
-Moreover, I am a professional-level violinist and guitarist. Please visit the "As Musician" page to explore my music portfolio. I feel incredibly fortunate to have discovered my passion for music and to have the opportunity to work and conduct research in a music-related field. My love for music fuels my excitement and drive for continued growth and success in this area.
+<!-- ![My Photo](/images/myself.png) -->
+
+<!-- I am currently a confident and enthusiastic PhD student at the School of Computing, National University of Singapore. My research centers on solving music information retrieval challenges using machine learning techniques. I am particularly interested in the automatic transcription of music and lyrics, as well as lyric generation. Prior to joining NUS, I earned my Bachelor's degree in Computer Science with honors from the Harbin Institute of Technology.
+
+Moreover, I am a professional-level violinist and guitarist. Please visit the "As Musician" page to explore my music portfolio. I feel incredibly fortunate to have discovered my passion for music and to have the opportunity to work and conduct research in a music-related field. My love for music fuels my excitement and drive for continued growth and success in this area. -->
 
 
 <!-- Email ` Scholar ` CV/LinkedIn ` Twitter -->
 <div style="text-align:center;">
-<a href="mailto:oulongshen@u.nus.edu">Email</a> &middot; <a href="https://scholar.google.com/citations?user=hf-xY6gAAAAJ">Google Scholar</a> &middot; <a href="https://www.linkedin.com/in/longshen-ou/">CV / LinkedIn</a> &middot; <a href="https://twitter.com/LongshenO">Twitter</a>
+<a href="mailto:oulongshen@u.nus.edu">Email</a> &middot; <a href="https://scholar.google.com/citations?user=hf-xY6gAAAAJ">Google Scholar</a> &middot; <a href="https://www.linkedin.com/in/longshen-ou/">CV / LinkedIn</a> &middot; <a href="https://twitter.com/LongshenO">Twitter</a> &middot; <a href="https://space.bilibili.com/8419079/audio">Bilibili</a> &middot; <a href="https://www.youtube.com/channel/UC6kT17cxNvNzUXcM9piNqMg">Youtube</a>
 </div>
 
 <br>
