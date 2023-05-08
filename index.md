@@ -16,12 +16,14 @@ Teaching
 Academic Reviewers
  -->
 
+<!-- Navigator -->
 <div style="text-align:center;">
 [ <a href="#recent-news">News</a> | <a href="#publication">Publication</a> | <a href="#other-projects">Projects</a> | <a href="#honors-and-awards">Awards</a> | <a href="#teaching">Teaching</a> | <a href="#academic-reviewers">Reviewer</a> ]
 </div>
 
 # I'm a violinist, guitarist, and CS researcher.
 
+<!-- Style for image width at intro (responsive) -->
 <style>
     .content {
       display: flex;
@@ -48,25 +50,18 @@ Academic Reviewers
   }
 </style>
 
-<!-- <div style="display: flex; align-items: center;"> -->
+<!-- Intro -->
 <div class="content">
-  <!-- <img src="/assets/images/myself.png" alt="Image description" style="width: 200px; margin-right: 30px;"> -->
   <img class="image" src="/assets/images/myself.png" alt="Image description">
   <p>
     I am currently a proud PhD student (2nd year) at the School of Computing, National University of Singapore. My research centers on solving music information retrieval challenges using machine learning techniques. I am particularly interested in the automatic transcription of music and lyrics, as well as lyric generation. Prior to joining NUS, I earned my Bachelor's degree in Computer Science with honors from the Harbin Institute of Technology. 
     <br> <br>
-    Moreover, I am a professional-level violinist and guitarist. Please visit the "<a href="/musician">As Musician</a>" page to explore my music portfolio. I feel incredibly fortunate to have discovered my passion for music and to have the opportunity to work and conduct research in a music-related field. My love for music fuels my excitement and drive for continued growth and success in this area.
+    Moreover, I am a professional-level violinist and guitarist. Please visit the "<a href="/musician">As Musician</a>" page to explore my music portfolio. I feel incredibly fortunate to have discovered my passion for music and to have the opportunity to work and conduct research in a music-related field. My love for music energizes and motivates me to continually grow and excel in this area.
   </p>
 </div>
 
-<!-- ![My Photo](/images/myself.png) -->
-
-<!-- I am currently a confident and enthusiastic PhD student at the School of Computing, National University of Singapore. My research centers on solving music information retrieval challenges using machine learning techniques. I am particularly interested in the automatic transcription of music and lyrics, as well as lyric generation. Prior to joining NUS, I earned my Bachelor's degree in Computer Science with honors from the Harbin Institute of Technology.
-
-Moreover, I am a professional-level violinist and guitarist. Please visit the "As Musician" page to explore my music portfolio. I feel incredibly fortunate to have discovered my passion for music and to have the opportunity to work and conduct research in a music-related field. My love for music fuels my excitement and drive for continued growth and success in this area. -->
-
-
-<!-- Email ` Scholar ` CV/LinkedIn ` Twitter -->
+<!-- Contact -->
+<!-- Email ` Scholar ` CV/LinkedIn ` Twitter ` Bilibili ` Youtube -->
 <div style="text-align:center;">
 <a href="mailto:oulongshen@u.nus.edu">Email</a> &middot; <a href="https://scholar.google.com/citations?user=hf-xY6gAAAAJ">Google Scholar</a> &middot; <a href="https://www.linkedin.com/in/longshen-ou/">CV / LinkedIn</a> &middot; <a href="https://twitter.com/LongshenO">Twitter</a> &middot; <a href="https://space.bilibili.com/8419079/audio">Bilibili</a> &middot; <a href="https://www.youtube.com/channel/UC6kT17cxNvNzUXcM9piNqMg">Youtube</a>
 </div>
@@ -112,8 +107,9 @@ Moreover, I am a professional-level violinist and guitarist. Please visit the "A
 
 - **MM-ALT: A multimodal automatic lyric transcription system**  
   Xiangming Gu\*, **Longshen Ou**\*, Danielle Ong, and Ye Wang  
-  *Proceedings of the 30th ACM International Conference on Multimedia (ACM Multimedia 2022)*
-  
+  *Proceedings of the 30th ACM International Conference on Multimedia (ACM Multimedia 2022)*  
+  [press](https://www.comp.nus.edu.sg/news/features/2023-marvellous-richness-wye/)
+
 - [**Exploring transformer’s potential on automatic piano transcription**](https://ieeexplore.ieee.org/abstract/document/9746789)  
   **Longshen Ou**, [Ziyi Guo](https://www.linkedin.com/in/zi-yi-guo/), [Emmanouil Benetos](https://www.eecs.qmul.ac.uk/~emmanouilb/), [Jiqing Han](https://dblp.org/pid/h/JiqingHan.html), and [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/)    
   *2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2022)*
