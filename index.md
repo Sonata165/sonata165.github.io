@@ -91,24 +91,26 @@ Academic Reviewers
 
 # Publication
 - **Songs Across Borders: Singable and Controllable Neural Lyric Translation**  
-  **Longshen Ou**, Xichu Ma, Min-Yen Kan, Ye Wang  
+  **Longshen Ou**, [Xichu Ma](https://dblp.org/pid/179/9890.html), [Min-Yen Kan](https://www.comp.nus.edu.sg/~kanmy/), [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/)  
   *The 61st Annual Meeting of the Association for Computational Linguistics (ACL 2023)*  
   [pdf](assets/pdf/ACL_2023_Lyric_Translation%2023.5.7.pdf)
   
-- **Deep Audio-Visual Singing Voice Transcription based on Self-Supervised Learning Models**  
-  Xiangming Gu, Wei Zeng, Jianan Zhang, **Longshen Ou**, and Ye Wang  
-  *arXiv:2304.12082 (2023)*
+- **[Deep Audio-Visual Singing Voice Transcription based on Self-Supervised Learning Models](https://arxiv.org/abs/2304.12082)**  
+  [Xiangming Gu](https://guxm2021.github.io/), Wei Zeng, Jianan Zhang, **Longshen Ou**, and [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/)  
+  *arXiv:2304.12082 (2023)*  
+  [code](https://github.com/guxm2021/SVT_SpeechBrain)
   
-- **Transfer learning of wav2vec 2.0 for automatic lyric transcription**  
-  **Longshen Ou**\*, Xiangming Gu\*, and Ye Wang  
-  *Proceedings of the 23rd International Society for Music Information Retrieval Conf. (ISMIR 2022)*
+- **[Transfer learning of wav2vec 2.0 for automatic lyric transcription](https://arxiv.org/abs/2207.09747)**  
+  **Longshen Ou**\*, [Xiangming Gu](https://guxm2021.github.io/)\*, and [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/)  
+  *Proceedings of the 23rd International Society for Music Information Retrieval Conf. (ISMIR 2022)*  
+  [code](https://github.com/guxm2021/ALT_SpeechBrain)
 
   In this project, we did something great.
 
-- **MM-ALT: A multimodal automatic lyric transcription system**  
-  Xiangming Gu\*, **Longshen Ou**\*, Danielle Ong, and Ye Wang  
+- **[MM-ALT: A multimodal automatic lyric transcription system](https://dl.acm.org/doi/abs/10.1145/3503161.3548411)**  
+  [Xiangming Gu](https://guxm2021.github.io/)\*, **Longshen Ou**\*, [Danielle Ong](https://www.linkedin.com/in/danielle-ong-854b88177/), and [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/)  
   *Proceedings of the 30th ACM International Conference on Multimedia (ACM Multimedia 2022)*  
-  [press](https://www.comp.nus.edu.sg/news/features/2023-marvellous-richness-wye/)
+  [project website](https://n20em.github.io/) / [code](https://github.com/guxm2021/MM_ALT) / [dataset](https://zenodo.org/record/7545968) / [press](https://www.comp.nus.edu.sg/news/features/2023-marvellous-richness-wye/)
 
 - [**Exploring transformer’s potential on automatic piano transcription**](https://ieeexplore.ieee.org/abstract/document/9746789)  
   **Longshen Ou**, [Ziyi Guo](https://www.linkedin.com/in/zi-yi-guo/), [Emmanouil Benetos](https://www.eecs.qmul.ac.uk/~emmanouilb/), [Jiqing Han](https://dblp.org/pid/h/JiqingHan.html), and [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/)    
@@ -116,16 +118,18 @@ Academic Reviewers
   
   In this project, we did some other great things.
 
-- **Automatic Hyper-Parameter Optimization Based on Mapping Discovery from Data to Hyper-Parameters**  
-  Chen, Bozhou, Kaixin Zhang, **Longshen Ou**, Chenmin Ba, Hongzhi Wang, and Chunnan Wang.  
+- **[Automatic Hyper-Parameter Optimization Based on Mapping Discovery from Data to Hyper-Parameters](https://arxiv.org/abs/2003.01751)**  
+  [Bozhou Chen](https://www.researchgate.net/profile/Bozhou-Chen), Kaixin Zhang, **Longshen Ou**, Chenmin Ba, Hongzhi Wang, and Chunnan Wang.  
   *arXiv:2003.01751* (2020)
 
 <br>
 
 # Other Projects
-- [**GNN-based Music Recommender**](https://github.com/Sonata165/MusicRecommenderGCN): This project aims to tackle the music artist recommendation challenge using Graph Convolutional Networks (GCNs). By modeling artist and user identities through their interactive relationships, the network predicts affinity scores between users and previously unexplored artists to generate personalized recommendations. I implemented the original GCN as a baseline and proposed three enhancements: incorporating edge weight for aggregation, augmenting edge weight with attention mechanisms, and implementing data augmentation by introducing noise to edge values.
+- [**GNN-based Music Recommender**](https://github.com/Sonata165/MusicRecommenderGCN)  
+    This project aims to tackle the music artist recommendation challenge using Graph Convolutional Networks (GCNs). By modeling artist and user identities through their interactive relationships, the network predicts affinity scores between users and previously unexplored artists to generate personalized recommendations. I implemented the original GCN as a baseline and proposed three enhancements: incorporating edge weight for aggregation, augmenting edge weight with attention mechanisms, and implementing data augmentation by introducing noise to edge values.
 
-- [**DNA Storage Simulation**](https://github.com/Sonata165/DNA-Storage-Simulation): DNA-based storage systems present unique challenges, as reading and writing operations can sometimes result in alterations to the original information. To model the changes introduced by such storage systems in a wet lab environment, we designed a simulation system to emulate DNA behavioral changes. This system includes a rule-based method, a Multi-Layer Perceptron (MLP) method, and a sequence-to-sequence attention-based Recurrent Neural Network (RNN). Our experiments based on the Microsoft Nanopore dataset shows our sequence-to-sequence method is highly effective.
+- [**DNA Storage Simulation**](https://github.com/Sonata165/DNA-Storage-Simulation)  
+    DNA-based storage systems present unique challenges, as reading and writing operations can sometimes result in alterations to the original information. To model the changes introduced by such storage systems in a wet lab environment, we designed a simulation system to emulate DNA behavioral changes. This system includes a rule-based method, a Multi-Layer Perceptron (MLP) method, and a sequence-to-sequence attention-based Recurrent Neural Network (RNN). Our experiments based on the Microsoft Nanopore dataset shows our sequence-to-sequence method is highly effective.
 
 <br>
 
