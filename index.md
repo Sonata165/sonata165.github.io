@@ -22,8 +22,36 @@ Academic Reviewers
 
 # I'm a violinist, guitarist, and CS researcher.
 
-<div style="display: flex; align-items: center;">
-  <img src="/assets/images/myself.png" alt="Image description" style="width: 200px; margin-right: 30px;">
+<style>
+    .content {
+      display: flex;
+      align-items: center;
+    }
+
+    .image {
+      width: 200px;
+      margin-right: 30px;
+    }
+
+    @media screen and (max-width: 600px) {
+    .content {
+      display: block;
+      text-align: left;
+    }
+
+    .image {
+      display: block;
+      width: 50%;
+      height: auto;
+      margin: 0 auto 30px;
+    }
+  }
+</style>
+
+<!-- <div style="display: flex; align-items: center;"> -->
+<div class="content">
+  <!-- <img src="/assets/images/myself.png" alt="Image description" style="width: 200px; margin-right: 30px;"> -->
+  <img class="image" src="/assets/images/myself.png" alt="Image description">
   <p>
     I am currently a proud PhD student (2nd year) at the School of Computing, National University of Singapore. My research centers on solving music information retrieval challenges using machine learning techniques. I am particularly interested in the automatic transcription of music and lyrics, as well as lyric generation. Prior to joining NUS, I earned my Bachelor's degree in Computer Science with honors from the Harbin Institute of Technology. 
     <br> <br>
