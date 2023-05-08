@@ -100,19 +100,19 @@ Academic Reviewers
   *arXiv:2304.12082 (2023)*  
   [[code](https://github.com/guxm2021/SVT_SpeechBrain)]
   
-- **[Transfer learning of wav2vec 2.0 for automatic lyric transcription](https://arxiv.org/abs/2207.09747)**  
+- **[Transfer Learning of wav2vec 2.0 for Automatic Lyric Transcription](https://arxiv.org/abs/2207.09747)**  
   **Longshen Ou**\*, [Xiangming Gu](https://guxm2021.github.io/)\*, and [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/)  
   *Proceedings of the 23rd International Society for Music Information Retrieval Conf. (ISMIR 2022)*  
   [[code](https://github.com/guxm2021/ALT_SpeechBrain)]
 
   In this project, we did something great.
 
-- **[MM-ALT: A multimodal automatic lyric transcription system](https://dl.acm.org/doi/abs/10.1145/3503161.3548411)** (*<span style="color:red">Oral, Top Paper Award</span>*)  
+- **[MM-ALT: A Multimodal Automatic Lyric Transcription System](https://dl.acm.org/doi/abs/10.1145/3503161.3548411)** (*<span style="color:red">Oral, Top Paper Award</span>*)  
   [Xiangming Gu](https://guxm2021.github.io/)\*, **Longshen Ou**\*, [Danielle Ong](https://www.linkedin.com/in/danielle-ong-854b88177/), and [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/)  
   *Proceedings of the 30th ACM International Conference on Multimedia (ACM Multimedia 2022)*   
   [[project website](https://n20em.github.io/) | [code](https://github.com/guxm2021/MM_ALT) | [dataset](https://zenodo.org/record/7545968) | [press](https://www.comp.nus.edu.sg/news/features/2023-marvellous-richness-wye/)]
 
-- [**Exploring transformer’s potential on automatic piano transcription**](https://ieeexplore.ieee.org/abstract/document/9746789)  
+- [**Exploring Transformer’s Potential on Automatic Piano Transcription**](https://ieeexplore.ieee.org/abstract/document/9746789)  
   **Longshen Ou**, [Ziyi Guo](https://www.linkedin.com/in/zi-yi-guo/), [Emmanouil Benetos](https://www.eecs.qmul.ac.uk/~emmanouilb/), [Jiqing Han](https://dblp.org/pid/h/JiqingHan.html), and [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/)    
   *2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2022)*
   
