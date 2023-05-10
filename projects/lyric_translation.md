@@ -11,4 +11,4 @@ Performance
 Recordings
  -->
 
-This is the demo for
+This is the demo for Longshen's Song Across Border paper. Will be updated soon.
