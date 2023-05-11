@@ -94,7 +94,7 @@ Academic Reviewers
   **Longshen Ou**, [Xichu Ma](https://dblp.org/pid/179/9890.html), [Min-Yen Kan](https://www.comp.nus.edu.sg/~kanmy/), [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/)  
   *The 61st Annual Meeting of the Association for Computational Linguistics (ACL 2023)*  
   <!-- [[pdf](assets/pdf/ACL_2023_Lyric_Translation%2023.5.7.pdf)] -->
-  [[demo](/lyric_translation)]
+  [[demo](/lyric_translation) | [code](https://github.com/Sonata165/ControllableLyricTranslation)]
   
 - **[Deep Audio-Visual Singing Voice Transcription based on Self-Supervised Learning Models](https://arxiv.org/abs/2304.12082)**  
   [Xiangming Gu](https://guxm2021.github.io/), Wei Zeng, Jianan Zhang, **Longshen Ou**, and [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/)  
@@ -111,7 +111,7 @@ Academic Reviewers
 - **[MM-ALT: A Multimodal Automatic Lyric Transcription System](https://dl.acm.org/doi/abs/10.1145/3503161.3548411)** (*<span style="color:red">Oral, Top Paper Award</span>*)  
   [Xiangming Gu](https://guxm2021.github.io/)\*, **Longshen Ou**\*, [Danielle Ong](https://www.linkedin.com/in/danielle-ong-854b88177/), and [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/)  
   *Proceedings of the 30th ACM International Conference on Multimedia (ACM Multimedia 2022)*   
-  [[project website](https://n20em.github.io/) | [code](https://github.com/guxm2021/MM_ALT) | [dataset](https://zenodo.org/record/7545968) | [press](https://www.comp.nus.edu.sg/news/features/2023-marvellous-richness-wye/)]
+  [[demo](https://n20em.github.io/) | [code](https://github.com/guxm2021/MM_ALT) | [dataset](https://zenodo.org/record/7545968) | [press](https://www.comp.nus.edu.sg/news/features/2023-marvellous-richness-wye/)]
 
 - [**Exploring Transformer’s Potential on Automatic Piano Transcription**](https://ieeexplore.ieee.org/abstract/document/9746789)  
   **Longshen Ou**, [Ziyi Guo](https://www.linkedin.com/in/zi-yi-guo/), [Emmanouil Benetos](https://www.eecs.qmul.ac.uk/~emmanouilb/), [Jiqing Han](https://dblp.org/pid/h/JiqingHan.html), and [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/)    
