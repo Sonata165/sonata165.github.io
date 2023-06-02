@@ -90,10 +90,9 @@ Academic Reviewers
 <br>
 
 # Publication
-- **Songs Across Borders: Singable and Controllable Neural Lyric Translation**  
+- **[Songs Across Borders: Singable and Controllable Neural Lyric Translation](https://arxiv.org/abs/2305.16816)**  
   **Longshen Ou**, [Xichu Ma](https://dblp.org/pid/179/9890.html), [Min-Yen Kan](https://www.comp.nus.edu.sg/~kanmy/), [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/)  
   *The 61st Annual Meeting of the Association for Computational Linguistics (ACL 2023)*  
-  <!-- [[pdf](assets/pdf/ACL_2023_Lyric_Translation%2023.5.7.pdf)] -->
   [[demo](/lyric_translation) | [code](https://github.com/Sonata165/ControllableLyricTranslation)]
   
 - **[Deep Audio-Visual Singing Voice Transcription based on Self-Supervised Learning Models](https://arxiv.org/abs/2304.12082)**  
