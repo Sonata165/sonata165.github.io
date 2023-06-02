@@ -105,8 +105,6 @@ Academic Reviewers
   *Proceedings of the 23rd International Society for Music Information Retrieval Conf. (ISMIR 2022)*  
   [[code](https://github.com/guxm2021/ALT_SpeechBrain)]
 
-  In this project, we did something great.
-
 - **[MM-ALT: A Multimodal Automatic Lyric Transcription System](https://dl.acm.org/doi/abs/10.1145/3503161.3548411)** (*<span style="color:red">Oral, Top Paper Award</span>*)  
   [Xiangming Gu](https://guxm2021.github.io/)\*, **Longshen Ou**\*, [Danielle Ong](https://www.linkedin.com/in/danielle-ong-854b88177/), and [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/)  
   *Proceedings of the 30th ACM International Conference on Multimedia (ACM Multimedia 2022)*   
@@ -116,8 +114,6 @@ Academic Reviewers
   **Longshen Ou**, [Ziyi Guo](https://www.linkedin.com/in/zi-yi-guo/), [Emmanouil Benetos](https://www.eecs.qmul.ac.uk/~emmanouilb/), [Jiqing Han](https://dblp.org/pid/h/JiqingHan.html), and [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/)    
   *2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2022)*
   
-  In this project, we did some other great things.
-
 - **[Automatic Hyper-Parameter Optimization Based on Mapping Discovery from Data to Hyper-Parameters](https://arxiv.org/abs/2003.01751)**  
   [Bozhou Chen](https://www.researchgate.net/profile/Bozhou-Chen), [Kaixin Zhang](https://www.researchgate.net/profile/Kaixin-Zhang-6), **Longshen Ou**, [Chenmin Ba](https://dblp.uni-trier.de/pid/259/9983.html), [Hongzhi Wang](https://dblp.org/pid/81/940.html), and [Chunnan Wang](https://scholar.google.com/citations?user=F0xRt20AAAAJ&hl=en).  
   *arXiv:2003.01751* (2020)
@@ -149,5 +145,6 @@ Academic Reviewers
 <br>
 
 # Academic Reviewers
+- ISMIR 2023.
 - ACM Multimedia 2023.
 - ISMIR 2022.
