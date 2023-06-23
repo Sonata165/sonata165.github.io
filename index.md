@@ -54,7 +54,7 @@ Academic Reviewers
 <div class="content">
   <img class="image" src="/assets/images/myself.png" alt="Image description">
   <p>
-    I am currently a proud PhD student (2nd year) at the School of Computing, National University of Singapore. My research centers on solving music information retrieval challenges using machine learning techniques. I am particularly interested in the automatic transcription of music and lyrics, as well as lyric generation. Prior to joining NUS, I earned my Bachelor's degree in Computer Science with honors from the Harbin Institute of Technology. 
+    I am currently a proud PhD candidate (2nd year) at the School of Computing, National University of Singapore. My research centers on solving music information retrieval challenges using machine learning techniques. I am particularly interested in the automatic transcription of music and lyrics, as well as lyric generation. Prior to joining NUS, I earned my Bachelor's degree in Computer Science with honors from the Harbin Institute of Technology. 
     <br> <br>
     Moreover, I am a professional-level violinist and guitarist. Please visit the "<a href="/musician">As Musician</a>" page to explore my music portfolio. I feel incredibly fortunate to have discovered my passion for music and to have the opportunity to work and conduct research in a music-related field. My love for music energizes and motivates me to continually grow and excel in this area.
   </p>
@@ -72,6 +72,8 @@ Academic Reviewers
 
 <div style="height: 100px; overflow-y: scroll; border: 1px solid #ccc; padding: 10px; font-family: Times New Roman;background-color: gainsboro;">
 <ul>
+    <li> <b>[2023.6]</b> My paper <i>LOAF-M2L: Joint Learning of Wording and Formatting for Singable Melody-to-Lyric Generation</i> is rejected by ISMIR 2023. Sadge! </li>
+    <li> <b>[2023.5]</b> I passed the Qualification Exam. Now I am a PhD candidate! </li>
     <li> <b>[2023.5]</b> My paper <i>Songs Across Borders: Singable and Controllable Neural Lyric Translation</i> is accepted by ACL 2023. </li>
     <li> <b>[2023.1]</b> I receive Research Achievement Award (2022/2023) from School of Computing, NUS. </li>
     <li> <b>[2022.12]</b> I'm attending ISMIR 2023 at Bengaluru, India. </li>
