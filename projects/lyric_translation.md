@@ -82,7 +82,7 @@ constraints being satisfied. For example,
 <p align="center">
   <img width="450" src="/assets/images/fig_rhyme_dist.png">
 </p>
-The figure above shows the "rhyme distribution" when translating the paragraph above, which is a text quality prediction when using different rhyme type as requirement.
+The figure above shows the "rhyme distribution" when translating the paragraph in the "Model Output Demo" section. This distribution is obtained from our reverse-order decoder, which is a text quality prediction when using different rhyme type as requirement.
 When using the 1st best and 2nd worst rhymes as constraints, the results are as below.
 
 <p align="center">
