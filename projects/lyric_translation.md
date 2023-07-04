@@ -14,7 +14,7 @@ permalink: /lyric_translation
 </p>
 
 ## Model Output Demo
-![image tooltip here](/assets/images/fig_letitgo.png)
+![image tooltip here](/assets/for_projects/LyricTrans/images/fig_letitgo.png)
 <!-- TODO: add two audios -->
 
 The outputs are perfect in the number of syllables
@@ -79,13 +79,13 @@ We noticed that an improper rhyme prompt will
 lead to lower text quality and a lower chance of
 constraints being satisfied. For example, 
 <p align="center">
-  <img width="450" src="/assets/images/fig_rhyme_dist.png">
+  <img width="450" src="/assets/for_projects/LyricTrans/images/fig_rhyme_dist.png">
 </p>
 The figure above shows the "rhyme distribution" when translating the paragraph in the "Model Output Demo" section. This distribution is obtained from our reverse-order decoder, which is a text quality prediction when using different rhyme type as requirement.
 When using the 1st best and 2nd worst rhymes as constraints, the results are as below.
 
 <p align="center">
-  <img width="400" src="/assets/images/fig_rhydif.png">
+  <img width="400" src="/assets/for_projects/LyricTrans/images/fig_rhydif.png">
 </p>
 
 With the 1st-ranked rhyme as prompt (left paragraph), the output is perfect in length and rhyme control and has a satisfactory translation quality.
@@ -94,8 +94,8 @@ However, Various translation errors appear in the 2nd output, i.e., the output w
 ## Typical Issues of Modifying Beam Search
 ### Length Forcing
 <p align="center">
-  <img width="250" src="/assets/images/fig_biased1.png">
-  <img width="250" src="/assets/images/fig_biased2.png">
+  <img width="250" src="/assets/for_projects/LyricTrans/images/fig_biased1.png">
+  <img width="250" src="/assets/for_projects/LyricTrans/images/fig_biased2.png">
 </p>
 If the desired length is shorter than unconstrained output, the beam search might
 end too soon, so the sentence will be incomplete
@@ -105,8 +105,8 @@ translation quality, although the outputs may even have higher BLEU scores.
 
 ### Biased Decoding for Rhyme Control
 <p align="center">
-  <img width="250" src="/assets/images/fig_biased3.png">
-  <img width="250" src="/assets/images/fig_biased4.png">
+  <img width="250" src="/assets/for_projects/LyricTrans/images/fig_biased3.png">
+  <img width="250" src="/assets/for_projects/LyricTrans/images/fig_biased4.png">
 </p>
 A type of error frequently
 happens that the end-words in the outputs

@@ -54,7 +54,7 @@
 </p>
 
 <h2 id="model-output-demo">Model Output Demo</h2>
-<p><img src="/assets/images/fig_letitgo.png" alt="image tooltip here" />
+<p><img src="/assets/for_projects/LyricTrans/images/fig_letitgo.png" alt="image tooltip here" />
 <!-- TODO: add two audios --></p>
 
 <p>The outputs are perfect in the number of syllables
@@ -233,13 +233,13 @@ the training set.</p>
 lead to lower text quality and a lower chance of
 constraints being satisfied. For example,</p>
 <p align="center">
-  <img width="450" src="/assets/images/fig_rhyme_dist.png" />
+  <img width="450" src="/assets/for_projects/LyricTrans/images/fig_rhyme_dist.png" />
 </p>
 <p>The figure above shows the “rhyme distribution” when translating the paragraph in the “Model Output Demo” section. This distribution is obtained from our reverse-order decoder, which is a text quality prediction when using different rhyme type as requirement.
 When using the 1st best and 2nd worst rhymes as constraints, the results are as below.</p>
 
 <p align="center">
-  <img width="400" src="/assets/images/fig_rhydif.png" />
+  <img width="400" src="/assets/for_projects/LyricTrans/images/fig_rhydif.png" />
 </p>
 
 <p>With the 1st-ranked rhyme as prompt (left paragraph), the output is perfect in length and rhyme control and has a satisfactory translation quality.
@@ -248,8 +248,8 @@ However, Various translation errors appear in the 2nd output, i.e., the output w
 <h2 id="typical-issues-of-modifying-beam-search">Typical Issues of Modifying Beam Search</h2>
 <h3 id="length-forcing">Length Forcing</h3>
 <p align="center">
-  <img width="250" src="/assets/images/fig_biased1.png" />
-  <img width="250" src="/assets/images/fig_biased2.png" />
+  <img width="250" src="/assets/for_projects/LyricTrans/images/fig_biased1.png" />
+  <img width="250" src="/assets/for_projects/LyricTrans/images/fig_biased2.png" />
 </p>
 <p>If the desired length is shorter than unconstrained output, the beam search might
 end too soon, so the sentence will be incomplete
@@ -259,8 +259,8 @@ translation quality, although the outputs may even have higher BLEU scores.</p>
 
 <h3 id="biased-decoding-for-rhyme-control">Biased Decoding for Rhyme Control</h3>
 <p align="center">
-  <img width="250" src="/assets/images/fig_biased3.png" />
-  <img width="250" src="/assets/images/fig_biased4.png" />
+  <img width="250" src="/assets/for_projects/LyricTrans/images/fig_biased3.png" />
+  <img width="250" src="/assets/for_projects/LyricTrans/images/fig_biased4.png" />
 </p>
 <p>A type of error frequently
 happens that the end-words in the outputs
