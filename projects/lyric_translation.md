@@ -1,6 +1,5 @@
 ---
 layout: page
-title: 
 permalink: /lyric_translation
 ---
 
@@ -46,7 +45,7 @@ the training set.
 
 ### List of Songs
 
-| Song No.  | #Paragraphs | Component |
+| Song No.  | #Paragraphs | Name |
 | --------  | -------- | -------- |
 | Song 1    | 2 | *A World without Danger* (Code Lyoko Theme Song)   |
 | Song 2    | 3 | *As The Deer*, by Marty Nystrom   |
