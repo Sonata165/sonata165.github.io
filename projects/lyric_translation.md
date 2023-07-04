@@ -1,9 +1,10 @@
 ---
-layout: default
+layout: page
+title: "Songs Across Boarders: Singable and Controllable Neural Lyric Translation"
 permalink: /lyric_translation
 ---
 
-# Songs Across Boarders: Singable and Controllable Neural Lyric Translation
+<!-- # Songs Across Boarders: Singable and Controllable Neural Lyric Translation -->
 <!-- Introduction -->
 
 <p align="center">
@@ -45,13 +46,13 @@ the training set.
 
 ### List of Songs
 
-| Song No.  | #Paragraphs | Name |
+| Song No.  | #Paragraphs | Song Name |
 | --------  | -------- | -------- |
-| Song 1    | 2 | *A World without Danger* (Code Lyoko Theme Song)   |
-| Song 2    | 3 | *As The Deer*, by Marty Nystrom   |
-| Song 3    | 2 | *Autumn in New York*, by Vernon Duke |
-| Song 4    | 4 | *Best Mistake*, by Ariana Grande |
-| Song 5    | 3 | *Better Together*, Luke Combs |
+| 1    | 2 | *A World without Danger* (Code Lyoko Theme Song)   |
+| 2    | 3 | *As The Deer*, by Marty Nystrom   |
+| 3    | 2 | *Autumn in New York*, by Vernon Duke |
+| 4    | 4 | *Best Mistake*, by Ariana Grande |
+| 5    | 3 | *Better Together*, Luke Combs |
 
 ### List of Models
 
