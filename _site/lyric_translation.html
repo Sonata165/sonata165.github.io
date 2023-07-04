@@ -43,14 +43,233 @@
   </header>
 
   <div class="post-content">
-    <!-- 
-Sections:
-Intro
-Performance
-Recordings
- -->
+    <h1 id="songs-across-boarders-singable-and-controllable-neural-lyric-translation">Songs Across Boarders: Singable and Controllable Neural Lyric Translation</h1>
+<!-- Introduction -->
 
-<p>This is the demo for Longshen’s Song Across Border paper. Will be updated soon.</p>
+<p align="center">
+<b>Table of Contents</b>: [ <a href="#model-output-demo">Output Demo</a> 
+| <a href="#subjective-evaluation">Subjective Evaluation</a> 
+| <a href="#different-rhyming-difficulties">Rhyme Ranking</a>
+| <a href="#typical-issues-of-modifying-beam-search">Modify Beam Search</a>] 
+</p>
+
+<h2 id="model-output-demo">Model Output Demo</h2>
+<p><img src="/assets/images/fig_letitgo.png" alt="image tooltip here" />
+<!-- TODO: add two audios --></p>
+
+<p>The outputs are perfect in the number of syllables
+and rhyme constraints. With the guidance of word
+boundary constraints, the output achieves significantly higher
+music-lyric compatibility than the baseline’s output.
+Firstly, in “ours” output, there is no need to merge or 
+split any musical notes to match the lyrics. Secondly, all the sentences
+end with the same rhyme category [o, e, uo], creating .
+In addition, there is a downbeat lying on the note
+of the second word in the source lyrics, “snow”,
+creating a melody boundary between the first and
+the second note. To get rid of pronunciation interruption,
+our system successfully places a word
+boundary here, avoiding the scenario where the
+second syllable of the word “今夜” is highlighted.
+Similarly, in the fourth sentence, our system places
+a word boundary at the place between the translation
+of “it looks like” and “I’m the queen”, where
+there exists a musical pause.</p>
+
+<h2 id="subjective-evaluation">Subjective Evaluation</h2>
+<!-- Procedures+Metrics, Outputs, Results -->
+<p>We select the same five songs as GagaST (Guo
+et al., 2022) for our subjective testing. When doing
+this experiments, we ensure these songs are not in
+the training set.</p>
+
+<h3 id="list-of-songs">List of Songs</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Song No.</th>
+      <th>#Paragraphs</th>
+      <th>Component</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Song 1</td>
+      <td>2</td>
+      <td><em>A World without Danger</em> (Code Lyoko Theme Song)</td>
+    </tr>
+    <tr>
+      <td>Song 2</td>
+      <td>3</td>
+      <td><em>As The Deer</em>, by Marty Nystrom</td>
+    </tr>
+    <tr>
+      <td>Song 3</td>
+      <td>2</td>
+      <td><em>Autumn in New York</em>, by Vernon Duke</td>
+    </tr>
+    <tr>
+      <td>Song 4</td>
+      <td>4</td>
+      <td><em>Best Mistake</em>, by Ariana Grande</td>
+    </tr>
+    <tr>
+      <td>Song 5</td>
+      <td>3</td>
+      <td><em>Better Together</em>, Luke Combs</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="list-of-models">List of Models</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Model No.</th>
+      <th>Component</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Model 1</td>
+      <td>BART with finetuning</td>
+    </tr>
+    <tr>
+      <td>Model 2</td>
+      <td>GagaST</td>
+    </tr>
+    <tr>
+      <td>Model 3</td>
+      <td>Our final model (BT + controling length, rhyme, boundary)</td>
+    </tr>
+    <tr>
+      <td>Model 4</td>
+      <td>Ablated model (BT + controling length, rhyme)</td>
+    </tr>
+    <tr>
+      <td>Model 5</td>
+      <td>Ablated model (BT + controling length)</td>
+    </tr>
+    <tr>
+      <td>Model 6</td>
+      <td>Ablated model (BT)</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="generation-results">Generation Results</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Song</th>
+      <th>Original</th>
+      <th>Model 1</th>
+      <th>Model 2</th>
+      <th>Model 3</th>
+      <th>Model 4</th>
+      <th>Model 5</th>
+      <th>Model 6</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td><a href="/assets/for_projects/LyricTrans/original/pdf/1.pdf" target="_blank">pdf</a> <a href="/assets/for_projects/LyricTrans/original/mp3/1.mp3" target="_blank">mp3</a></td>
+      <td><a href="/assets/for_projects/LyricTrans/1/pdf/1.pdf" target="_blank">pdf</a> <a href="/assets/for_projects/LyricTrans/1/mp3/1.mp3" target="_blank">mp3</a></td>
+      <td><a href="/assets/for_projects/LyricTrans/2/pdf/1.pdf" target="_blank">pdf</a> <a href="/assets/for_projects/LyricTrans/2/mp3/1.mp3" target="_blank">mp3</a></td>
+      <td><a href="/assets/for_projects/LyricTrans/3/pdf/1.pdf" target="_blank">pdf</a> <a href="/assets/for_projects/LyricTrans/3/mp3/1.mp3" target="_blank">mp3</a></td>
+      <td><a href="/assets/for_projects/LyricTrans/4/pdf/1.pdf" target="_blank">pdf</a> <a href="/assets/for_projects/LyricTrans/4/mp3/1.mp3" target="_blank">mp3</a></td>
+      <td><a href="/assets/for_projects/LyricTrans/5/pdf/1.pdf" target="_blank">pdf</a> <a href="/assets/for_projects/LyricTrans/5/mp3/1.mp3" target="_blank">mp3</a></td>
+      <td><a href="/assets/for_projects/LyricTrans/6/pdf/1.pdf" target="_blank">pdf</a> <a href="/assets/for_projects/LyricTrans/6/mp3/1.mp3" target="_blank">mp3</a></td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td><a href="/assets/for_projects/LyricTrans/original/pdf/2.pdf" target="_blank">pdf</a> <a href="/assets/for_projects/LyricTrans/original/mp3/2.mp3" target="_blank">mp3</a></td>
+      <td><a href="/assets/for_projects/LyricTrans/1/pdf/2.pdf" target="_blank">pdf</a> <a href="/assets/for_projects/LyricTrans/1/mp3/2.mp3" target="_blank">mp3</a></td>
+      <td><a href="/assets/for_projects/LyricTrans/2/pdf/2.pdf" target="_blank">pdf</a> <a href="/assets/for_projects/LyricTrans/2/mp3/2.mp3" target="_blank">mp3</a></td>
+      <td><a href="/assets/for_projects/LyricTrans/3/pdf/2.pdf" target="_blank">pdf</a> <a href="/assets/for_projects/LyricTrans/3/mp3/2.mp3" target="_blank">mp3</a></td>
+      <td><a href="/assets/for_projects/LyricTrans/4/pdf/2.pdf" target="_blank">pdf</a> <a href="/assets/for_projects/LyricTrans/4/mp3/2.mp3" target="_blank">mp3</a></td>
+      <td><a href="/assets/for_projects/LyricTrans/5/pdf/2.pdf" target="_blank">pdf</a> <a href="/assets/for_projects/LyricTrans/5/mp3/2.mp3" target="_blank">mp3</a></td>
+      <td><a href="/assets/for_projects/LyricTrans/6/pdf/2.pdf" target="_blank">pdf</a> <a href="/assets/for_projects/LyricTrans/6/mp3/2.mp3" target="_blank">mp3</a></td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td><a href="/assets/for_projects/LyricTrans/original/pdf/3.pdf" target="_blank">pdf</a> <a href="/assets/for_projects/LyricTrans/original/mp3/3.mp3" target="_blank">mp3</a></td>
+      <td><a href="/assets/for_projects/LyricTrans/1/pdf/3.pdf" target="_blank">pdf</a> <a href="/assets/for_projects/LyricTrans/1/mp3/3.mp3" target="_blank">mp3</a></td>
+      <td><a href="/assets/for_projects/LyricTrans/2/pdf/3.pdf" target="_blank">pdf</a> <a href="/assets/for_projects/LyricTrans/2/mp3/3.mp3" target="_blank">mp3</a></td>
+      <td><a href="/assets/for_projects/LyricTrans/3/pdf/3.pdf" target="_blank">pdf</a> <a href="/assets/for_projects/LyricTrans/3/mp3/3.mp3" target="_blank">mp3</a></td>
+      <td><a href="/assets/for_projects/LyricTrans/4/pdf/3.pdf" target="_blank">pdf</a> <a href="/assets/for_projects/LyricTrans/4/mp3/3.mp3" target="_blank">mp3</a></td>
+      <td><a href="/assets/for_projects/LyricTrans/5/pdf/3.pdf" target="_blank">pdf</a> <a href="/assets/for_projects/LyricTrans/5/mp3/3.mp3" target="_blank">mp3</a></td>
+      <td><a href="/assets/for_projects/LyricTrans/6/pdf/3.pdf" target="_blank">pdf</a> <a href="/assets/for_projects/LyricTrans/6/mp3/3.mp3" target="_blank">mp3</a></td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td><a href="/assets/for_projects/LyricTrans/original/pdf/4.pdf" target="_blank">pdf</a> <a href="/assets/for_projects/LyricTrans/original/mp3/4.mp3" target="_blank">mp3</a></td>
+      <td><a href="/assets/for_projects/LyricTrans/1/pdf/4.pdf" target="_blank">pdf</a> <a href="/assets/for_projects/LyricTrans/1/mp3/4.mp3" target="_blank">mp3</a></td>
+      <td><a href="/assets/for_projects/LyricTrans/2/pdf/4.pdf" target="_blank">pdf</a> <a href="/assets/for_projects/LyricTrans/2/mp3/4.mp3" target="_blank">mp3</a></td>
+      <td><a href="/assets/for_projects/LyricTrans/3/pdf/4.pdf" target="_blank">pdf</a> <a href="/assets/for_projects/LyricTrans/3/mp3/4.mp3" target="_blank">mp3</a></td>
+      <td><a href="/assets/for_projects/LyricTrans/4/pdf/4.pdf" target="_blank">pdf</a> <a href="/assets/for_projects/LyricTrans/4/mp3/4.mp3" target="_blank">mp3</a></td>
+      <td><a href="/assets/for_projects/LyricTrans/5/pdf/4.pdf" target="_blank">pdf</a> <a href="/assets/for_projects/LyricTrans/5/mp3/4.mp3" target="_blank">mp3</a></td>
+      <td><a href="/assets/for_projects/LyricTrans/6/pdf/4.pdf" target="_blank">pdf</a> <a href="/assets/for_projects/LyricTrans/6/mp3/4.mp3" target="_blank">mp3</a></td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td><a href="/assets/for_projects/LyricTrans/original/pdf/5.pdf" target="_blank">pdf</a> <a href="/assets/for_projects/LyricTrans/original/mp3/5.mp3" target="_blank">mp3</a></td>
+      <td><a href="/assets/for_projects/LyricTrans/1/pdf/5.pdf" target="_blank">pdf</a> <a href="/assets/for_projects/LyricTrans/1/mp3/5.mp3" target="_blank">mp3</a></td>
+      <td><a href="/assets/for_projects/LyricTrans/2/pdf/5.pdf" target="_blank">pdf</a> <a href="/assets/for_projects/LyricTrans/2/mp3/5.mp3" target="_blank">mp3</a></td>
+      <td><a href="/assets/for_projects/LyricTrans/3/pdf/5.pdf" target="_blank">pdf</a> <a href="/assets/for_projects/LyricTrans/3/mp3/5.mp3" target="_blank">mp3</a></td>
+      <td><a href="/assets/for_projects/LyricTrans/4/pdf/5.pdf" target="_blank">pdf</a> <a href="/assets/for_projects/LyricTrans/4/mp3/5.mp3" target="_blank">mp3</a></td>
+      <td><a href="/assets/for_projects/LyricTrans/5/pdf/5.pdf" target="_blank">pdf</a> <a href="/assets/for_projects/LyricTrans/5/mp3/5.mp3" target="_blank">mp3</a></td>
+      <td><a href="/assets/for_projects/LyricTrans/6/pdf/5.pdf" target="_blank">pdf</a> <a href="/assets/for_projects/LyricTrans/6/mp3/5.mp3" target="_blank">mp3</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="different-rhyming-difficulties">Different Rhyming Difficulties</h2>
+<p>We noticed that an improper rhyme prompt will
+lead to lower text quality and a lower chance of
+constraints being satisfied. For example,</p>
+<p align="center">
+  <img width="450" src="/assets/images/fig_rhyme_dist.png" />
+</p>
+<p>The figure above shows the “rhyme distribution” when translating the paragraph above, which is a text quality prediction when using different rhyme type as requirement.
+When using the 1st best and 2nd worst rhymes as constraints, the results are as below.</p>
+
+<p align="center">
+  <img width="400" src="/assets/images/fig_rhydif.png" />
+</p>
+
+<p>With the 1st-ranked rhyme as prompt (left paragraph), the output is perfect in length and rhyme control and has a satisfactory translation quality.
+However, Various translation errors appear in the 2nd output, i.e., the output with 2nd worst rhyme (right paragraph): wrong translation (red text), violation of target language grammar (green text), repeated phrases (orange text), failed rhyme control (highlighted text).</p>
+
+<h2 id="typical-issues-of-modifying-beam-search">Typical Issues of Modifying Beam Search</h2>
+<h3 id="length-forcing">Length Forcing</h3>
+<p align="center">
+  <img width="250" src="/assets/images/fig_biased1.png" />
+  <img width="250" src="/assets/images/fig_biased2.png" />
+</p>
+<p>If the desired length is shorter than unconstrained output, the beam search might
+end too soon, so the sentence will be incomplete
+(left figure). If the desired length is unexpectly long (right figure), there tends to be repetition
+in the outputs. Both cases significantly damage the
+translation quality, although the outputs may even have higher BLEU scores.</p>
+
+<h3 id="biased-decoding-for-rhyme-control">Biased Decoding for Rhyme Control</h3>
+<p align="center">
+  <img width="250" src="/assets/images/fig_biased3.png" />
+  <img width="250" src="/assets/images/fig_biased4.png" />
+</p>
+<p>A type of error frequently
+happens that the end-words in the outputs
+are biased toward words that satisfy the rhyme constraints
+but are irrelevant to the source sentences
+and are incompatible with other parts of the output
+sentences. Such problems
+are much rarer in translations obtained by prompt based
+methods.</p>
 
   </div>
 
