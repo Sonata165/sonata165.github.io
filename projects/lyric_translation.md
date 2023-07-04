@@ -60,9 +60,9 @@ the training set.
 | -------- | -------- |
 | Model 1   | BART with finetuning   |
 | Model 2   | GagaST   |
-| Model 3   | Our final model (BT + controling length, rhyme, boundary) |
-| Model 4   | Ablated model (BT + controling length, rhyme) |
-| Model 5   | Ablated model (BT + controling length) |
+| Model 3   | Our final model (BT + controlling length, rhyme, boundary) |
+| Model 4   | Ablated model (BT + controlling length, rhyme) |
+| Model 5   | Ablated model (BT + controlling length) |
 | Model 6   | Ablated model (BT) |
 
 ### Generation Results
