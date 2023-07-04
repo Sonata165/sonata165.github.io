@@ -1,6 +1,6 @@
 ---
 layout: page
-# title: Lyric Translation
+title: 
 permalink: /lyric_translation
 ---
 
