@@ -18,7 +18,40 @@ permalink: /lyric_translation
 
 ## Model Output Demo
 ![image tooltip here](/assets/for_projects/LyricTrans/images/fig_letitgo.png)
-<!-- TODO: add two audios --> 
+<table>
+  <tr>
+    <th>Lyrics from</th>
+    <th>Audio</th>
+  </tr>
+  <tr>
+    <td> Original lyrics </td>
+    <td>
+      <audio controls>
+        <source src="/assets/for_projects/LyricTrans/audio/demo_original.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </td>
+
+  </tr>
+  <tr>
+    <td> Ours </td>
+    <td>
+      <audio controls>
+        <source src="/assets/for_projects/LyricTrans/audio/demo_ours.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </td>
+  </tr>
+  <tr>
+    <td> Baseline </td>
+    <td>
+      <audio controls>
+        <source src="/assets/for_projects/LyricTrans/audio/demo_baseline.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </td>
+  </tr>
+</table>
 
 The outputs of our model (2nd row) are perfect in the number of syllables
 and rhyme constraints. The output has a same number of syllables as the number of notes in the music, 
