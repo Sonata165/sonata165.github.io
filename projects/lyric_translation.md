@@ -39,8 +39,8 @@ there exists a musical pause.
 
 ## Subjective Evaluation
 <!-- Procedures+Metrics, Outputs, Results -->
-We select the same five songs as GagaST (Guo
-et al., 2022) for our subjective testing. When doing
+We select the same five songs as [GagaST (Guo
+et al., 2022)](https://aclanthology.org/2022.findings-acl.60/) for our subjective testing. When doing
 this experiments, we ensure these songs are not in
 the training set.
 
@@ -58,8 +58,8 @@ the training set.
 
 | Model No. | Component |
 | -------- | -------- |
-| Model 1   | BART with finetuning   |
-| Model 2   | GagaST   |
+| Model 1   | mBART with finetuning   |
+| Model 2   | [GagaST (Guo et al., 2022)](https://aclanthology.org/2022.findings-acl.60/)   |
 | Model 3   | Our final model (BT + controlling length, rhyme, boundary) |
 | Model 4   | Ablated model (BT + controlling length, rhyme) |
 | Model 5   | Ablated model (BT + controlling length) |
