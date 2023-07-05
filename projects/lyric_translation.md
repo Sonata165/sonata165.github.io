@@ -18,7 +18,7 @@ permalink: /lyric_translation
 
 ## Model Output Demo
 ![image tooltip here](/assets/for_projects/LyricTrans/images/fig_letitgo.png)
-<!-- TODO: add two audios -->
+<!-- TODO: add two audios --> 
 
 The outputs of our model (2nd row) are perfect in the number of syllables
 and rhyme constraints. The output has a same number of syllables as the number  there is no need to merge or 
