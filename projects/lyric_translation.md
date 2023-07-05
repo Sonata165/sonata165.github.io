@@ -24,7 +24,7 @@ The outputs of our model (2nd row) are perfect in the number of syllables
 and rhyme constraints. The output has a same number of syllables as the number of notes in the music, 
 hence there is no need to merge or 
 split any musical notes to match the lyrics. Also, all the sentences
-end with the same rhyme category [o, e, uo].
+end with the same rhyme category [o, e, uo], which is the rhyme that is ranked 1st.
 In addition, there is a downbeat lying on the note
 of the second word in the source lyrics, "snow",
 creating a melody boundary between the first and
