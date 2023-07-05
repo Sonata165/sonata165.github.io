@@ -60,7 +60,7 @@ the training set.
 | -------- | -------- |
 | Model 1   | mBART with finetuning   |
 | Model 2   | [GagaST (Guo et al., 2022)](https://aclanthology.org/2022.findings-acl.60/)   |
-| Model 3   | Our final model (BT + controlling length, rhyme, boundary) |
+| Model 3   | Our final model (BT + controlling length, rhyme, word boundary) |
 | Model 4   | Ablated model (BT + controlling length, rhyme) |
 | Model 5   | Ablated model (BT + controlling length) |
 | Model 6   | Ablated model (BT) |
