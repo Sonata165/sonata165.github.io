@@ -7,24 +7,23 @@ permalink: /lyric_translation
 <!-- # Songs Across Boarders: Singable and Controllable Neural Lyric Translation -->
 <!-- Introduction -->
 
+**Paper link**: [ [ArXiv Ver](https://arxiv.org/abs/2305.16816) ]
+
 <p align="center">
 <b>Table of Contents</b>: [ <a href="#model-output-demo">Output Demo</a> 
 | <a href="#subjective-evaluation">Subjective Evaluation</a> 
 | <a href="#different-rhyming-difficulties">Rhyme Ranking</a>
-| <a href="#typical-issues-of-modifying-beam-search">Modify Beam Search</a>] 
+| <a href="#typical-issues-of-modifying-beam-search">Modify Beam Search</a> ] 
 </p>
 
 ## Model Output Demo
 ![image tooltip here](/assets/for_projects/LyricTrans/images/fig_letitgo.png)
 <!-- TODO: add two audios -->
 
-The outputs are perfect in the number of syllables
-and rhyme constraints. With the guidance of word
-boundary constraints, the output achieves significantly higher
-music-lyric compatibility than the baseline’s output.
-Firstly, in "ours" output, there is no need to merge or 
+The outputs of our model (2nd row) are perfect in the number of syllables
+and rhyme constraints. The output has a same number of syllables as the number  there is no need to merge or 
 split any musical notes to match the lyrics. Secondly, all the sentences
-end with the same rhyme category [o, e, uo], creating .
+end with the same rhyme category [o, e, uo].
 In addition, there is a downbeat lying on the note
 of the second word in the source lyrics, "snow",
 creating a melody boundary between the first and
