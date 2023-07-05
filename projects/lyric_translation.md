@@ -123,7 +123,7 @@ When using the 1st best and 2nd worst rhymes as constraints, the results are as 
 </p>
 
 With the 1st-ranked rhyme as prompt (left paragraph), the output is perfect in length and rhyme control and has a satisfactory translation quality.
-However, Various translation errors appear in the 2nd output, i.e., the output with 2nd worst rhyme (right paragraph): wrong translation (red text), violation of target language grammar (green text), repeated phrases (orange text), failed rhyme control (highlighted text). 
+However, various translation errors appear in the 2nd output, i.e., the output with 2nd worst rhyme (right paragraph): wrong translation (red text), violation of target language grammar (green text), repeated phrases (orange text), failed rhyme control (highlighted text). 
 
 ## Typical Issues of Modifying Beam Search
 ### Length Forcing
@@ -131,6 +131,8 @@ However, Various translation errors appear in the 2nd output, i.e., the output w
   <img width="250" src="/assets/for_projects/LyricTrans/images/fig_biased1.png">
   <img width="250" src="/assets/for_projects/LyricTrans/images/fig_biased2.png">
 </p>
+("Prompt" refers to results from our prompt-based control)
+
 If the desired length is shorter than unconstrained output, the beam search might
 end too soon, so the sentence will be incomplete
 (left figure). If the desired length is unexpectly long (right figure), there tends to be repetition
@@ -142,6 +144,8 @@ translation quality, although the outputs may even have higher BLEU scores.
   <img width="250" src="/assets/for_projects/LyricTrans/images/fig_biased3.png">
   <img width="250" src="/assets/for_projects/LyricTrans/images/fig_biased4.png">
 </p>
+("Prompt" refers to results from our prompt-based control)
+
 A type of error frequently
 happens that the end-words in the outputs
 are biased toward words that satisfy the rhyme constraints
