@@ -24,7 +24,7 @@ permalink: /lyric_translation
     <th>Audio</th>
   </tr>
   <tr>
-    <td> Original lyrics </td>
+    <td> Original song </td>
     <td>
       <audio controls>
         <source src="/assets/for_projects/LyricTrans/audio/demo_original.mp3" type="audio/mpeg">
@@ -34,7 +34,7 @@ permalink: /lyric_translation
 
   </tr>
   <tr>
-    <td> Ours </td>
+    <td> Our model </td>
     <td>
       <audio controls>
         <source src="/assets/for_projects/LyricTrans/audio/demo_ours.mp3" type="audio/mpeg">
@@ -43,7 +43,7 @@ permalink: /lyric_translation
     </td>
   </tr>
   <tr>
-    <td> Baseline </td>
+    <td> Baseline model </td>
     <td>
       <audio controls>
         <source src="/assets/for_projects/LyricTrans/audio/demo_baseline.mp3" type="audio/mpeg">
