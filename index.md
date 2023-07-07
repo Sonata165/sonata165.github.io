@@ -54,7 +54,7 @@ Academic Reviewers
 <div class="content">
   <img class="image" src="/assets/images/myself.png" alt="Image description">
   <p>
-    I am currently a proud PhD candidate (2nd year) in the [Sound and Music Computing Lab](https://smcnus.comp.nus.edu.sg/), School of Computing, National University of Singapore. My research centers on solving music information retrieval challenges using machine learning techniques. I am particularly interested in the automatic transcription of music and lyrics, as well as lyric generation. Prior to joining NUS, I earned my Bachelor's degree in Computer Science with honors from the Harbin Institute of Technology. 
+    I am currently a proud PhD candidate (2nd year) in the <a href="https://smcnus.comp.nus.edu.sg/" target="_blank"> Sound and Music Computing Lab</a>, School of Computing, National University of Singapore. My research centers on solving music information retrieval challenges using machine learning techniques. I am particularly interested in the automatic transcription of music and lyrics, as well as lyric generation. Prior to joining NUS, I earned my Bachelor's degree in Computer Science with honors from the Harbin Institute of Technology. 
     <br> <br>
     Moreover, I am a professional-level violinist and guitarist. Please visit the "<a href="/musician">As Musician</a>" page to explore my music portfolio. I feel incredibly fortunate to have discovered my passion for music and to have the opportunity to work and conduct research in a music-related field. My love for music energizes and motivates me to continually grow and excel in this area.
   </p>
@@ -63,7 +63,7 @@ Academic Reviewers
 <!-- Contact -->
 <!-- Email ` Scholar ` CV/LinkedIn ` Twitter ` Bilibili ` Youtube -->
 <div style="text-align:center;">
-<a href="mailto:oulongshen@u.nus.edu">Email</a> &middot; <a href="https://scholar.google.com/citations?user=hf-xY6gAAAAJ">Google Scholar</a> &middot; <a href="https://www.linkedin.com/in/longshen-ou/">CV / LinkedIn</a> &middot; <a href="https://twitter.com/LongshenO">Twitter</a> &middot; <a href="https://space.bilibili.com/8419079/audio">Bilibili</a> &middot; <a href="https://www.youtube.com/channel/UC6kT17cxNvNzUXcM9piNqMg">Youtube</a>
+<a href="mailto:oulongshen@u.nus.edu">Email</a> &middot; <a href="https://scholar.google.com/citations?user=hf-xY6gAAAAJ" target="_blank">Google Scholar</a> &middot; <a href="https://www.linkedin.com/in/longshen-ou/" target="_blank">CV / LinkedIn</a> &middot; <a href="https://twitter.com/LongshenO" target="_blank">Twitter</a> &middot; <a href="https://space.bilibili.com/8419079/audio" target="_blank">Bilibili</a> &middot; <a href="https://www.youtube.com/channel/UC6kT17cxNvNzUXcM9piNqMg" target="_blank">Youtube</a>
 </div>
 
 <br>
