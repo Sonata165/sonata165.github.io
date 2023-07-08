@@ -16,6 +16,11 @@ Teaching
 Academic Reviewers
  -->
 
+Viewer Count Script
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
+</script>
+
+
 <!-- Navigator -->
 <div style="text-align:center;">
 [ <a href="#recent-news">News</a> | <a href="#publication">Publication</a> | <a href="#other-projects">Projects</a> | <a href="#honors-and-awards">Awards</a> | <a href="#teaching">Teaching</a> | <a href="#academic-reviewers">Reviewer</a> ]
@@ -157,3 +162,11 @@ Academic Reviewers
 - ISMIR 2023.
 - ACM Multimedia 2023.
 - ISMIR 2022.
+
+<br>
+
+<div style="text-align:center; font-size: 12px;">
+<span id="busuanzi_container_site_uv" >
+  Viewer: <span id="busuanzi_value_site_uv"></span>
+</span>
+</div>
