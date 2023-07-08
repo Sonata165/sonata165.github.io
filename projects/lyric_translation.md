@@ -4,8 +4,16 @@ title: "Songs Across Boarders: Singable and Controllable Neural Lyric Translatio
 permalink: /lyric_translation
 ---
 
-<!-- # Songs Across Boarders: Singable and Controllable Neural Lyric Translation -->
-<!-- Introduction -->
+<!-- Google Analytics tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MK1PD93QHP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MK1PD93QHP');
+</script>
+
 
 # **Paper link**: [ [ArXiv Ver](https://arxiv.org/abs/2305.16816) ]
 
