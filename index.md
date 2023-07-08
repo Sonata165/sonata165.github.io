@@ -176,7 +176,10 @@ Academic Reviewers
 <br>
 
 <div style="text-align:center; font-size: 12px;">
-<span id="busuanzi_container_site_uv" >
-  Viewer: <span id="busuanzi_value_site_uv"></span>
+<span id="busuanzi_container_site_pv">
+    Clicks: <span id="busuanzi_value_site_pv"></span>
 </span>
+<!-- <span id="busuanzi_container_site_uv" >
+  Viewer: <span id="busuanzi_value_site_uv"></span>
+</span> -->
 </div>
