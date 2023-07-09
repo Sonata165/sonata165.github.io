@@ -17,8 +17,8 @@ Academic Reviewers
  -->
 
 <!-- Viewer Count Script -->
-<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
-</script>
+<!-- <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
+</script> -->
 
 <!-- Google Analytics tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-MK1PD93QHP"></script>
@@ -175,11 +175,14 @@ Academic Reviewers
 
 <br>
 
-<div style="text-align:center; font-size: 12px;">
+<!-- Display view count -->
+<!-- <div style="text-align:center; font-size: 12px;">
 <span id="busuanzi_container_site_pv">
     Clicks: <span id="busuanzi_value_site_pv"></span>
 </span>
+
+</div> -->
+
 <!-- <span id="busuanzi_container_site_uv" >
   Viewer: <span id="busuanzi_value_site_uv"></span>
 </span> -->
-</div>
