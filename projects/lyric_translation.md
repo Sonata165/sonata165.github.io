@@ -24,7 +24,7 @@ permalink: /lyric_translation
 The development of general-domain neural machine translation (NMT) methods has advanced significantly in recent years, but the lack of naturalness and musical constraints in the outputs makes them unable to produce singable lyric translations. This paper bridges the singability quality gap by formalizing lyric translation into a constrained translation problem, converting theoretical guidance and practical techniques from translatology literature to prompt-driven NMT approaches, exploring better adaptation methods, and instantiating them to an English-Chinese lyric translation system. Our model achieves 99.85%, 99.00%, and 95.52% on length accuracy, rhyme accuracy, and word boundary recall. In our subjective evaluation, our model shows a 75% relative enhancement on overall quality, compared against naive fine-tuning. 
 
 Contribution brief:
-- **Necessary word boundary control**: a prompt-based solution.
+- **Necessary word boundary control**: a prompt-based solution that enhances singability.
 - **Reverse-order decoding**: effectively boost prompt-based rhyme control.
 - **Rhyme ranking**: the model will help you pick the best rhyme for stanzas.
 - **Comparative study** of different prompt forms on length, rhyme, word boundary control.
