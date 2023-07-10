@@ -1,1 +1,1 @@
-This is Longshen Ou's personal website, created by Jekyll.
+This is Longshen Ou's personal website, powered by Jekyll.
