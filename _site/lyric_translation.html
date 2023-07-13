@@ -302,6 +302,8 @@ When using the 1st best and 2nd worst rhymes as constraints, the results are as 
 However, various translation errors appear in the 2nd output, i.e., the output with 2nd worst rhyme (right paragraph): wrong translation (red text), violation of target language grammar (green text), repeated phrases (orange text), failed rhyme control (highlighted text).</p>
 
 <h2 id="typical-issues-of-modifying-beam-search">Typical Issues of Modifying Beam Search</h2>
+<p>The previous common practice of achieving controllability is to modify the beam search (force output length, or give beams that have desired properties higher scores). However, this method tend to lead lower control effectiveness as well as lower text quality, compared to our prompt-based solution.</p>
+
 <h3 id="length-forcing">Length Forcing</h3>
 <p align="center">
   <img width="250" src="/assets/for_projects/LyricTrans/images/fig_biased1.png" />

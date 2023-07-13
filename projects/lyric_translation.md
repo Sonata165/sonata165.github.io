@@ -148,6 +148,8 @@ With the 1st-ranked rhyme as prompt (left paragraph), the output is perfect in l
 However, various translation errors appear in the 2nd output, i.e., the output with 2nd worst rhyme (right paragraph): wrong translation (red text), violation of target language grammar (green text), repeated phrases (orange text), failed rhyme control (highlighted text). 
 
 ## Typical Issues of Modifying Beam Search
+The previous common practice of achieving controllability is to modify the beam search (force output length, or give beams that have desired properties higher scores). However, this method tend to lead lower control effectiveness as well as lower text quality, compared to our prompt-based solution.
+
 ### Length Forcing
 <p align="center">
   <img width="250" src="/assets/for_projects/LyricTrans/images/fig_biased1.png">
