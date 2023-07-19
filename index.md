@@ -76,7 +76,7 @@ Academic Reviewers
 </div>
 
 <!-- Contact -->
-<!-- Email ` Scholar ` CV/LinkedIn ` Twitter ` Bilibili ` Youtube -->
+<!-- Email ` Scholar ` CV/LinkedIn ` Twitter ` Wechat ` Bilibili ` Youtube -->
 <div style="text-align:center;">
 <a href="mailto:oulongshen@u.nus.edu">Email</a> &middot; <a href="https://scholar.google.com/citations?user=hf-xY6gAAAAJ" target="_blank">Google Scholar</a> &middot; <a href="https://www.linkedin.com/in/longshen-ou/" target="_blank">CV / LinkedIn</a> &middot; <a href="https://twitter.com/LongshenO" target="_blank">Twitter</a> &middot; <a href="/assets/images/WechatQR.jpeg" target="_blank">WeChat</a> &middot; <a href="https://space.bilibili.com/8419079/audio" target="_blank">Bilibili</a> &middot; <a href="https://www.youtube.com/channel/UC6kT17cxNvNzUXcM9piNqMg" target="_blank">Youtube</a>
 </div>
@@ -107,48 +107,48 @@ Academic Reviewers
 <br>
 
 # Publication
-- **[Songs Across Borders: Singable and Controllable Neural Lyric Translation](https://arxiv.org/abs/2305.16816)**  
-  **Longshen Ou**, [Xichu Ma](https://dblp.org/pid/179/9890.html), [Min-Yen Kan](https://www.comp.nus.edu.sg/~kanmy/), [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/)  
+- **[Songs Across Borders: Singable and Controllable Neural Lyric Translation](https://aclanthology.org/2023.acl-long.27/){:target="_blank"}**  
+  **Longshen Ou**, [Xichu Ma](https://dblp.org/pid/179/9890.html){:target="_blank"}, [Min-Yen Kan](https://www.comp.nus.edu.sg/~kanmy/){:target="_blank"}, [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/){:target="_blank"}  
   *The 61st Annual Meeting of the Association for Computational Linguistics (ACL 2023)*  
   [[demo](/lyric_translation) | [code](https://github.com/Sonata165/ControllableLyricTranslation)]
   
 - **[Transfer Learning of wav2vec 2.0 for Automatic Lyric Transcription](https://arxiv.org/abs/2207.09747)**  
-  **Longshen Ou**\*, [Xiangming Gu](https://guxm2021.github.io/)\*, and [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/)  
+  **Longshen Ou**\*, [Xiangming Gu](https://guxm2021.github.io/){:target="_blank"}\*, and [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/){:target="_blank"}  
   *Proceedings of the 23rd International Society for Music Information Retrieval Conf. (ISMIR 2022)*  
   [[code](https://github.com/guxm2021/ALT_SpeechBrain)]
 
 - **[MM-ALT: A Multimodal Automatic Lyric Transcription System](https://dl.acm.org/doi/abs/10.1145/3503161.3548411)** (*<span style="color:red">Oral, Top Paper Award</span>*)  
-  [Xiangming Gu](https://guxm2021.github.io/)\*, **Longshen Ou**\*, [Danielle Ong](https://www.linkedin.com/in/danielle-ong-854b88177/), and [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/)  
+  [Xiangming Gu](https://guxm2021.github.io/){:target="_blank"}\*, **Longshen Ou**\*, [Danielle Ong](https://www.linkedin.com/in/danielle-ong-854b88177/){:target="_blank"}, and [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/){:target="_blank"}  
   *Proceedings of the 30th ACM International Conference on Multimedia (ACM Multimedia 2022)*   
-  [[demo](https://n20em.github.io/) | [code](https://github.com/guxm2021/MM_ALT) | [dataset](https://zenodo.org/record/7545968) | [press](https://www.comp.nus.edu.sg/news/features/2023-marvellous-richness-wye/)]
+  [[demo](https://n20em.github.io/){:target="_blank"} | [code](https://github.com/guxm2021/MM_ALT){:target="_blank"} | [dataset](https://zenodo.org/record/7545968){:target="_blank"} | [press](https://www.comp.nus.edu.sg/news/features/2023-marvellous-richness-wye/){:target="_blank"}]
 
 - [**Exploring Transformer’s Potential on Automatic Piano Transcription**](https://ieeexplore.ieee.org/abstract/document/9746789)  
-  **Longshen Ou**, [Ziyi Guo](https://www.linkedin.com/in/zi-yi-guo/), [Emmanouil Benetos](https://www.eecs.qmul.ac.uk/~emmanouilb/), [Jiqing Han](https://dblp.org/pid/h/JiqingHan.html), and [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/)    
+  **Longshen Ou**, [Ziyi Guo](https://www.linkedin.com/in/zi-yi-guo/){:target="_blank"}, [Emmanouil Benetos](https://www.eecs.qmul.ac.uk/~emmanouilb/){:target="_blank"}, [Jiqing Han](https://dblp.org/pid/h/JiqingHan.html){:target="_blank"}, and [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/){:target="_blank"}    
   *2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2022)*
   
 
 
 ## Preprint
-- **[LOAF-M2L: Joint Learning of Wording and Formatting for Singable Melody-to-Lyric Generation](https://arxiv.org/abs/2307.02146)**  
-  **Longshen Ou**, [Xichu Ma](https://dblp.org/pid/179/9890.html), and [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/)  
+- **[LOAF-M2L: Joint Learning of Wording and Formatting for Singable Melody-to-Lyric Generation](https://arxiv.org/abs/2307.02146){:target="_blank"}**  
+  **Longshen Ou**, [Xichu Ma](https://dblp.org/pid/179/9890.html){:target="_blank"}, and [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/){:target="_blank"}  
   *arXiv:2304.12082 (2023)*  
 
-- **[Deep Audio-Visual Singing Voice Transcription based on Self-Supervised Learning Models](https://arxiv.org/abs/2304.12082)**  
-  [Xiangming Gu](https://guxm2021.github.io/), Wei Zeng, Jianan Zhang, **Longshen Ou**, and [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/)  
+- **[Deep Audio-Visual Singing Voice Transcription based on Self-Supervised Learning Models](https://arxiv.org/abs/2304.12082){:target="_blank"}**  
+  [Xiangming Gu](https://guxm2021.github.io/){:target="_blank"}, Wei Zeng, Jianan Zhang, **Longshen Ou**, and [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/){:target="_blank"}  
   *arXiv:2304.12082 (2023)*  
-  [[code](https://github.com/guxm2021/SVT_SpeechBrain)]
+  [[code](https://github.com/guxm2021/SVT_SpeechBrain){:target="_blank"}]
 
-- **[Automatic Hyper-Parameter Optimization Based on Mapping Discovery from Data to Hyper-Parameters](https://arxiv.org/abs/2003.01751)**  
-  [Bozhou Chen](https://www.researchgate.net/profile/Bozhou-Chen), [Kaixin Zhang](https://www.researchgate.net/profile/Kaixin-Zhang-6), **Longshen Ou**, [Chenmin Ba](https://dblp.uni-trier.de/pid/259/9983.html), [Hongzhi Wang](https://dblp.org/pid/81/940.html), and [Chunnan Wang](https://scholar.google.com/citations?user=F0xRt20AAAAJ&hl=en).  
+- **[Automatic Hyper-Parameter Optimization Based on Mapping Discovery from Data to Hyper-Parameters](https://arxiv.org/abs/2003.01751){:target="_blank"}**  
+  [Bozhou Chen](https://www.researchgate.net/profile/Bozhou-Chen){:target="_blank"}, [Kaixin Zhang](https://www.researchgate.net/profile/Kaixin-Zhang-6){:target="_blank"}, **Longshen Ou**, [Chenmin Ba](https://dblp.uni-trier.de/pid/259/9983.html){:target="_blank"}, [Hongzhi Wang](https://dblp.org/pid/81/940.html){:target="_blank"}, and [Chunnan Wang](https://scholar.google.com/citations?user=F0xRt20AAAAJ&hl=en){:target="_blank"}.  
   *arXiv:2003.01751* (2020)
 
 <br>
 
 # Other Projects
-- [**GNN-based Music Recommender**](https://github.com/Sonata165/MusicRecommenderGCN)  
+- [**GNN-based Music Recommender**](https://github.com/Sonata165/MusicRecommenderGCN){:target="_blank"}  
     This project aims to tackle the music artist recommendation challenge using Graph Convolutional Networks (GCNs). By modeling artist and user identities through their interactive relationships, the network predicts affinity scores between users and previously unexplored artists to generate personalized recommendations. I implemented the original GCN as a baseline and proposed three enhancements: incorporating edge weight for aggregation, augmenting edge weight with attention mechanisms, and implementing data augmentation by introducing noise to edge values.
 
-- [**DNA Storage Simulation**](https://github.com/Sonata165/DNA-Storage-Simulation)  
+- [**DNA Storage Simulation**](https://github.com/Sonata165/DNA-Storage-Simulation){:target="_blank"}  
     DNA-based storage systems present unique challenges, as reading and writing operations can sometimes result in alterations to the original information. To model the changes introduced by such storage systems in a wet lab environment, we designed a simulation system to emulate DNA behavioral changes. This system includes a rule-based method, a Multi-Layer Perceptron (MLP) method, and a sequence-to-sequence attention-based Recurrent Neural Network (RNN). The experiments based on the Microsoft Nanopore dataset shows the sequence-to-sequence method is highly effective.
 
 <br>
