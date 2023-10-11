@@ -30,6 +30,9 @@ Academic Reviewers
   gtag('config', 'G-MK1PD93QHP');
 </script>
 
+<!-- For Baidu indexing -->
+<meta name="baidu-site-verification" content="codeva-pISahpY9fL" />
+
 
 <!-- Navigator -->
 <div style="text-align:center;">
