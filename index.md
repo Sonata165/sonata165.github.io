@@ -88,6 +88,7 @@ Academic Reviewers
 <div style="height: 100px; overflow-y: scroll; border: 1px solid #ccc; padding: 10px; font-family: Times New Roman;background-color: gainsboro;">
 <ul>
     <!-- <li> <b>[2023.6]</b> My paper <i>LOAF-M2L: Joint Learning of Wording and Formatting for Singable Melody-to-Lyric Generation</i> is rejected by ISMIR 2023. Sadge! </li> -->
+    <li> <b>[2023.10]</b> My short paper <i>Singable and Controllable Neural Lyric Translation: a Late-Breaking Showcase</i> is accepted by ISMIR 2023 Late Breaking Demo. </li>
     <li> <b>[2023.5]</b> I passed the Qualification Exam. Now I am a PhD candidate! </li>
     <li> <b>[2023.5]</b> My paper <i>Songs Across Borders: Singable and Controllable Neural Lyric Translation</i> is accepted by ACL 2023. </li>
     <li> <b>[2023.1]</b> I receive Research Achievement Award (2022/2023) from School of Computing, NUS. </li>
@@ -142,6 +143,11 @@ Academic Reviewers
   [Bozhou Chen](https://www.researchgate.net/profile/Bozhou-Chen){:target="_blank"}, [Kaixin Zhang](https://www.researchgate.net/profile/Kaixin-Zhang-6){:target="_blank"}, **Longshen Ou**, [Chenmin Ba](https://dblp.uni-trier.de/pid/259/9983.html){:target="_blank"}, [Hongzhi Wang](https://dblp.org/pid/81/940.html){:target="_blank"}, and [Chunnan Wang](https://scholar.google.com/citations?user=F0xRt20AAAAJ&hl=en){:target="_blank"}.  
   *arXiv:2003.01751* (2020)
 
+## Demo & Workshop Papers
+- **[Singable and Controllable Neural Lyric Translation: a Late-Breaking Showcase](assets/pdf/papers/ISMIR_LBD_Lyric_Translation_20230927.pdf){:target="_blank"}**  
+  **Longshen Ou**, [Xichu Ma](https://dblp.org/pid/179/9890.html){:target="_blank"}, and [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/){:target="_blank"}  
+  *Late Breaking Demo at the 24rd Int. Society for Music Information Retrieval Conf. (ISMIR 2023)*  
+  
 <br>
 
 # Other Projects
