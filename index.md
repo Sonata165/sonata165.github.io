@@ -169,8 +169,8 @@ Academic Reviewers
 <br>
 
 # Teaching
+- Teaching Assistant, CS4347 Sound and Music Computing (2022/2023 sem 1, 2023/2024 sem 1).
 - Teaching Assistant, CS4248 Natural Language Processing (2022/2023 sem 2).
-- Teaching Assistant, CS4347 Sound and Music Computing (2022/2023 sem 1).
 
 <br>
 
