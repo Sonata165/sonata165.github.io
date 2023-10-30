@@ -170,7 +170,7 @@ translation quality, although the outputs may even have higher BLEU scores.
   <img width="250" src="/assets/for_projects/LyricTrans/images/fig_biased3.png">
   <img width="250" src="/assets/for_projects/LyricTrans/images/fig_biased4.png">
 </p>
-("Prompt" refers to results from our prompt-based control)
+("Biased" refers to biased decoding; "Prompt" refers to results from our prompt-based control)
 
 A type of error frequently
 happens that the end-words in the outputs
