@@ -78,7 +78,12 @@ Academic Reviewers
 <!-- Contact -->
 <!-- Email ` Scholar ` CV/LinkedIn ` Twitter ` Wechat ` Bilibili ` Youtube -->
 <div style="text-align:center;">
-<a href="mailto:oulongshen@u.nus.edu">Email</a> &middot; <a href="https://scholar.google.com/citations?user=hf-xY6gAAAAJ" target="_blank">Google Scholar</a> &middot; <a href="https://www.linkedin.com/in/longshen-ou/" target="_blank">LinkedIn</a> &middot; <a href="assets/pdf/CV/2023-11-15.pdf" target="_blank">Full CV</a> &middot; <a href="https://twitter.com/LongshenO" target="_blank">Twitter</a> &middot; <a href="/assets/images/WechatQR.jpeg" target="_blank">WeChat</a> &middot; <a href="https://space.bilibili.com/8419079/audio" target="_blank">Bilibili</a> &middot; <a href="https://www.youtube.com/channel/UC6kT17cxNvNzUXcM9piNqMg" target="_blank">Youtube</a>
+<a href="mailto:oulongshen@u.nus.edu">Email</a> &middot; 
+<a href="https://scholar.google.com/citations?user=hf-xY6gAAAAJ" target="_blank">Google Scholar</a> &middot; 
+<a href="https://www.linkedin.com/in/longshen-ou/" target="_blank">LinkedIn</a> &middot; 
+<a href="assets/pdf/CV/2023-11-15.pdf" target="_blank">Full CV</a> &middot; 
+<a href="https://twitter.com/LongshenO" target="_blank">Twitter</a> &middot; 
+<a href="/assets/images/WechatQR.jpeg" target="_blank">WeChat</a>
 </div>
 
 <br>
