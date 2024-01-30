@@ -129,7 +129,12 @@ In recent years, I have primarily focused on arranging and performing contempora
 
 
 ## Performance
-- [**Summer Vacation (Guitar Solo)**](https://www.youtube.com/watch?v=vxo2-RwofMc)
+- **Sound and Music Computing Lab Concert** [[website](https://smcnus.comp.nus.edu.sg/concert_2023)] - 2023.11
+    - [**Kakumei Dualism (Violin Solo)**](https://www.youtube.com/watch?v=QtywGFDwzks)
+    - [**Kaze ni Naru (Ensemble)**](https://www.youtube.com/watch?v=pFF5H06GG8w)
+- **Sound and Music Computing Lab Concert** [[website](https://smcnus.comp.nus.edu.sg/seminar_concert_2022)] - 2022.11
+  - [**Summer Vacation (Guitar Solo)**](https://www.youtube.com/watch?v=vxo2-RwofMc)
+  - [**Czardas (Violin and accordion duet)**](https://www.youtube.com/watch?v=MkQuAEDdVng)
 - **Longshen's Violin Solo Concert** [[Part 1](https://youtu.be/wojnOz5sR-Y)] [[Part 2](https://youtu.be/Szr9QMVq-NY)] - 2018.10
 
 
