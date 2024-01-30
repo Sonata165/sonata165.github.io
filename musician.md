@@ -125,7 +125,18 @@ In recent years, I have primarily focused on arranging and performing contempora
 ## Arrangements
 - [**Fly Me to the Moon (Chord Melody Guitar)**](assets/pdf/sheet_music/Fly me to the moon.pdf) - 2024.1
 - [**The Song of Celia (Solo Guitar Arrangement)**](assets/pdf/sheet_music/The Song of Celia.pdf) - 2023.11
+- [**First Love Song (Guitar Solo)**]() - Performed by Longshen Ou. 2023.6.
+- [**Canon Pop (Guitar Accompaniment)**]() - 2023.6.
 - [**tomorrow (Violin Duet)**](https://www.bilibili.com/video/BV1yh4y1R7rb/): [[All parts](assets/pdf/sheet_music/tomorrow/Tomorrow.pdf)]  [[Violin-1](assets/pdf/sheet_music/tomorrow/Tomorrow_violin1.pdf)]  [[Violin-2](assets/pdf/sheet_music/tomorrow/Tomorrow_violin2.pdf)]  [[Guitar accompaniment](assets/pdf/sheet_music/tomorrow/Tomorrow_guitar.pdf)] - 2023.5
+- [**Kakumei Dualism (Violin Cover)**]() - 2023.2.
+- [**殲琴・ダウルダブラ (Violin Cover)**]() - Performed by Longshen Ou. 2023.1.
+- [**不死鸟之炎**]() - 2020.5.
+- [**唯有紧握之手方能谱写之物 (Violin Cover)**]() - 2020.4.
+- [**FLIGHT FEATHERS (Violin Cover)**]() - 2019.4.
+- [**BAYONET CHARGE (Violin Cover)**]() - 2019.1.
+- [**Morvan**]() - 2018.5.
+- [**Unkown Pollution**]() - 2018.2.
+
 
 
 ## Performance
