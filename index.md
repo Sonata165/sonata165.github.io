@@ -16,9 +16,6 @@ Teaching
 Academic Reviewers
  -->
 
-<!-- Viewer Count Script -->
-<!-- <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
-</script> -->
 
 <!-- Google Analytics tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-MK1PD93QHP"></script>
@@ -64,6 +61,33 @@ Academic Reviewers
     }
   }
 </style>
+
+<!-- <style>
+  .content {
+  display: flex;
+  align-items: flex-start; /* 这里做了修改 */
+}
+
+.image {
+  width: 200px;
+  margin-right: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  .content {
+    display: block;
+    text-align: left;
+  }
+
+  .image {
+    display: block;
+    width: 50%;
+    height: auto;
+    margin: 0 auto 30px;
+  }
+}
+
+</style> -->
 
 <!-- Intro -->
 <div class="content">
@@ -117,7 +141,7 @@ Academic Reviewers
   **Longshen Ou**, [Xichu Ma](https://dblp.org/pid/179/9890.html){:target="_blank"}, [Min-Yen Kan](https://www.comp.nus.edu.sg/~kanmy/){:target="_blank"}, [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/){:target="_blank"}  
   *The 61st Annual Meeting of the Association for Computational Linguistics (ACL 2023)*  
   [[demo](/lyric_translation) | [code](https://github.com/Sonata165/ControllableLyricTranslation)]
-  
+
 - **[Transfer Learning of wav2vec 2.0 for Automatic Lyric Transcription](https://arxiv.org/abs/2207.09747)**  
   **Longshen Ou**\*, [Xiangming Gu](https://guxm2021.github.io/){:target="_blank"}\*, and [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/){:target="_blank"}  
   *Proceedings of the 23rd International Society for Music Information Retrieval Conf. (ISMIR 2022)*  
@@ -180,21 +204,11 @@ Academic Reviewers
 <br>
 
 # Academic Reviewers
+- ACM MM 2024.
+- ACL Rolling Review.
 - TASLP.
 - ISMIR 2023.
 - ACM Multimedia 2023.
 - ISMIR 2022.
 
 <br>
-
-<!-- Display view count -->
-<!-- <div style="text-align:center; font-size: 12px;">
-<span id="busuanzi_container_site_pv">
-    Clicks: <span id="busuanzi_value_site_pv"></span>
-</span>
-
-</div> -->
-
-<!-- <span id="busuanzi_container_site_uv" >
-  Viewer: <span id="busuanzi_value_site_uv"></span>
-</span> -->

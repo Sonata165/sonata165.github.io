@@ -4,10 +4,6 @@ title: As Musician
 permalink: /musician
 ---
 
-<!-- Viewer Counter Tag -->
-<!-- <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
-</script> -->
-
 <!-- Google Analytics tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-MK1PD93QHP"></script>
 <script>
@@ -29,10 +25,10 @@ Performance
 Contact
  -->
 
-Updates: I am putting more arrangements and recordings on this site.
+<!-- Updates: I am putting more arrangements and recordings on this site. -->
 
 <div style="text-align:center;">
-[ <a href="#recent-news">News</a> | <a href="#recordings">Recordings</a> | <a href="#arrangements">Arrangements</a> | <a href="#performance">Performance</a> | <a href="#certificate-and-awards">Awards</a> | <a href="#contact-me">Contact Me</a> ]
+[ <a href="#recent-news">News</a> | <a href="#recordings">Recordings</a> | <a href="#arrangements">Arrangements</a> | <a href="#performance">Performance</a> | <a href="#tools-for-musicians">Toolkits</a> | <a href="#certificate-and-awards">Awards</a> | <a href="#contact-me">Contact Me</a> ]
 </div>
 
 
@@ -46,7 +42,7 @@ Updates: I am putting more arrangements and recordings on this site.
     }
 
     .image {
-      width: 250px;
+      width: 200px;
       margin-right: 30px;
     }
 
@@ -68,7 +64,7 @@ Updates: I am putting more arrangements and recordings on this site.
 <div class="content">
   <img class="image" src="/assets/images/playing_violin.JPG" alt="Image description">
   <p>
-    I embarked on my musical odyssey at the age of four. My foundational years were shaped under Xu Hongdu of the Shaanxi Musician's Association, followed by an enriching mentorship with Ji Xiaoquan, the distinguished former principal violinist at the Shaanxi Provincial Song and Dance Theatre Orchestra. My artistic prowess was further sculpted under the tutelage of Tian Hui, a leading figure in the Xi'an Conservatory of Music, and subsequently refined by Liang Danan, a revered professor at the Central Conservatory of Music. Each phase of my journey has been a testament to my unwavering commitment and exceptional skill, setting me apart as a musician of rare caliber and passion.
+    I embarked on my musical odyssey at the age of four. My foundational years were shaped under Xu Hongdu of the Shaanxi Musician's Association, followed by an enriching mentorship with Ji Xiaoquan, the distinguished former principal violinist at the Shaanxi Provincial Song and Dance Theatre Orchestra. My artistic prowess was further sculpted under the tutelage of Tian Hui, a leading figure in the Xi'an Conservatory of Music, and subsequently refined by <a href="https://www.comp.nus.edu.sg/cs/people/wangye/" target="_blank">Liang Danan (梁大南)</a>, a revered professor at the Central Conservatory of Music. Each phase of my journey has been a testament to my unwavering commitment and exceptional skill, setting me apart as a musician of rare caliber and passion.
   </p>
 </div>
 
@@ -101,17 +97,49 @@ In recent years, I have primarily focused on arranging and performing contempora
 
 ## Recordings
 
+- [**The Song of Celia (Guitar Solo)**](https://www.bilibili.com/video/BV1Wa4y167Hr/) - Composed by [Studio DOMA](https://www.studiodoma.com/portfolio), Arranged & Performed by Longshen Ou, 2023.12. A very warm and encouraging song from the game Dungeon and Fighter. 
+- [**tomorrow (Violin Duet)**](https://www.bilibili.com/video/BV1yh4y1R7rb/) - Composed by John Smith, Arranged & Performed by Longshen Ou. Inspired by "The Last of Us".
+- [**Dream Aria (Guitar Solo)**](https://www.bilibili.com/video/BV1Nu4y1s7CZ/) - Composed by HOYO-MiX, Arranged & Performed by Longshen Ou. 2023.10. Login bgm of Genshin Impact.
+- [**First Love Song (Guitar Solo)**](https://www.bilibili.com/video/BV1HV411g7FR/) - Performed by Longshen Ou. 2023.6.
+- [**Kakumei Dualism (Violin Cover)**](https://www.bilibili.com/video/BV1RA41127Vw/) - 2023.2.
+- [**殲琴・ダウルダブラ (Violin Cover)**](https://www.bilibili.com/video/BV1Z3411o7gR/) - Performed by Longshen Ou. 2023.1.
+- [**Comedy (Violin Cover)**](https://www.bilibili.com/video/BV1Va41197Ri/) - Song by Gen Hoshino, Performed by Longshen Ou. 2022.7. SPYxFAMILY ED.
+- [**烈槍・ガングニール (Violin Cover)**](https://www.bilibili.com/video/BV1Xv4y1w7Pt/) - 2022.6.
+- [**Night Street (Guitar Cover)**](https://www.bilibili.com/video/BV17Y411w7Av/) - 2022.5.
+- [**唯有紧握之手方能谱写之物 (Violin Cover)**](https://www.bilibili.com/audio/au1483257) - 2020.4.
+- [**以我为名的音乐响彻未来 (Violin Cover)**](https://www.bilibili.com/audio/au1078624) - 2019.9.
+- [**ORBITAL BEAT (Violin Cover)**](https://www.bilibili.com/audio/au1069395) - 2019.9.
+- [**FIRST LOVE SONG (Violin Trio)**](https://www.bilibili.com/audio/au864184) - 2019.5.
+- [**FLIGHT FEATHERS (Violin Cover)**](https://www.bilibili.com/video/BV1s4411t7qf/) - 2019.4.
+- [**BAYONET CHARGE (Violin Cover)**](https://www.bilibili.com/audio/au703410?type=1) - 2019.1.
+- [**魔弓·Ichaival (Violin Cover)**](https://www.bilibili.com/audio/au649954) - 2018.12.
+- [**绝刀·天羽羽斩 (Violin Cover)**](https://www.bilibili.com/audio/au560488) - 2018.10.
+- [**最后的话语 (Violin Cover)**](https://www.bilibili.com/audio/au557664) - 2018.10.
+- [**圣咏&绝唱 (String Ensemble)**](https://www.bilibili.com/audio/au470176) - 2018.8.
+- [**逆光のフリューゲル (Violin Cover)**](https://www.bilibili.com/audio/au428238) - 2018.7.
+- [**Message (Vocal Cover)**](https://www.bilibili.com/audio/au398879?type=1) - 2018.7.
+- [**撃槍・ガングニール (Vocal Cover)**](https://www.bilibili.com/audio/au387526) - 2018.7.
+
+
 
 ## Arrangements
-[*Tomorrow*](https://www.bilibili.com/video/BV1yh4y1R7rb/): [[ All parts](assets/pdf/sheet_music/tomorrow/Tomorrow.pdf) | [Violin-1](assets/pdf/sheet_music/tomorrow/Tomorrow_violin1.pdf) | [Violin-2](assets/pdf/sheet_music/tomorrow/Tomorrow_violin2.pdf) | [Guitar](assets/pdf/sheet_music/tomorrow/Tomorrow_guitar.pdf) ]
+- [**Fly Me to the Moon (Chord Melody Guitar)**](assets/pdf/sheet_music/Fly me to the moon.pdf) - 2024.1
+- [**The Song of Celia (Solo Guitar Arrangement)**](assets/pdf/sheet_music/The Song of Celia.pdf) - 2023.11
+- [**tomorrow (Violin Duet)**](https://www.bilibili.com/video/BV1yh4y1R7rb/): [[All parts](assets/pdf/sheet_music/tomorrow/Tomorrow.pdf)]  [[Violin-1](assets/pdf/sheet_music/tomorrow/Tomorrow_violin1.pdf)]  [[Violin-2](assets/pdf/sheet_music/tomorrow/Tomorrow_violin2.pdf)]  [[Guitar accompaniment](assets/pdf/sheet_music/tomorrow/Tomorrow_guitar.pdf)] - 2023.5
 
 
 ## Performance
-[Summer Vacation](https://www.youtube.com/watch?v=vxo2-RwofMc)
+- [**Summer Vacation (Guitar Solo)**](https://www.youtube.com/watch?v=vxo2-RwofMc)
+- **Longshen's Violin Solo Concert** [[Part 1](https://youtu.be/wojnOz5sR-Y)] [[Part 2](https://youtu.be/Szr9QMVq-NY)] - 2018.10
+
+
+## Tools for Musicians
+- [**GuitarFret**](https://github.com/Sonata165/GuitarFret){:target="_blank"}  
+  With this guitar fretboard simulator on your laptop, never worry about composing without a guitar around you!
 
 
 ## Certificate and Awards
-
+- Singapore Busking Permit, issued by National Arts Council of Singapore, 2024.1
 
 
 ## Contact Me
