@@ -42,7 +42,7 @@ Contact
     }
 
     .image {
-      width: 200px;
+      width: 230px;
       margin-right: 30px;
     }
 
@@ -64,7 +64,7 @@ Contact
 <div class="content">
   <img class="image" src="/assets/images/playing_violin.JPG" alt="Image description">
   <p>
-    I embarked on my musical odyssey at the age of four. My foundational years were shaped under Xu Hongdu of the Shaanxi Musician's Association, followed by an enriching mentorship with Ji Xiaoquan, the distinguished former principal violinist at the Shaanxi Provincial Song and Dance Theatre Orchestra. My artistic prowess was further sculpted under the tutelage of Tian Hui, a leading figure in the Xi'an Conservatory of Music, and subsequently refined by <a href="https://www.comp.nus.edu.sg/cs/people/wangye/" target="_blank">Liang Danan (梁大南)</a>, a revered professor at the Central Conservatory of Music. Each phase of my journey has been a testament to my unwavering commitment and exceptional skill, setting me apart as a musician of rare caliber and passion.
+    My journey into music began at the tender age of four, laying the foundation for a lifelong passion. Early on, I was fortunate to study under Xu Hongdu of the Shaanxi Musician's Association. My learning journey continued under the guidance of Ji Xiaoquan, the esteemed former concertmaster of the Shaanxi Provincial Song and Dance Theatre Orchestra. My skills were further honed with Tian Hui, a prominent figure at the Xi'an Conservatory of Music, and later with <a href="https://baike.baidu.com/item/%E9%BB%84%E6%99%93%E8%8A%9D/6106409" target="_blank">Professor Huang Xiaozhi (黄晓芝)</a> and <a href="https://baike.baidu.hk/item/%E6%A2%81%E5%A4%A7%E5%8D%97/2844089" target="_blank">Professor Liang Danan (梁大南)</a>, respected maestros at the Central Conservatory of Music. Additionally, it's worth mentioning that throughout my six years in secondary school, I was an active participant in the Xi'an Tieyi High School Symphony Orchestra's rehearsals and performances, serving as the violin concertmaster for two years. Each step of my journey underscores my dedication and distinct talent, distinguishing me as a musician of unique depth and fervor.
   </p>
 </div>
 
@@ -90,6 +90,8 @@ In recent years, I have primarily focused on arranging and performing contempora
 <ul>
     <li> <b>[2024.1]</b> I was granted Singapore Busking Permit by National Arts Council. </li>
     <li> <b>[2023.11]</b> I participated in the performance of the semester concert held by our lab. <a href="https://smcnus.comp.nus.edu.sg/concert_2023" target="_blank">Videos available here</a>. </li>
+    <li> <b>[2021.1]</b> I started learning guitar playing. </li>
+    <li> <b>[2002.8]</b> I started learning violin playing. </li>
 </ul>
 </div>
 <br>
@@ -145,12 +147,19 @@ In recent years, I have primarily focused on arranging and performing contempora
 
 ## Performance
 - **Sound and Music Computing Lab Concert** [[website](https://smcnus.comp.nus.edu.sg/concert_2023)] - 2023.11
-    - [**Kakumei Dualism (Violin Solo)**](https://www.youtube.com/watch?v=QtywGFDwzks)
-    - [**Kaze ni Naru (Ensemble)**](https://www.youtube.com/watch?v=pFF5H06GG8w)
+  - [**Kakumei Dualism (Violin Solo)**](https://www.youtube.com/watch?v=QtywGFDwzks)
+  - [**Kaze ni Naru (Ensemble)**](https://www.youtube.com/watch?v=pFF5H06GG8w)
+- **Busking at Milan Cathedral, Italy** (during ISMIR 2023 travel) - 2023.11
+- **NUS SUPERNOVA** - 2023.8
+- **NUS SoC 25th Anniversary Dinner** - 2023.7
+- **歌谣原创发表会｜【请不要拒绝我的GROOVE】** [[press](https://mp.weixin.qq.com/s/RPlV6AtRQcxZHnvWcMiIAA)] - 2023.3
 - **Sound and Music Computing Lab Concert** [[website](https://smcnus.comp.nus.edu.sg/seminar_concert_2022)] - 2022.11
   - [**Summer Vacation (Guitar Solo)**](https://www.youtube.com/watch?v=vxo2-RwofMc)
   - [**Czardas (Violin and accordion duet)**](https://www.youtube.com/watch?v=MkQuAEDdVng)
-- **Longshen's Violin Solo Concert** [[Press](https://today.hit.edu.cn/article/2018/10/23/60252)] [[Part 1](https://youtu.be/wojnOz5sR-Y)] [[Part 2](https://youtu.be/Szr9QMVq-NY)] - 2018.10
+- **Longshen's Violin Solo Concert** at Harbin Institute Technology theater [[Press](https://today.hit.edu.cn/article/2018/10/23/60252)] [[Part 1](https://youtu.be/wojnOz5sR-Y)] [[Part 2](https://youtu.be/Szr9QMVq-NY)] - 2018.10
+- **Ji Xiaoquan's Works Music Concert**: Caprice Basque (Pablo de Sarasate) - 2016.1
+- **The 65th Anniversary Celebration Concert of Sino-Czech Diplomatic Relations**, with the Xi'an Tieyi High School Symphony Orchestra - 2014.8
+
 
 
 ## Tools for Musicians
@@ -159,7 +168,17 @@ In recent years, I have primarily focused on arranging and performing contempora
 
 
 ## Certificate and Awards
-- Singapore Busking Permit, issued by National Arts Council of Singapore, 2024.1
+- **Busking Permit**, issued by National Arts Council of Singapore, 2024.1
+- **First Prize (Youth Violin Category)** at the 5th Shaanxi Music Awards Instrumental Competition， 2016.10.
+- **Second Prize**, the 5th National Art Exhibition and Performance for Primary and Secondary School Students in Qingdao, with the Xi'an Tieyi High School Symphony Orchestra - 2016.4.
+- [**First Prize**](), the 14th 'Spring Bud Cup' Art Competition for Primary and Secondary School Students in Shaanxi, 2016.3
+- **Certificate of Excellence for Violin (Level 10)**, issued by the Chinese Musicians' Association, 2015.8
+- **Certificate of Excellence for Violin (Level 10)**, issued by Xi'an Conservatory of Music， 2015.8
+- [**First Prize**](), the 13th 'Spring Bud Cup' Art Competition for Primary and Secondary School Students in Shaanxi, 2015.3
+- [**Second Prize**](), the 12th 'Spring Bud Cup' Art Competition for Primary and Secondary School Students in Shaanxi, 2014.3
+- [**First Prize**](), the 11th 'Spring Bud Cup' Art Competition for Primary and Secondary School Students in Shaanxi, 2013.4
+- [**First Prize**](), the 10th 'Spring Bud Cup' Art Competition for Primary and Secondary School Students in Shaanxi, 2012.4
+- [**Second Prize**](https://www.xatyz.com/news/gonggao/2013-05-06/3767.html), the 9th 'Spring Bud Cup' Art Competition for Primary and Secondary School Students in Shaanxi, 2011.3
 
 
 ## Contact Me
