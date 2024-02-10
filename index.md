@@ -36,7 +36,7 @@ Academic Reviewers
 # I'm a violinist, guitarist, and CS researcher.
 
 <!-- Style for image width at intro (responsive) -->
-<style>
+<!-- <style>
     .content {
       display: flex;
       align-items: center;
@@ -60,54 +60,35 @@ Academic Reviewers
       margin: 0 auto 30px;
     }
   }
-</style>
-
-<!-- <style>
-  .content {
-  display: flex;
-  align-items: flex-start; /* 这里做了修改 */
-}
-
-.image {
-  width: 200px;
-  margin-right: 30px;
-}
-
-@media screen and (max-width: 600px) {
-  .content {
-    display: block;
-    text-align: left;
-  }
-
-  .image {
-    display: block;
-    width: 50%;
-    height: auto;
-    margin: 0 auto 30px;
-  }
-}
-
 </style> -->
 
 <!-- Intro -->
-<div class="content">
-  <img class="image" src="/assets/images/myself.png" alt="Image description">
-  <p>
+<div class="content" style="display: flex; align-items: center;">
+  <div style="width: 33%; margin-right: 30px;">
+    <img class="image" src="/assets/images/longshen2019.jpg" alt="Image description">
+  </div>
+  <div style="width: 66%;">
+    <p>
     I am currently a proud PhD candidate (2nd year) in the <a href="https://smcnus.comp.nus.edu.sg/" target="_blank">Sound and Music Computing Lab</a>, School of Computing, National University of Singapore, advised by Prof. <a href="https://www.comp.nus.edu.sg/cs/people/wangye/" target="_blank">Ye Wang (王晔)</a>. My research centers on solving music information retrieval challenges using machine learning techniques. I am particularly interested in the automatic transcription of music and lyrics, as well as lyric generation. Prior to joining NUS, I earned my Bachelor's degree in Computer Science with honors from the Harbin Institute of Technology and completed my bachelor's thesis on piano music transcription at the Auditory Intelligence Research Center, advised by Prof. <a href="http://homepage.hit.edu.cn/hanjiqing?lang=zh" target="_blank">Jiqing Han (韩纪庆)</a>.
-    <br> <br>
-    Moreover, I am a professional-level violinist and guitarist. Please visit the "<a href="/musician">As Musician</a>" page to explore my music portfolio. I feel incredibly fortunate to have discovered my passion for music and to have the opportunity to work and conduct research in a music-related field. My love for music energizes and motivates me to continually grow and excel in this area.
+    </p>
+  </div>
+</div>
+
+<div>
+  <p>
+  Moreover, I am a professional-level violinist and guitarist. Please visit the "<a href="/musician">As Musician</a>" page to explore my music portfolio. I feel incredibly fortunate to have discovered my passion for music and to have the opportunity to work and conduct research in a music-related field. My love for music energizes and motivates me to continually grow and excel in this area.
   </p>
 </div>
 
 <!-- Contact -->
 <!-- Email ` Scholar ` CV/LinkedIn ` Twitter ` Wechat ` Bilibili ` Youtube -->
 <div style="text-align:center;">
-<a href="mailto:oulongshen@u.nus.edu">Email</a> &middot; 
-<a href="https://scholar.google.com/citations?user=hf-xY6gAAAAJ" target="_blank">Google Scholar</a> &middot; 
-<a href="https://www.linkedin.com/in/longshen-ou/" target="_blank">LinkedIn</a> &middot; 
-<a href="assets/pdf/CV/2023-11-15.pdf" target="_blank">Full CV</a> &middot; 
-<a href="https://twitter.com/LongshenO" target="_blank">Twitter</a> &middot; 
-<a href="/assets/images/WechatQR.jpeg" target="_blank">WeChat</a>
+  <a href="mailto:oulongshen@u.nus.edu">Email</a> &middot; 
+  <a href="https://scholar.google.com/citations?user=hf-xY6gAAAAJ" target="_blank">Google Scholar</a> &middot; 
+  <a href="https://www.linkedin.com/in/longshen-ou/" target="_blank">LinkedIn</a> &middot; 
+  <a href="assets/pdf/CV/2023-11-15.pdf" target="_blank">Full CV</a> &middot; 
+  <a href="https://twitter.com/LongshenO" target="_blank">Twitter</a> &middot; 
+  <a href="/assets/images/WechatQR.jpeg" target="_blank">WeChat</a>
 </div>
 
 <br>
