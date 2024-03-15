@@ -103,7 +103,7 @@ In recent years, I have primarily focused on arranging and performing contempora
 All arrangements, performances, recordings, and post-production were done by myself.
 
 **Violin Arrangements**
-- [**tomorrow (Violin Duet with Guitar Accompaniment)**](https://www.bilibili.com/video/BV1yh4y1R7rb/){:target="_blank"} - Composed by John Smith, Arranged & Performed by Longshen Ou. Inspired by "The Last of Us". [[All parts](assets/pdf/sheet_music/tomorrow/Tomorrow.pdf)]  [[Violin-1](assets/pdf/sheet_music/tomorrow/Tomorrow_violin1.pdf)]  [[Violin-2](assets/pdf/sheet_music/tomorrow/Tomorrow_violin2.pdf)]  [[Guitar accompaniment](assets/pdf/sheet_music/tomorrow/Tomorrow_guitar.pdf)]
+- [**tomorrow (Violin Duet with Guitar Accompaniment)**](https://www.bilibili.com/video/BV1yh4y1R7rb/){:target="_blank"} - Composed by Noriyasu Agematsu (上松範康), original arrangement by Ryūtarō Fujinaga (藤永龍太郎). Arranged & Performed by Longshen Ou. Inspired by the character song by Carol Malus Dienheim, featured in Senki Zesshō Symphogear GX. [[All parts](assets/pdf/sheet_music/tomorrow/Tomorrow.pdf)]  [[Violin-1](assets/pdf/sheet_music/tomorrow/Tomorrow_violin1.pdf)]  [[Violin-2](assets/pdf/sheet_music/tomorrow/Tomorrow_violin2.pdf)]  [[Guitar accompaniment](assets/pdf/sheet_music/tomorrow/Tomorrow_guitar.pdf)]
 - [**Kakumei Dualism (革命デュアリズム) (Violin Duet)**](https://www.bilibili.com/video/BV1RA41127Vw/){:target="_blank"} - 2023.2. [[sheet](){:target="_blank"}]
 - [**Dur da Bla, the Annihilating Harp (殲琴・ダウルダブラ)**](https://www.bilibili.com/video/BV1Z3411o7gR/){:target="_blank"} - Performed by Longshen Ou. 2023.1. [[sheet](){:target="_blank"}]
 - [**Comedy**](https://www.bilibili.com/video/BV1Va41197Ri/){:target="_blank"} - Song by Gen Hoshino, Performed by Longshen Ou. 2022.7. SPYxFAMILY ED.
@@ -169,11 +169,11 @@ All arrangements, performances, recordings, and post-production were done by mys
 
 ## Certificate and Awards
 - **Busking Permit**, issued by National Arts Council of Singapore, 2024.1
-- **First Prize (Youth Violin Category)** at the 5th Shaanxi Music Awards Instrumental Competition， 2016.10.
+- **First Prize (Youth Violin Category)** at the 5th Shaanxi Music Awards Instrumental Competition, 2016.10.
 - **Second Prize**, the 5th National Art Exhibition and Performance for Primary and Secondary School Students in Qingdao, with the Xi'an Tieyi High School Symphony Orchestra - 2016.4.
 - [**First Prize**](), the 14th 'Spring Bud Cup' Art Competition for Primary and Secondary School Students in Shaanxi, 2016.3
 - **Certificate of Excellence for Violin (Level 10)**, issued by the Chinese Musicians' Association, 2015.8
-- **Certificate of Excellence for Violin (Level 10)**, issued by Xi'an Conservatory of Music， 2015.8
+- **Certificate of Excellence for Violin (Level 10)**, issued by Xi'an Conservatory of Music, 2015.8
 - [**First Prize**](), the 13th 'Spring Bud Cup' Art Competition for Primary and Secondary School Students in Shaanxi, 2015.3
 - [**Second Prize**](), the 12th 'Spring Bud Cup' Art Competition for Primary and Secondary School Students in Shaanxi, 2014.3
 - [**First Prize**](), the 11th 'Spring Bud Cup' Art Competition for Primary and Secondary School Students in Shaanxi, 2013.4

@@ -97,8 +97,9 @@ Academic Reviewers
 
 <div style="height: 100px; overflow-y: scroll; border: 1px solid #ccc; padding: 10px; font-family: Times New Roman;background-color: gainsboro;">
 <ul>
-    <!-- <li> <b>[2023.6]</b> My paper <i>LOAF-M2L: Joint Learning of Wording and Formatting for Singable Melody-to-Lyric Generation</i> is rejected by ISMIR 2023. Sadge! </li> -->
+    <li> <b>[2024.3]</b> The paper <i>Automatic Lyric Transcription and Automatic Music Transcription from Multimodal Singing</i> is accepted by ACM TOMM. Congratulations to my colleague Xiangming! </li>
     <li> <b>[2023.10]</b> My short paper <i>Singable and Controllable Neural Lyric Translation: a Late-Breaking Showcase</i> is accepted by ISMIR 2023 Late Breaking Demo. </li>
+    <li> <b>[2023.6]</b> One full paper was rejected by ISMIR 2023. Sadge! </li>
     <li> <b>[2023.5]</b> I passed the Qualification Exam. Now I am a PhD candidate! </li>
     <li> <b>[2023.5]</b> My paper <i>Songs Across Borders: Singable and Controllable Neural Lyric Translation</i> is accepted by ACL 2023. </li>
     <li> <b>[2023.1]</b> I receive Research Achievement Award (2022/2023) from School of Computing, NUS. </li>
@@ -118,6 +119,10 @@ Academic Reviewers
 <br>
 
 # Publication
+- **[Automatic Lyric Transcription and Automatic Music Transcription from Multimodal Singing](){:target="_blank"}**  
+  [Xiangming Gu](https://guxm2021.github.io/){:target="_blank"}, **Longshen Ou**, Wei Zeng, Jianan Zhang, [Nicholas Wong](https://nic-wong.carrd.co/){:target="_blank"}, [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/){:target="_blank"}  
+  *ACM Transactions on Multimedia Computing, Communications and Applications*
+
 - **[Songs Across Borders: Singable and Controllable Neural Lyric Translation](https://aclanthology.org/2023.acl-long.27/){:target="_blank"}**  
   **Longshen Ou**, [Xichu Ma](https://dblp.org/pid/179/9890.html){:target="_blank"}, [Min-Yen Kan](https://www.comp.nus.edu.sg/~kanmy/){:target="_blank"}, [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/){:target="_blank"}  
   *The 61st Annual Meeting of the Association for Computational Linguistics (ACL 2023)*  
@@ -186,8 +191,8 @@ Academic Reviewers
 
 # Academic Reviewers
 - ACM TOMM.
-- ACM MM 2024.
-- ACL Rolling Review.
+- ACM Multimedia 2024.
+- ACL Rolling Review 2024 Feb.
 - TASLP.
 - ISMIR 2023.
 - ACM Multimedia 2023.
