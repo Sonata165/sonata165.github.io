@@ -97,6 +97,7 @@ Academic Reviewers
 
 <div style="height: 100px; overflow-y: scroll; border: 1px solid #ccc; padding: 10px; font-family: Times New Roman;background-color: gainsboro;">
 <ul>
+    <li> <b>[2024.3]</b> The paper <i>DNA Storage Toolkit: A Modular End-to-End DNA Data Storage Codec and Simulator</i> is accepted by ACM TOMM. Congratulations to Puru Sharma! </li>
     <li> <b>[2024.3]</b> The paper <i>Automatic Lyric Transcription and Automatic Music Transcription from Multimodal Singing</i> is accepted by ACM TOMM. Congratulations to my colleague Xiangming! </li>
     <li> <b>[2023.10]</b> My short paper <i>Singable and Controllable Neural Lyric Translation: a Late-Breaking Showcase</i> is accepted by ISMIR 2023 Late Breaking Demo. </li>
     <li> <b>[2023.6]</b> One full paper was rejected by ISMIR 2023. Sadge! </li>
@@ -119,6 +120,9 @@ Academic Reviewers
 <br>
 
 # Publication
+- **[DNA Storage Toolkit: A Modular End-to-End DNA Data Storage Codec and Simulator](){:target="_blank"}**  
+  *2024 IEEE International Symposium on Performance Analysis of Systems and Software*
+
 - **[Automatic Lyric Transcription and Automatic Music Transcription from Multimodal Singing](){:target="_blank"}**  
   [Xiangming Gu](https://guxm2021.github.io/){:target="_blank"}, **Longshen Ou**, Wei Zeng, Jianan Zhang, [Nicholas Wong](https://nic-wong.carrd.co/){:target="_blank"}, [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/){:target="_blank"}  
   *ACM Transactions on Multimedia Computing, Communications and Applications*
