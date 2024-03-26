@@ -125,7 +125,7 @@ Academic Reviewers
   *2024 IEEE Int'l Symposium on Performance Analysis of Systems and Software (ISPASS 2024)*
 
 - **[Automatic Lyric Transcription and Automatic Music Transcription from Multimodal Singing](){:target="_blank"}**  
-  [Xiangming Gu](https://guxm2021.github.io/){:target="_blank"}, **Longshen Ou**, Wei Zeng, Jianan Zhang, [Nicholas Wong](https://nic-wong.carrd.co/){:target="_blank"}, [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/){:target="_blank"}  
+  [Xiangming Gu](https://guxm2021.github.io/){:target="_blank"}, **Longshen Ou**, [Wei Zeng](https://scholar.google.com/citations?user=Ffq7lrcAAAAJ){:target="_blank"}, Jianan Zhang, [Nicholas Wong](https://nic-wong.carrd.co/){:target="_blank"}, [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/){:target="_blank"}  
   *ACM Transactions on Multimedia Computing, Communications and Applications (TOMM 2024)*
 
 - **[Songs Across Borders: Singable and Controllable Neural Lyric Translation](https://aclanthology.org/2023.acl-long.27/){:target="_blank"}**  
@@ -155,7 +155,7 @@ Academic Reviewers
   *arXiv:2304.12082 (2023)*  
 
 - **[Deep Audio-Visual Singing Voice Transcription based on Self-Supervised Learning Models](https://arxiv.org/abs/2304.12082){:target="_blank"}**  
-  [Xiangming Gu](https://guxm2021.github.io/){:target="_blank"}, Wei Zeng, Jianan Zhang, **Longshen Ou**, and [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/){:target="_blank"}  
+  [Xiangming Gu](https://guxm2021.github.io/){:target="_blank"}, [Wei Zeng](https://scholar.google.com/citations?user=Ffq7lrcAAAAJ){:target="_blank"}, Jianan Zhang, **Longshen Ou**, and [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/){:target="_blank"}  
   *arXiv:2304.12082 (2023)*  
   [[code](https://github.com/guxm2021/SVT_SpeechBrain){:target="_blank"}]
 
