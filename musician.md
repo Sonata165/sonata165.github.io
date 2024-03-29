@@ -103,27 +103,46 @@ In recent years, I have primarily focused on arranging and performing contempora
 **All arrangements, performances, recordings, and post-production were done by myself.**
 
 **Violin Arrangements**
-- [**tomorrow (Violin Duet with Guitar Accompaniment)**](https://www.bilibili.com/video/BV1yh4y1R7rb/){:target="_blank"} - Inspired by the character song by Carol Malus Dienheim, featured in Senki Zesshō Symphogear GX. Original music by Noriyasu Agematsu (上松範康) / Ryūtarō Fujinaga (藤永龍太郎). [[All parts](assets/pdf/sheet_music/tomorrow/Tomorrow.pdf)]  [[Violin-1](assets/pdf/sheet_music/tomorrow/Tomorrow_violin1.pdf)]  [[Violin-2](assets/pdf/sheet_music/tomorrow/Tomorrow_violin2.pdf)]  [[Guitar accompaniment](assets/pdf/sheet_music/tomorrow/Tomorrow_guitar.pdf)]. 2023.5.
-- [**Kakumei Dualism (革命デュアリズム) (Violin Duet)**](https://www.bilibili.com/video/BV1RA41127Vw/){:target="_blank"} - Original music by Noriyasu Agematsu (上松範康) / Iwahashi Hoshimi (岩橋星実). 2023.2. [[sheet](){:target="_blank"}]
-- [**Dur da Bla, the Annihilating Harp (殲琴・ダウルダブラ)**](https://www.bilibili.com/video/BV1Z3411o7gR/){:target="_blank"} - Performed by Longshen Ou. 2023.1. [[sheet](){:target="_blank"}]
-- [**Comedy**](https://www.bilibili.com/video/BV1Va41197Ri/){:target="_blank"} - Song by Gen Hoshino, Performed by Longshen Ou. 2022.7. SPYxFAMILY ED.
-- [**Gungnir, the Fierce Spear (烈槍・ガングニール)**](https://www.bilibili.com/video/BV1Xv4y1w7Pt/){:target="_blank"} - 2022.6.
-- [**What Only Clasped Hands Can Create (繋いだ手だけが紡ぐもの)**](https://www.bilibili.com/audio/au1483257){:target="_blank"} - 2020.4. [[sheet](){:target="_blank"}]
-- [**The Echoes Named After Me, Reaching Beyond (私ト云ウ 音響キ ソノ先ニ)**](https://www.bilibili.com/audio/au1078624){:target="_blank"} - 2019.9.
-- [**ORBITAL BEAT**](https://www.bilibili.com/audio/au1069395){:target="_blank"} - 2019.9.
-- [**FIRST LOVE SONG (Violin Trio)**](https://www.bilibili.com/audio/au864184){:target="_blank"} - 2019.5.
-- [**FLIGHT FEATHERS**](https://www.bilibili.com/video/BV1s4411t7qf/){:target="_blank"} - 2019.4. [[sheet](){:target="_blank"}]
-- [**BAYONET CHARGE**](https://www.bilibili.com/audio/au703410?type=1){:target="_blank"} - 2019.1. [[sheet](){:target="_blank"}]
-- [**Ichiival, the Magic Bow (魔弓・イチイバル)**](https://www.bilibili.com/audio/au649954){:target="_blank"} - 2018.12.
-- [**Ame no Habakiri, the Fatal Blade (絶刀・天羽々斬)**](https://www.bilibili.com/audio/au560488){:target="_blank"} - 2018.10.
-- [**Words of the Farthest Ends (最果てのコトバ)**](https://www.bilibili.com/audio/au557664){:target="_blank"} - 2018.10.
-- [**Holy Chant & Superb Song (圣咏&绝唱) (String Ensemble)**](https://www.bilibili.com/audio/au470176){:target="_blank"} - 2018.8.
-- [**Backlit Flügel (逆光のフリューゲル)**](https://www.bilibili.com/audio/au428238){:target="_blank"} - 2018.7.
+- [**tomorrow (Violin Duet with Guitar Accompaniment)**](https://www.bilibili.com/video/BV1yh4y1R7rb/){:target="_blank"} - Inspired by the character song by Carol Malus Dienheim, featured in Senki Zesshō Symphogear GX. Original music by Noriyasu Agematsu (上松範康) / Ryūtarō Fujinaga (藤永龍太郎).   
+  [[All parts](assets/pdf/sheet_music/tomorrow/Tomorrow.pdf)]  [[Violin-1](assets/pdf/sheet_music/tomorrow/Tomorrow_violin1.pdf)]  [[Violin-2](assets/pdf/sheet_music/tomorrow/Tomorrow_violin2.pdf)]  [[Guitar accompaniment](assets/pdf/sheet_music/tomorrow/Tomorrow_guitar.pdf)] - 2023.5
+- [**Kakumei Dualism (革命デュアリズム) (Violin Duet)**](https://www.bilibili.com/video/BV1RA41127Vw/){:target="_blank"} - Original music by Noriyasu Agematsu (上松範康) / Iwahashi Hoshimi (岩橋星実).  
+  [[Sheet](){:target="_blank"}] - 2023.2
+- [**Dur da Bla, the Annihilating Harp (殲琴・ダウルダブラ)**](https://www.bilibili.com/video/BV1Z3411o7gR/){:target="_blank"} - Original music by Evan Call.  
+  [[Sheet](){:target="_blank"}] - 2023.1
+- [**Comedy**](https://www.bilibili.com/video/BV1Va41197Ri/){:target="_blank"} - SPYxFAMILY ED. Original music by Gen Hoshino.  
+  [[Sheet](){:target="_blank"}] - 2022.7
+- [**Gungnir, the Fierce Spear (烈槍・ガングニール)**](https://www.bilibili.com/video/BV1Xv4y1w7Pt/){:target="_blank"} -  
+  [[Recording](https://www.bilibili.com/video/BV1Xv4y1w7Pt/){:target="_blank"}] - 2022.6.
+- [**What Only Clasped Hands Can Create (繋いだ手だけが紡ぐもの)**](https://www.bilibili.com/audio/au1483257){:target="_blank"}  
+  [[Sheet](){:target="_blank"}] - 2020.4
+- [**The Echoes Named After Me, Reaching Beyond (私ト云ウ 音響キ ソノ先ニ)**](https://www.bilibili.com/audio/au1078624){:target="_blank"}  
+  [[Recording](https://www.bilibili.com/audio/au1078624){:target="_blank"}] - 2019.9.
+- [**ORBITAL BEAT**](https://www.bilibili.com/audio/au1069395){:target="_blank"}  
+  [[Recording](){:target="_blank"}] - 2019.9.
+- [**FIRST LOVE SONG (Violin Trio)**](https://www.bilibili.com/audio/au864184){:target="_blank"}  
+  [[Recording](){:target="_blank"}] - 2019.5.
+- [**FLIGHT FEATHERS**](https://www.bilibili.com/video/BV1s4411t7qf/){:target="_blank"} - 2019.4.  
+  [[Sheet](){:target="_blank"}]
+- [**BAYONET CHARGE**](https://www.bilibili.com/audio/au703410?type=1){:target="_blank"} - 2019.1.  
+  [[Sheet](){:target="_blank"}]
+- [**Ichiival, the Magic Bow (魔弓・イチイバル)**](https://www.bilibili.com/audio/au649954){:target="_blank"}  
+  [[Recording](){:target="_blank"}] - 2018.12.
+- [**Ame no Habakiri, the Fatal Blade (絶刀・天羽々斬)**](https://www.bilibili.com/audio/au560488){:target="_blank"}  
+  [[Recording](){:target="_blank"}] - 2018.10.
+- [**Words of the Farthest Ends (最果てのコトバ)**](https://www.bilibili.com/audio/au557664){:target="_blank"}  
+  [[Recording](){:target="_blank"}] - 2018.10.
+- [**Holy Chant & Superb Song (圣咏&绝唱) (String Ensemble)**](https://www.bilibili.com/audio/au470176){:target="_blank"}  
+  [[Recording](){:target="_blank"}] - 2018.8.
+- [**Backlit Flügel (逆光のフリューゲル)**](https://www.bilibili.com/audio/au428238){:target="_blank"}  
+  [[Recording](){:target="_blank"}] - 2018.7.
+
 
 **Solo Guitar Arrangements**
-- [**Seria's Song**](https://www.bilibili.com/video/BV1Wa4y167Hr/){:target="_blank"} - Composed by [Studio DOMA](https://www.studiodoma.com/portfolio), Arranged & Performed by Longshen Ou, 2023.12. A very warm and encouraging song from the game Dungeon and Fighter. [[sheet](assets/pdf/sheet_music/The Song of Celia.pdf){:target="_blank"}]
+- [**Seria's Song**](https://www.bilibili.com/video/BV1Wa4y167Hr/){:target="_blank"} - A very warm and encouraging song from the game Dungeon and Fighter. Original music by [Studio DOMA](https://www.studiodoma.com/portfolio).  
+  [[Sheet](assets/pdf/sheet_music/The Song of Celia.pdf){:target="_blank"}] - 2023.12
 - [**Dream Aria**](https://www.bilibili.com/video/BV1Nu4y1s7CZ/){:target="_blank"} - Composed by HOYO-MiX, Arranged & Performed by Longshen Ou. 2023.10. Login bgm of Genshin Impact.
-- [**FIRST LOVE SONG**](https://www.bilibili.com/video/BV1HV411g7FR/){:target="_blank"} - Performed by Longshen Ou. 2023.6. [[sheet](){:target="_blank"}]
+- [**FIRST LOVE SONG**](https://www.bilibili.com/video/BV1HV411g7FR/){:target="_blank"} - Performed by Longshen Ou. 2023.6.  
+  [[Sheet](){:target="_blank"}]
 
 **Covers**
 - [**Night Street (Guitar Cover)**](https://www.bilibili.com/video/BV17Y411w7Av/){:target="_blank"} - 2022.5.
