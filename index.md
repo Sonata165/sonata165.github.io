@@ -69,7 +69,7 @@ Academic Reviewers
   </div>
   <div style="width: 66%;">
     <p>
-    I am currently a proud PhD candidate (2nd year) in the <a href="https://smcnus.comp.nus.edu.sg/" target="_blank">Sound and Music Computing Lab</a>, School of Computing, National University of Singapore, advised by Prof. <a href="https://www.comp.nus.edu.sg/cs/people/wangye/" target="_blank">Ye Wang (王晔)</a>. My research centers on solving music information retrieval challenges using machine learning techniques. I am particularly interested in the automatic transcription of music and lyrics, as well as lyric generation. Prior to joining NUS, I earned my Bachelor's degree in Computer Science with honors from the Harbin Institute of Technology and completed my bachelor's thesis on piano music transcription at the Auditory Intelligence Research Center, advised by Prof. <a href="http://homepage.hit.edu.cn/hanjiqing?lang=zh" target="_blank">Jiqing Han (韩纪庆)</a>.
+    I am currently a proud PhD candidate (3rd year) in the <a href="https://smcnus.comp.nus.edu.sg/" target="_blank">Sound and Music Computing Lab</a>, School of Computing, National University of Singapore, advised by Prof. <a href="https://www.comp.nus.edu.sg/cs/people/wangye/" target="_blank">Ye Wang (王晔)</a>. My research centers on solving music information retrieval challenges using machine learning techniques. I am particularly interested in the automatic transcription of music and lyrics, as well as lyric generation. Prior to joining NUS, I earned my Bachelor's degree in Computer Science with honors from the Harbin Institute of Technology and completed my bachelor's thesis on piano music transcription at the Auditory Intelligence Research Center, advised by Prof. <a href="http://homepage.hit.edu.cn/hanjiqing?lang=zh" target="_blank">Jiqing Han (韩纪庆)</a>.
     </p>
   </div>
 </div>
@@ -195,10 +195,10 @@ Academic Reviewers
 <br>
 
 # Academic Reviewers
-- ACM TOMM.
+- ACM TOMM (2024).
 - ACM Multimedia 2024.
-- ACL Rolling Review 2024 Feb.
-- TASLP.
+- ACL Rolling Review (2024).
+- TASLP (2024).
 - ISMIR 2023.
 - ACM Multimedia 2023.
 - ISMIR 2022.
