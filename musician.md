@@ -107,13 +107,13 @@ In recent years, I have primarily focused on arranging and performing contempora
   [[All parts](assets/pdf/sheet_music/tomorrow/Tomorrow.pdf)]  [[Violin-1](assets/pdf/sheet_music/tomorrow/Tomorrow_violin1.pdf)]  [[Violin-2](assets/pdf/sheet_music/tomorrow/Tomorrow_violin2.pdf)]  [[Guitar accompaniment](assets/pdf/sheet_music/tomorrow/Tomorrow_guitar.pdf)] - 2023.5
 - [**Kakumei Dualism (革命デュアリズム) (Violin Duet)**](https://www.bilibili.com/video/BV1RA41127Vw/){:target="_blank"} - Original music by Noriyasu Agematsu (上松範康) / Iwahashi Hoshimi (岩橋星実).  
   [[Sheet](){:target="_blank"}] - 2023.2
-- [**Dur da Bla, the Annihilating Harp (殲琴・ダウルダブラ)**](https://www.bilibili.com/video/BV1Z3411o7gR/){:target="_blank"} - Inspired by the character song of Carol Malus Dienheim, featured in Senki Zesshō Symphogear GX.Original music by Evan Call.  
+- [**Dur da Bla, the Annihilating Harp (殲琴・ダウルダブラ)**](https://www.bilibili.com/video/BV1Z3411o7gR/){:target="_blank"} - Inspired by the character song of Carol Malus Dienheim, featured in Senki Zesshō Symphogear GX. Original music by Evan Call.  
   [[Sheet](){:target="_blank"}] - 2023.1
-- [**Comedy**](https://www.bilibili.com/video/BV1Va41197Ri/){:target="_blank"} - SPYxFAMILY ED. Original music by Gen Hoshino.  
+- [**Comedy**](https://www.bilibili.com/video/BV1Va41197Ri/){:target="_blank"} - SPYxFAMILY ED. Original music by Gen Hoshino (星野源).  
   [[Sheet](){:target="_blank"}] - 2022.7
 - [**Gungnir, the Fierce Spear (烈槍・ガングニール)**](https://www.bilibili.com/video/BV1Xv4y1w7Pt/){:target="_blank"} - Inspired by the character song of Maria Cadenzavna Eve, featured in Senki Zesshō Symphogear GX. Original music by Noriyasu Agematsu (上松範康) / Evan Call.  
   [[Recording](https://www.bilibili.com/video/BV1Xv4y1w7Pt/){:target="_blank"}] - 2022.6
-- [**What Only Clasped Hands Can Create (繋いだ手だけが紡ぐもの)**](https://www.bilibili.com/audio/au1483257){:target="_blank"}  
+- [**What Only Clasped Hands Can Create (繋いだ手だけが紡ぐもの)**](https://www.bilibili.com/audio/au1483257){:target="_blank"} - Inspired by the character song of Chris Yukine in Senki Senki Zesshō Symphogear. Original music by Noriyasu Agematsu (上松範康)  
   [[Sheet](){:target="_blank"}] - 2020.4
 - [**The Echoes Named After Me, Reaching Beyond (私ト云ウ 音響キ ソノ先ニ)**](https://www.bilibili.com/audio/au1078624){:target="_blank"}  
   [[Recording](https://www.bilibili.com/audio/au1078624){:target="_blank"}] - 2019.9
