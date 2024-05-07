@@ -146,6 +146,8 @@ In recent years, I have primarily focused on arranging and performing contempora
   [[Sheet](){:target="_blank"}] - 2023.6
 
 **Covers**
+- [**Gentle Breeze (そよ風) (Guitar Cover)**](https://www.youtube.com/watch?v=vAAhXHuWJmI){:target="_blank"}  
+  [[Recording](https://www.youtube.com/watch?v=vAAhXHuWJmI)] - 2024.5
 - [**Night Street (Guitar Cover)**](https://www.bilibili.com/video/BV17Y411w7Av){:target="_blank"}  
   [[Recording](https://www.bilibili.com/video/BV17Y411w7Av/)] - 2022.5
 - [**Message (Vocal Cover)**](https://www.bilibili.com/audio/au398879){:target="_blank"}  
