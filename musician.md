@@ -59,7 +59,35 @@ Contact
       margin: 0 auto 30px;
     }
   }
+
+  /* For Youtube Embedding */
+  .video-container {
+      display: flex;
+      justify-content: space-around; /* 修改为space-around以更好地分配空间 */
+      align-items: center;
+      width: 100%;
+      overflow: hidden;
+  }
+
+  .video {
+      flex: 1;
+      padding: 0 2px; /* 可以根据需求调整左右的内边距 */
+      position: relative;
+      padding-bottom: 18.5%; /* 调整此值以适应视频显示 */
+      height: 0;
+      margin: 0 2px; /* 添加左右的外边距，这里设置为10px，根据实际需要调整 */
+  }
+
+  .video-container .video iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+  }
 </style>
+
+<!-- Note: when adding videos, add ";controls=0&rel=0" for youtube, add "&autoplay=0" for bilibili -->
 
 <div class="content">
   <img class="image" src="/assets/images/playing_violin.JPG" alt="Image description">
@@ -103,6 +131,18 @@ In recent years, I have primarily focused on arranging and performing contempora
 **All arrangements, performances, recordings, and post-production were done by myself.**
 
 **Violin Arrangements**
+<div class="video-container">
+    <div class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/hTU7gGJPCb4?si=icvzQoDvvhSJetK6;controls=0&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <div class="video">
+        <iframe src="//player.bilibili.com/player.html?aid=309696635&bvid=BV1RA41127Vw&cid=1146578142&p=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+    </div>
+    <div class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/gzsSAjdI8yc?si=icHFmdLA_oPP7YAI;controls=0&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+</div>
+
 - [**tomorrow (Violin Duet with Guitar Accompaniment)**](https://www.bilibili.com/video/BV1yh4y1R7rb/){:target="_blank"} - Inspired by the character song of Carol Malus Dienheim, featured in Senki Zesshō Symphogear GX. Original music by Noriyasu Agematsu (上松範康) / Ryūtarō Fujinaga (藤永龍太郎).   
   [[All parts](assets/pdf/sheet_music/tomorrow/Tomorrow.pdf)]  [[Violin-1](assets/pdf/sheet_music/tomorrow/Tomorrow_violin1.pdf)]  [[Violin-2](assets/pdf/sheet_music/tomorrow/Tomorrow_violin2.pdf)]  [[Guitar accompaniment](assets/pdf/sheet_music/tomorrow/Tomorrow_guitar.pdf)] - 2023.5
 - [**Kakumei Dualism (革命デュアリズム) (Violin Duet)**](https://www.bilibili.com/video/BV1RA41127Vw/){:target="_blank"} - Original music by Noriyasu Agematsu (上松範康) / Iwahashi Hoshimi (岩橋星実).  
@@ -138,6 +178,17 @@ In recent years, I have primarily focused on arranging and performing contempora
 
 
 **Solo Guitar Arrangements**
+<div class="video-container">
+    <div class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/3vNhZLYbWEY?si=4WxNVpqfzCoWGBSN;controls=0&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <div class="video">
+        <iframe src="//player.bilibili.com/player.html?aid=917107963&bvid=BV1Nu4y1s7CZ&cid=1317999948&p=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+    </div>
+    <div class="video">
+        <iframe src="//player.bilibili.com/player.html?aid=402845778&bvid=BV1HV411g7FR&cid=1177591896&p=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+    </div>
+</div>
 - [**Seria's Song**](https://www.bilibili.com/video/BV1Wa4y167Hr/){:target="_blank"} - A very warm and encouraging song from the game Dungeon and Fighter. Original music by [Studio DOMA](https://www.studiodoma.com/portfolio).  
   [[Sheet](assets/pdf/sheet_music/The Song of Celia.pdf){:target="_blank"}] - 2023.12
 - [**Dream Aria**](https://www.bilibili.com/video/BV1Nu4y1s7CZ/){:target="_blank"} - Login bgm of Genshin Impact. Original music by HOYO-MiX.  
@@ -146,6 +197,18 @@ In recent years, I have primarily focused on arranging and performing contempora
   [[Sheet](){:target="_blank"}] - 2023.6
 
 **Covers**
+
+<div class="video-container">
+    <div class="video">
+        <iframe src="https://www.youtube.com/embed/vAAhXHuWJmI?si=PPZzhf9AdKDMeD1u;controls=0&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <div class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Yq8uPWmY2h0?si=QaEBj7TG458zx6bJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <!-- <div class="video">
+        <iframe src="//player.bilibili.com/player.html?aid=665217877&bvid=BV1Wa4y167Hr&cid=1378332652&p=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+    </div> -->
+</div>
 - [**Gentle Breeze (そよ風) (Guitar Cover)**](https://www.youtube.com/watch?v=vAAhXHuWJmI){:target="_blank"}  
   [[Recording](https://www.youtube.com/watch?v=vAAhXHuWJmI)] - 2024.5
 - [**Night Street (Guitar Cover)**](https://www.bilibili.com/video/BV17Y411w7Av){:target="_blank"}  
