@@ -97,6 +97,7 @@ Academic Reviewers
 
 <div style="height: 100px; overflow-y: scroll; border: 1px solid #ccc; padding: 10px; font-family: Times New Roman;background-color: gainsboro;">
 <ul>
+    <li> <b>[2024.5]</b> I started my internship at YAMAHA at Hamamatsu, Shizuoka, Japan. </li>
     <li> <b>[2024.3]</b> The paper <i>DNA Storage Toolkit: A Modular End-to-End DNA Data Storage Codec and Simulator</i> is accepted by ISPASS 2024. Congratulations to <a href="https://prongs1996.github.io/" target="_blank">Puru Sharma</a>! </li>
     <li> <b>[2024.3]</b> The paper <i>Automatic Lyric Transcription and Automatic Music Transcription from Multimodal Singing</i> is accepted by ACM TOMM. Congratulations to my colleague Xiangming! </li>
     <li> <b>[2023.10]</b> My short paper <i>Singable and Controllable Neural Lyric Translation: a Late-Breaking Showcase</i> is accepted by ISMIR 2023 Late Breaking Demo. </li>
