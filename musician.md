@@ -239,7 +239,7 @@ In recent years, I have primarily focused on arranging and performing contempora
   - [**Kaze ni Naru (Guitar Solo with Band Accompaniment)**](https://www.youtube.com/watch?v=pFF5H06GG8w)
 - **Busking at Milan Cathedral, Italy** (during ISMIR 2023 travel) - 2023.11
 - **NUS SUPERNOVA** - 2023.8
-- **NUS SoC 25th Anniversary Dinner** - 2023.7
+- [**NUS SoC 25th Anniversary Dinner**](https://youtu.be/4Ud4Q0MxMxI){:target="_blank"} - 2023.7
 - **歌谣原创发表会｜【请不要拒绝我的GROOVE】** [[press](https://mp.weixin.qq.com/s/RPlV6AtRQcxZHnvWcMiIAA)] - 2023.3
 - **Sound and Music Computing Lab Concert** [[website](https://smcnus.comp.nus.edu.sg/seminar_concert_2022)] - 2022.11
   - [**Summer Vacation (Guitar Solo)**](https://www.youtube.com/watch?v=vxo2-RwofMc)
