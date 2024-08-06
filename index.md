@@ -178,6 +178,9 @@ Academic Reviewers
 - [**DNA Storage Simulation**](https://github.com/Sonata165/DNA-Storage-Simulation){:target="_blank"}  
     DNA-based storage systems present unique challenges, as reading and writing operations can sometimes result in alterations to the original information. To model the changes introduced by such storage systems in a wet lab environment, we designed a simulation system to emulate DNA behavioral changes. This system includes a rule-based method, a Multi-Layer Perceptron (MLP) method, and a sequence-to-sequence attention-based Recurrent Neural Network (RNN). The experiments based on the Microsoft Nanopore dataset shows the sequence-to-sequence method is highly effective.
 
+- [**GuitarFret**](https://github.com/Sonata165/GuitarFret){:target="_blank"}  
+  With this guitar fretboard simulator on your laptop, never worry about composing without a guitar around you!
+
 <br>
 
 # Honors and Awards
