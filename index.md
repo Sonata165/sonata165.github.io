@@ -199,12 +199,13 @@ Academic Reviewers
 <br>
 
 # Academic Reviewers
-- ACM TOMM (2024).
-- ACM Multimedia 2024.
-- ACL Rolling Review (2024).
-- TASLP (2024).
-- ISMIR 2023.
-- ACM Multimedia 2023.
-- ISMIR 2022.
+- EAI ArtsIT 2024
+- ACM TOMM (2024)
+- ACM Multimedia 2024
+- ACL Rolling Review (2024)
+- TASLP (2024)
+- ISMIR 2023
+- ACM Multimedia 2023
+- ISMIR 2022
 
 <br>
