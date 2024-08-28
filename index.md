@@ -153,7 +153,7 @@ Academic Reviewers
 
 ## Preprint
 - **[Lead Instrument Detection from Multitrack Music](assets/pdf/papers/Lead_Instrument_Detection_from_Multitrack_Music.pdf){:target="_blank"}**  
-  **Longshen Ou**, [Yu Takahashi](){:target="_blank"}, and [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/){:target="_blank"}  
+  **Longshen Ou**, [Yu Takahashi](https://yuu-t.github.io/){:target="_blank"}, and [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/){:target="_blank"}  
     
 
 - **[Unlocking Potential in Pre-Trained Music Language Models for Versatile Multi-Track Music Arrangement](https://arxiv.org/abs/2408.15176){:target="_blank"}**  
