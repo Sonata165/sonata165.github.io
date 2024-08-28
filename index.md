@@ -97,6 +97,7 @@ Academic Reviewers
 
 <div style="height: 100px; overflow-y: scroll; border: 1px solid #ccc; padding: 10px; font-family: Times New Roman;background-color: gainsboro;">
 <ul>
+    <li> <b>[2024.8]</b> I started my internship at Sony Computer Science Laboratories. </li>
     <li> <b>[2024.5]</b> I started my internship at YAMAHA at Hamamatsu, Shizuoka, Japan. </li>
     <li> <b>[2024.3]</b> The paper <i>DNA Storage Toolkit: A Modular End-to-End DNA Data Storage Codec and Simulator</i> is accepted by ISPASS 2024. Congratulations to <a href="https://prongs1996.github.io/" target="_blank">Puru Sharma</a>! </li>
     <li> <b>[2024.3]</b> The paper <i>Automatic Lyric Transcription and Automatic Music Transcription from Multimodal Singing</i> is accepted by ACM TOMM. Congratulations to my colleague Xiangming! </li>
@@ -151,9 +152,13 @@ Academic Reviewers
 
 
 ## Preprint
+- **[Unlocking Potential in Pre-Trained Music Language Models for Versatile Multi-Track Music Arrangement](https://arxiv.org/abs/2408.15176){:target="_blank"}**  
+  **Longshen Ou**, [Jingwei Zhao](https://zhaojw1998.github.io/){:target="_blank"}, [Ziyu Wang](https://scholar.google.com/citations?user=QFOh6EgAAAAJ&hl=en){:target="_blank"}, [Gus Xia](https://mbzuai.ac.ae/study/faculty/dr-gus-xia/){:target="_blank"}, and [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/){:target="_blank"}  
+  *arXiv:2408.15176 (2024)*  
+
 - **[LOAF-M2L: Joint Learning of Wording and Formatting for Singable Melody-to-Lyric Generation](https://arxiv.org/abs/2307.02146){:target="_blank"}**  
   **Longshen Ou**, [Xichu Ma](https://dblp.org/pid/179/9890.html){:target="_blank"}, and [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/){:target="_blank"}  
-  *arXiv:2304.12082 (2023)*  
+  *arXiv:2307.02146 (2023)*  
 
 - **[Deep Audio-Visual Singing Voice Transcription based on Self-Supervised Learning Models](https://arxiv.org/abs/2304.12082){:target="_blank"}**  
   [Xiangming Gu](https://guxm2021.github.io/){:target="_blank"}, [Wei Zeng](https://scholar.google.com/citations?user=Ffq7lrcAAAAJ){:target="_blank"}, Jianan Zhang, **Longshen Ou**, and [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/){:target="_blank"}  
