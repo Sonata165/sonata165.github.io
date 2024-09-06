@@ -126,7 +126,7 @@ Academic Reviewers
   [Puru Sharma](https://prongs1996.github.io/){:target="_blank"}, Gary Goh, Bin Gao, **Longshen Ou**, Dehui Lin, Deepak Sharma, Djordje Jevdjic  
   *2024 IEEE Int'l Symposium on Performance Analysis of Systems and Software (ISPASS 2024)*
 
-- **[Automatic Lyric Transcription and Automatic Music Transcription from Multimodal Singing](){:target="_blank"}**  
+- **[Automatic Lyric Transcription and Automatic Music Transcription from Multimodal Singing](https://dl.acm.org/doi/abs/10.1145/3651310){:target="_blank"}**  
   [Xiangming Gu](https://guxm2021.github.io/){:target="_blank"}, **Longshen Ou**, [Wei Zeng](https://scholar.google.com/citations?user=Ffq7lrcAAAAJ){:target="_blank"}, Jianan Zhang, [Nicholas Wong](https://nic-wong.carrd.co/){:target="_blank"}, [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/){:target="_blank"}  
   *ACM Transactions on Multimedia Computing, Communications and Applications (TOMM 2024)*
 
@@ -202,7 +202,7 @@ Academic Reviewers
 <br>
 
 # Teaching
-- Teaching Assistant, CS4347 Sound and Music Computing (2022/2023 sem 1, 2023/2024 sem 1).
+- Teaching Assistant, CS4347/5647 Sound and Music Computing (2022/2023 sem 1, 2023/2024 sem 1).
 - Teaching Assistant, CS4248 Natural Language Processing (2022/2023 sem 2).
 
 <br>
