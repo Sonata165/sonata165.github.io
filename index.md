@@ -122,9 +122,10 @@ Academic Reviewers
 <br>
 
 # Publication
-- **[DNA Storage Toolkit: A Modular End-to-End DNA Data Storage Codec and Simulator](){:target="_blank"}**  
+- **[DNA Storage Toolkit: A Modular End-to-End DNA Data Storage Codec and Simulator](https://prongs1996.github.io/assets/pdf/DNA_Storage_Toolkit.pdf){:target="_blank"}**  
   [Puru Sharma](https://prongs1996.github.io/){:target="_blank"}, Gary Goh, Bin Gao, **Longshen Ou**, Dehui Lin, Deepak Sharma, Djordje Jevdjic  
-  *2024 IEEE Int'l Symposium on Performance Analysis of Systems and Software (ISPASS 2024)*
+  *2024 IEEE Int'l Symposium on Performance Analysis of Systems and Software (ISPASS 2024)*  
+  [[slides](https://prongs1996.github.io/assets/pdf/ispass24presentation.pdf){:target="_blank"}]
 
 - **[Automatic Lyric Transcription and Automatic Music Transcription from Multimodal Singing](https://dl.acm.org/doi/abs/10.1145/3651310){:target="_blank"}**  
   [Xiangming Gu](https://guxm2021.github.io/){:target="_blank"}, **Longshen Ou**, [Wei Zeng](https://scholar.google.com/citations?user=Ffq7lrcAAAAJ){:target="_blank"}, Jianan Zhang, [Nicholas Wong](https://nic-wong.carrd.co/){:target="_blank"}, [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/){:target="_blank"}  
