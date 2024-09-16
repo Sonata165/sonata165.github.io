@@ -209,6 +209,7 @@ Academic Reviewers
 <br>
 
 # Academic Reviewers
+- IEEE TAFFC (2024)
 - EAI ArtsIT 2024
 - ACM TOMM (2024)
 - ACM Multimedia 2024
