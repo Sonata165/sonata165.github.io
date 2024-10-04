@@ -129,7 +129,8 @@ Academic Reviewers
 
 - **[Automatic Lyric Transcription and Automatic Music Transcription from Multimodal Singing](https://dl.acm.org/doi/abs/10.1145/3651310){:target="_blank"}**  
   [Xiangming Gu](https://guxm2021.github.io/){:target="_blank"}, **Longshen Ou**, [Wei Zeng](https://scholar.google.com/citations?user=Ffq7lrcAAAAJ){:target="_blank"}, Jianan Zhang, [Nicholas Wong](https://nic-wong.carrd.co/){:target="_blank"}, [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/){:target="_blank"}  
-  *ACM Transactions on Multimedia Computing, Communications and Applications (TOMM 2024)*
+  *ACM Transactions on Multimedia Computing, Communications and Applications (TOMM 2024)*  
+  [[code](https://github.com/guxm2021/SVT_SpeechBrain){:target="_blank"}]
 
 - **[Songs Across Borders: Singable and Controllable Neural Lyric Translation](https://aclanthology.org/2023.acl-long.27/){:target="_blank"}**  
   **Longshen Ou**, [Xichu Ma](https://dblp.org/pid/179/9890.html){:target="_blank"}, [Min-Yen Kan](https://www.comp.nus.edu.sg/~kanmy/){:target="_blank"}, [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/){:target="_blank"}  
@@ -165,10 +166,10 @@ Academic Reviewers
   **Longshen Ou**, [Xichu Ma](https://dblp.org/pid/179/9890.html){:target="_blank"}, and [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/){:target="_blank"}  
   *arXiv:2307.02146 (2023)*  
 
-- **[Deep Audio-Visual Singing Voice Transcription based on Self-Supervised Learning Models](https://arxiv.org/abs/2304.12082){:target="_blank"}**  
+<!-- - **[Deep Audio-Visual Singing Voice Transcription based on Self-Supervised Learning Models](https://arxiv.org/abs/2304.12082){:target="_blank"}**  
   [Xiangming Gu](https://guxm2021.github.io/){:target="_blank"}, [Wei Zeng](https://scholar.google.com/citations?user=Ffq7lrcAAAAJ){:target="_blank"}, Jianan Zhang, **Longshen Ou**, and [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/){:target="_blank"}  
   *arXiv:2304.12082 (2023)*  
-  [[code](https://github.com/guxm2021/SVT_SpeechBrain){:target="_blank"}]
+  [[code](https://github.com/guxm2021/SVT_SpeechBrain){:target="_blank"}] -->
 
 - **[Automatic Hyper-Parameter Optimization Based on Mapping Discovery from Data to Hyper-Parameters](https://arxiv.org/abs/2003.01751){:target="_blank"}**  
   [Bozhou Chen](https://www.researchgate.net/profile/Bozhou-Chen){:target="_blank"}, [Kaixin Zhang](https://www.researchgate.net/profile/Kaixin-Zhang-6){:target="_blank"}, **Longshen Ou**, [Chenmin Ba](https://dblp.uni-trier.de/pid/259/9983.html){:target="_blank"}, [Hongzhi Wang](https://dblp.org/pid/81/940.html){:target="_blank"}, and [Chunnan Wang](https://scholar.google.com/citations?user=F0xRt20AAAAJ&hl=en){:target="_blank"}.  
