@@ -130,7 +130,7 @@ Academic Reviewers
 - **[Automatic Lyric Transcription and Automatic Music Transcription from Multimodal Singing](https://dl.acm.org/doi/abs/10.1145/3651310){:target="_blank"}**  
   [Xiangming Gu](https://guxm2021.github.io/){:target="_blank"}, **Longshen Ou**, [Wei Zeng](https://scholar.google.com/citations?user=Ffq7lrcAAAAJ){:target="_blank"}, Jianan Zhang, [Nicholas Wong](https://nic-wong.carrd.co/){:target="_blank"}, [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/){:target="_blank"}  
   *ACM Transactions on Multimedia Computing, Communications and Applications (TOMM 2024)*  
-  [[code](https://github.com/guxm2021/SVT_SpeechBrain){:target="_blank"}]
+  [[code](https://github.com/guxm2021/SVT_SpeechBrain){:target="_blank"} | [ArXiv](https://arxiv.org/abs/2304.12082){:target="_blank"}]
 
 - **[Songs Across Borders: Singable and Controllable Neural Lyric Translation](https://aclanthology.org/2023.acl-long.27/){:target="_blank"}**  
   **Longshen Ou**, [Xichu Ma](https://dblp.org/pid/179/9890.html){:target="_blank"}, [Min-Yen Kan](https://www.comp.nus.edu.sg/~kanmy/){:target="_blank"}, [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/){:target="_blank"}  
