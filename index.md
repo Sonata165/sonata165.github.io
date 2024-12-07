@@ -97,6 +97,7 @@ Academic Reviewers
 
 <div style="height: 100px; overflow-y: scroll; border: 1px solid #ccc; padding: 10px; font-family: Times New Roman;background-color: gainsboro;">
 <ul>
+    <li> <b>[2024.8]</b> <a href="https://github.com/Sonata165/REMI-z" target="_blank">REMI-z tokenizer and MultiTrack music data structure</a> is now available in <a href="https://pypi.org/project/REMI-z/" target="_blank">pip</a>. This is my first open source project :) </li>
     <li> <b>[2024.8]</b> I started my internship at Sony Computer Science Laboratories. </li>
     <li> <b>[2024.5]</b> I started my internship at YAMAHA at Hamamatsu, Shizuoka, Japan. </li>
     <li> <b>[2024.3]</b> The paper <i>DNA Storage Toolkit: A Modular End-to-End DNA Data Storage Codec and Simulator</i> is accepted by ISPASS 2024. Congratulations to <a href="https://prongs1996.github.io/" target="_blank">Puru Sharma</a>! </li>
@@ -171,9 +172,9 @@ Academic Reviewers
   *arXiv:2304.12082 (2023)*  
   [[code](https://github.com/guxm2021/SVT_SpeechBrain){:target="_blank"}] -->
 
-- **[Automatic Hyper-Parameter Optimization Based on Mapping Discovery from Data to Hyper-Parameters](https://arxiv.org/abs/2003.01751){:target="_blank"}**  
+<!-- - **[Automatic Hyper-Parameter Optimization Based on Mapping Discovery from Data to Hyper-Parameters](https://arxiv.org/abs/2003.01751){:target="_blank"}**  
   [Bozhou Chen](https://www.researchgate.net/profile/Bozhou-Chen){:target="_blank"}, [Kaixin Zhang](https://www.researchgate.net/profile/Kaixin-Zhang-6){:target="_blank"}, **Longshen Ou**, [Chenmin Ba](https://dblp.uni-trier.de/pid/259/9983.html){:target="_blank"}, [Hongzhi Wang](https://dblp.org/pid/81/940.html){:target="_blank"}, and [Chunnan Wang](https://scholar.google.com/citations?user=F0xRt20AAAAJ&hl=en){:target="_blank"}.  
-  *arXiv:2003.01751* (2020)
+  *arXiv:2003.01751* (2020) -->
 
 ## Demo & Workshop Papers
 - **[Singable and Controllable Neural Lyric Translation: a Late-Breaking Showcase](https://ismir2023program.ismir.net/lbd_347.html){:target="_blank"}**  
@@ -183,14 +184,18 @@ Academic Reviewers
 <br>
 
 # Other Projects
-- [**GNN-based Music Recommender**](https://github.com/Sonata165/MusicRecommenderGCN){:target="_blank"}  
-    This project aims to tackle the music artist recommendation challenge using Graph Convolutional Networks (GCNs). By modeling artist and user identities through their interactive relationships, the network predicts affinity scores between users and previously unexplored artists to generate personalized recommendations. I implemented the original GCN as a baseline and proposed three enhancements: incorporating edge weight for aggregation, augmenting edge weight with attention mechanisms, and implementing data augmentation by introducing noise to edge values.
+- [***REMI-z* Tokenizer and *MultiTrack* music data structure**](https://github.com/Sonata165/GuitarFret){:target="_blank"}  
+  This tool helps to convert your music between MIDI and REMI-z representation, which is an efficient sequence representation of multitrack music, meanwhile facilitate manipulate the music at bar level.  
+  [[github](https://github.com/Sonata165/REMI-z) | [PYPI](https://pypi.org/project/REMI-z/)]
+
+- [**GuitarFret**](https://github.com/Sonata165/GuitarFret){:target="_blank"}  
+  With this guitar fretboard simulator on your laptop, never worry about composing without a guitar around you!
 
 - [**DNA Storage Simulation**](https://github.com/Sonata165/DNA-Storage-Simulation){:target="_blank"}  
     DNA-based storage systems present unique challenges, as reading and writing operations can sometimes result in alterations to the original information. To model the changes introduced by such storage systems in a wet lab environment, we designed a simulation system to emulate DNA behavioral changes. This system includes a rule-based method, a Multi-Layer Perceptron (MLP) method, and a sequence-to-sequence attention-based Recurrent Neural Network (RNN). The experiments based on the Microsoft Nanopore dataset shows the sequence-to-sequence method is highly effective.
 
-- [**GuitarFret**](https://github.com/Sonata165/GuitarFret){:target="_blank"}  
-  With this guitar fretboard simulator on your laptop, never worry about composing without a guitar around you!
+- [**GNN-based Music Recommender**](https://github.com/Sonata165/MusicRecommenderGCN){:target="_blank"}  
+    This project aims to tackle the music artist recommendation challenge using Graph Convolutional Networks (GCNs). By modeling artist and user identities through their interactive relationships, the network predicts affinity scores between users and previously unexplored artists to generate personalized recommendations. I implemented the original GCN as a baseline and proposed three enhancements: incorporating edge weight for aggregation, augmenting edge weight with attention mechanisms, and implementing data augmentation by introducing noise to edge values.
 
 <br>
 

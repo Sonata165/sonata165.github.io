@@ -234,14 +234,17 @@ In recent years, I have primarily focused on arranging and performing contempora
 
 
 ## Performance
-- **Sound and Music Computing Lab Concert** [[website](https://smcnus.comp.nus.edu.sg/concert_2023)] - 2023.11
-  - [**Kakumei Dualism (Violin Solo)**](https://www.youtube.com/watch?v=QtywGFDwzks)
-  - [**Kaze ni Naru (Guitar Solo with Band Accompaniment)**](https://www.youtube.com/watch?v=pFF5H06GG8w)
+- **Sound and Music Computing Lab Concert 2024** - 2024.10
+  - [**Seria's Song**](https://youtu.be/Lxo0b75DGWU){:target="_blank"}
+  - [**Daddy's Lessons**](https://youtu.be/Dgdj5ASytxc){:target="_blank"}
+- **Sound and Music Computing Lab Concert 2023** [[website](https://smcnus.comp.nus.edu.sg/concert_2023)] - 2023.11
+  - [**Kakumei Dualism (Violin Solo)**](https://www.youtube.com/watch?v=QtywGFDwzks){:target="_blank"}
+  - [**Kaze ni Naru (Guitar Solo with Band Accompaniment)**](https://www.youtube.com/watch?v=pFF5H06GG8w){:target="_blank"}
 - **Busking at Milan Cathedral, Italy** (during ISMIR 2023 travel) - 2023.11
 - **NUS SUPERNOVA** - 2023.8
 - [**NUS SoC 25th Anniversary Dinner**](https://youtu.be/4Ud4Q0MxMxI){:target="_blank"} - 2023.7
 - **歌谣原创发表会｜【请不要拒绝我的GROOVE】** [[press](https://mp.weixin.qq.com/s/RPlV6AtRQcxZHnvWcMiIAA)] - 2023.3
-- **Sound and Music Computing Lab Concert** [[website](https://smcnus.comp.nus.edu.sg/seminar_concert_2022)] - 2022.11
+- **Sound and Music Computing Lab Concert 2022** [[website](https://smcnus.comp.nus.edu.sg/seminar_concert_2022)] - 2022.11
   - [**Summer Vacation (Guitar Solo)**](https://www.youtube.com/watch?v=vxo2-RwofMc)
   - [**Czardas (Violin and accordion duet)**](https://www.youtube.com/watch?v=MkQuAEDdVng)
 - **Longshen's Violin Solo Concert** at Harbin Institute Technology theater [[Press](https://today.hit.edu.cn/article/2018/10/23/60252)] [[Part 1](https://youtu.be/wojnOz5sR-Y)] [[Part 2](https://youtu.be/Szr9QMVq-NY)] - 2018.10
