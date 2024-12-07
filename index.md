@@ -97,7 +97,7 @@ Academic Reviewers
 
 <div style="height: 100px; overflow-y: scroll; border: 1px solid #ccc; padding: 10px; font-family: Times New Roman;background-color: gainsboro;">
 <ul>
-    <li> <b>[2024.8]</b> <a href="https://github.com/Sonata165/REMI-z" target="_blank">REMI-z tokenizer and MultiTrack music data structure</a> is now available in <a href="https://pypi.org/project/REMI-z/" target="_blank">pip</a>. This is my first open source project :) </li>
+    <li> <b>[2024.8]</b> <a href="https://github.com/Sonata165/REMI-z" target="_blank">REMI-z tokenizer and MultiTrack music data structure</a> is now available in <a href="https://pypi.org/project/REMI-z/" target="_blank">PyPI</a>. This is my first open source project :) </li>
     <li> <b>[2024.8]</b> I started my internship at Sony Computer Science Laboratories. </li>
     <li> <b>[2024.5]</b> I started my internship at YAMAHA at Hamamatsu, Shizuoka, Japan. </li>
     <li> <b>[2024.3]</b> The paper <i>DNA Storage Toolkit: A Modular End-to-End DNA Data Storage Codec and Simulator</i> is accepted by ISPASS 2024. Congratulations to <a href="https://prongs1996.github.io/" target="_blank">Puru Sharma</a>! </li>
@@ -186,7 +186,7 @@ Academic Reviewers
 # Other Projects
 - [***REMI-z* Tokenizer and *MultiTrack* music data structure**](https://github.com/Sonata165/GuitarFret){:target="_blank"}  
   This tool helps to convert your music between MIDI and REMI-z representation, which is an efficient sequence representation of multitrack music, meanwhile facilitate manipulate the music at bar level.  
-  [[github](https://github.com/Sonata165/REMI-z) | [PYPI](https://pypi.org/project/REMI-z/)]
+  [[github](https://github.com/Sonata165/REMI-z) | [PyPI](https://pypi.org/project/REMI-z/)]
 
 - [**GuitarFret**](https://github.com/Sonata165/GuitarFret){:target="_blank"}  
   With this guitar fretboard simulator on your laptop, never worry about composing without a guitar around you!
