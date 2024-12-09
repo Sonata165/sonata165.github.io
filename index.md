@@ -184,7 +184,7 @@ Academic Reviewers
 <br>
 
 # Other Projects
-- [***REMI-z* Tokenizer and *MultiTrack* music data structure**](https://github.com/Sonata165/GuitarFret){:target="_blank"}  
+- [***REMI-z* Tokenizer and *MultiTrack* music data structure**](https://github.com/Sonata165/REMI-z){:target="_blank"}  
   This tool helps to convert your music between MIDI and REMI-z representation, which is an efficient sequence representation of multitrack music, meanwhile facilitate manipulate the music at bar level.  
   [[github](https://github.com/Sonata165/REMI-z) | [PyPI](https://pypi.org/project/REMI-z/)]
 
