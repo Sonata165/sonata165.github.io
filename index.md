@@ -30,7 +30,7 @@ Academic Reviewers
 
 <!-- Navigator -->
 <div style="text-align:center;">
-[ <a href="#recent-news">News</a> | <a href="#publication">Publication</a> | <a href="#other-projects">Projects</a> | <a href="#honors-and-awards">Awards</a> | <a href="#teaching">Teaching</a> | <a href="#academic-reviewers">Reviewer</a> ]
+[ <a href="#recent-news">News</a> | <a href="#publications">Publications</a> | <a href="#other-projects">Projects</a> | <a href="#honors-and-awards">Awards</a> | <a href="#teaching">Teaching</a> | <a href="#academic-reviewers">Reviewer</a> ]
 </div>
 
 # I'm a violinist, guitarist, and CS researcher.
@@ -122,7 +122,7 @@ Academic Reviewers
 
 <br>
 
-# Publication
+# Publications
 - **[DNA Storage Toolkit: A Modular End-to-End DNA Data Storage Codec and Simulator](https://prongs1996.github.io/assets/pdf/DNA_Storage_Toolkit.pdf){:target="_blank"}**  
   [Puru Sharma](https://prongs1996.github.io/){:target="_blank"}, Gary Goh, Bin Gao, **Longshen Ou**, Dehui Lin, Deepak Sharma, Djordje Jevdjic  
   *2024 IEEE Int'l Symposium on Performance Analysis of Systems and Software (ISPASS 2024)*  
