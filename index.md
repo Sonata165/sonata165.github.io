@@ -218,11 +218,9 @@ Academic Reviewers
 - IEEE TAFFC (2024)
 - EAI ArtsIT 2024
 - ACM TOMM (2024)
-- ACM Multimedia 2024
+- ACM Multimedia 2023, 2024
 - ACL Rolling Review (2024)
 - TASLP (2024)
-- ISMIR 2023
-- ACM Multimedia 2023
-- ISMIR 2022
+- ISMIR 2022, 2023
 
 <br>
