@@ -123,6 +123,12 @@ Academic Reviewers
 <br>
 
 # Publications
+- **[Lead Instrument Detection from Multitrack Music](assets/pdf/papers/Lead_Instrument_Detection_from_Multitrack_Music.pdf){:target="_blank"}**  
+  **Longshen Ou**, [Yu Takahashi](https://yuu-t.github.io/){:target="_blank"}, and [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/){:target="_blank"}  
+  *2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2025)*  
+  [[preprint](assets/pdf/papers/Lead_Instrument_Detection_from_Multitrack_Music.pdf){:target="_blank"} | code & dataset]
+  <!-- 2024.08.28 -->
+
 - **[DNA Storage Toolkit: A Modular End-to-End DNA Data Storage Codec and Simulator](https://prongs1996.github.io/assets/pdf/DNA_Storage_Toolkit.pdf){:target="_blank"}**  
   [Puru Sharma](https://prongs1996.github.io/){:target="_blank"}, Gary Goh, Bin Gao, **Longshen Ou**, Dehui Lin, Deepak Sharma, Djordje Jevdjic  
   *2024 IEEE Int'l Symposium on Performance Analysis of Systems and Software (ISPASS 2024)*  
@@ -153,11 +159,7 @@ Academic Reviewers
   *2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2022)*
   
 
-
 ## Preprint
-- **[Lead Instrument Detection from Multitrack Music](assets/pdf/papers/Lead_Instrument_Detection_from_Multitrack_Music.pdf){:target="_blank"}**  
-  **Longshen Ou**, [Yu Takahashi](https://yuu-t.github.io/){:target="_blank"}, and [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/){:target="_blank"}  
-  2024.08.28
 
 - **[Unlocking Potential in Pre-Trained Music Language Models for Versatile Multi-Track Music Arrangement](https://arxiv.org/abs/2408.15176){:target="_blank"}**  
   **Longshen Ou**, [Jingwei Zhao](https://zhaojw1998.github.io/){:target="_blank"}, [Ziyu Wang](https://scholar.google.com/citations?user=QFOh6EgAAAAJ&hl=en){:target="_blank"}, [Gus Xia](https://mbzuai.ac.ae/study/faculty/dr-gus-xia/){:target="_blank"}, and [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/){:target="_blank"}  
@@ -166,11 +168,6 @@ Academic Reviewers
 - **[LOAF-M2L: Joint Learning of Wording and Formatting for Singable Melody-to-Lyric Generation](https://arxiv.org/abs/2307.02146){:target="_blank"}**  
   **Longshen Ou**, [Xichu Ma](https://dblp.org/pid/179/9890.html){:target="_blank"}, and [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/){:target="_blank"}  
   *arXiv:2307.02146 (2023)*  
-
-<!-- - **[Deep Audio-Visual Singing Voice Transcription based on Self-Supervised Learning Models](https://arxiv.org/abs/2304.12082){:target="_blank"}**  
-  [Xiangming Gu](https://guxm2021.github.io/){:target="_blank"}, [Wei Zeng](https://scholar.google.com/citations?user=Ffq7lrcAAAAJ){:target="_blank"}, Jianan Zhang, **Longshen Ou**, and [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/){:target="_blank"}  
-  *arXiv:2304.12082 (2023)*  
-  [[code](https://github.com/guxm2021/SVT_SpeechBrain){:target="_blank"}] -->
 
 <!-- - **[Automatic Hyper-Parameter Optimization Based on Mapping Discovery from Data to Hyper-Parameters](https://arxiv.org/abs/2003.01751){:target="_blank"}**  
   [Bozhou Chen](https://www.researchgate.net/profile/Bozhou-Chen){:target="_blank"}, [Kaixin Zhang](https://www.researchgate.net/profile/Kaixin-Zhang-6){:target="_blank"}, **Longshen Ou**, [Chenmin Ba](https://dblp.uni-trier.de/pid/259/9983.html){:target="_blank"}, [Hongzhi Wang](https://dblp.org/pid/81/940.html){:target="_blank"}, and [Chunnan Wang](https://scholar.google.com/citations?user=F0xRt20AAAAJ&hl=en){:target="_blank"}.  
