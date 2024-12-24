@@ -97,6 +97,7 @@ Academic Reviewers
 
 <div style="height: 100px; overflow-y: scroll; border: 1px solid #ccc; padding: 10px; font-family: Times New Roman;background-color: gainsboro;">
 <ul>
+    <li> <b>[2024.3]</b> The paper <i>Lead Instrument Detection from Multitrack Music</i> is accepted by ICASSP 2025. </li>
     <li> <b>[2024.8]</b> <a href="https://github.com/Sonata165/REMI-z" target="_blank">REMI-z tokenizer and MultiTrack music data structure</a> is now available in <a href="https://pypi.org/project/REMI-z/" target="_blank">PyPI</a>. This is my first open source project on pip :) </li>
     <li> <b>[2024.8]</b> I started my internship at Sony Computer Science Laboratories. </li>
     <li> <b>[2024.5]</b> I started my internship at YAMAHA at Hamamatsu, Shizuoka, Japan. </li>
