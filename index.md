@@ -130,7 +130,7 @@ Academic Reviewers
   [[preprint](assets/pdf/papers/Lead_Instrument_Detection_from_Multitrack_Music.pdf){:target="_blank"} | code & dataset]
   <!-- 2024.08.28 -->
 
-- **[DNA Storage Toolkit: A Modular End-to-End DNA Data Storage Codec and Simulator](https://prongs1996.github.io/assets/pdf/DNA_Storage_Toolkit.pdf){:target="_blank"}**  
+- **[DNA Storage Toolkit: A Modular End-to-End DNA Data Storage Codec and Simulator](https://ieeexplore.ieee.org/abstract/document/10590050/){:target="_blank"}**  
   [Puru Sharma](https://prongs1996.github.io/){:target="_blank"}, Gary Goh, Bin Gao, **Longshen Ou**, Dehui Lin, Deepak Sharma, Djordje Jevdjic  
   *2024 IEEE Int'l Symposium on Performance Analysis of Systems and Software (ISPASS 2024)*  
   [[slides](https://prongs1996.github.io/assets/pdf/ispass24presentation.pdf){:target="_blank"}]
