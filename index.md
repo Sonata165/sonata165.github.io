@@ -198,6 +198,7 @@ Academic Reviewers
 <br>
 
 # Honors and Awards
+- **SoC Research Incentive Award**, issued by School of Computing, NUS, 2023.10.
 - **Research Achievement Award** (2022/2023), issued by School of Computing, NUS, 2023.5.
 - **Top Paper Award** (2% of accepted full papers), issued by ACM Multimedia 2022, 2022.11.
 - **Honor Degree of Bachelor of Engineering**, issued by Harbin Institute of Technology Honors School, 2021.6.
