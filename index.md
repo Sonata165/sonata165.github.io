@@ -166,7 +166,7 @@ Academic Reviewers
 
 ## Preprint
 
-- **[Unlocking Potential in Pre-Trained Music Language Models for Versatile Multi-Track Music Arrangement](https://arxiv.org/abs/2408.15176){:target="_blank"}**  
+- **[Unifying Multitrack Music Arrangement via Reconstruction Fine-Tuning and Efficient Tokenization](assets/pdf/papers/Automatic_Arrangement.pdf){:target="_blank"}**  
   **Longshen Ou**, [Jingwei Zhao](https://zhaojw1998.github.io/){:target="_blank"}, [Ziyu Wang](https://scholar.google.com/citations?user=QFOh6EgAAAAJ&hl=en){:target="_blank"}, [Gus Xia](https://mbzuai.ac.ae/study/faculty/dr-gus-xia/){:target="_blank"}, and [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/){:target="_blank"}  
   *arXiv:2408.15176 (2024)*  
 
