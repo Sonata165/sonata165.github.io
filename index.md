@@ -67,7 +67,7 @@ Academic Reviewers
 <!-- Intro -->
 <div class="content" style="display: flex; align-items: center;">
   <div style="width: 33%; margin-right: 30px;">
-    <img class="image" src="/assets/images/longshen2019.jpg" alt="Image description">
+    <img class="image" src="/assets/images/longshen2022.jpg" alt="Image description">
   </div>
   <div style="width: 66%;">
     <p>
