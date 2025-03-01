@@ -131,7 +131,7 @@ Academic Reviewers
 - **[Lead Instrument Detection from Multitrack Music](assets/pdf/papers/Lead_Instrument_Detection_from_Multitrack_Music.pdf){:target="_blank"}**  
   **Longshen Ou**, [Yu Takahashi](https://yuu-t.github.io/){:target="_blank"}, and [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/){:target="_blank"}  
   *2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2025)*  
-  [[preprint](assets/pdf/papers/Lead_Instrument_Detection_from_Multitrack_Music.pdf){:target="_blank"} | code & dataset]
+  [[preprint](assets/pdf/papers/Lead_Instrument_Detection_from_Multitrack_Music.pdf){:target="_blank"} | [code + model + dataset](https://github.com/Sonata165/LeadInstrumentDetection)]
   <!-- 2024.08.28 -->
 
 - **[DNA Storage Toolkit: A Modular End-to-End DNA Data Storage Codec and Simulator](https://ieeexplore.ieee.org/abstract/document/10590050/){:target="_blank"}**  
