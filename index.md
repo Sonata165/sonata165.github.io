@@ -30,7 +30,7 @@ Academic Reviewers
 
 <!-- Navigator -->
 <div style="text-align:center;">
-[ <a href="#recent-news">News</a> | <a href="#publications">Publications</a> | <a href="#other-projects">Projects</a> | <a href="#honors-and-awards">Awards</a> | <a href="#teaching">Teaching</a> | <a href="#academic-reviewers">Reviewer</a> ]
+[ <a href="#recent-news">News</a> | <a href="#publications">Publications</a> | <a href="#internships">Internships</a> | <a href="#other-projects">Projects</a> | <a href="#honors-and-awards">Awards</a> | <a href="#teaching">Teaching</a> | <a href="#academic-reviewers">Reviewer</a> ]
 </div>
 
 # I'm an AI Researcher in NLP and Audio Processing.
@@ -185,6 +185,38 @@ Academic Reviewers
   *Late Breaking Demo at the 24rd Int. Society for Music Information Retrieval Conf. (ISMIR 2023)*  
   
 <br>
+
+# Internships
+### Research Intern, Sony Computer Science Laboratories (Sony CSL)
+📍 Tokyo, Japan · *Aug 2024 – Nov 2024*  
+👨‍🏫 **Mentor:** Dr. [Taketo Akama](https://x.com/tuktoe){:target="_blank"}
+- Designed a tokenization scheme for Whisper to represent melody note sequences, enabling efficient
+transcription of musical elements.
+- Fine-tuned Whisper for lyric and melody transcription using frame-level and end-to-end approaches, achieving
+performance comparable to state-of-the-art models.
+- Implemented semi-supervised techniques, including auxiliary transposition-equivariant loss, pseudo-labeling,
+noisy student model, and FixMatch, to enhance transcription performance.
+- Applied diverse data augmentation strategies (time shift, time stretch, SpecAugment, and pitch shift) to improve
+the model’s ability to learn music-specific concepts and handle noisy labels.
+
+### Research Intern, Yamaha Corporation, MixerAI Team
+📍 Hamamatsu, Japan · *May 2024 – Aug 2024*  
+👨‍🏫 **Mentor:** Dr. [Yu Takahashi](https://yuu-t.github.io/){:target="_blank"}
+- First work on lead instrument detection from multitrack music, providing annotated datasets and benchmark
+models. Work published in ICASSP 2025.  
+
+### Research Intern, Harvard University, Data Systems Laboratory  
+📍 Remote · *Aug 2020 – Sep 2020*  
+👨‍🏫 **Mentor:** Prof. [Stratos Idreos](https://scholar.google.com/citations?user=rg6Bl5YAAAAJ&hl=en){:target="_blank"}
+- Contributed to the research [More or Less: When and How to Build Convolutional Neural Network Ensembles](https://openreview.net/pdf?id=z5Z023VBmDZ){:target="_blank"}, accepted at ICLR 2021.  
+
+### Back End Developer, Tencent, CDG Department  
+📍 Shenzhen, China · *July 2020 – Aug 2020*  
+👨‍🏫 **Mentor:** Luo Yunlong 
+- Enhanced a distributed online analytical processing system for user engagement data analysis.
+- Accelerated query processing speed by 120x through a distributed storage caching strategy.
+- Skills: Docker, Kubernetes, OLAP, Hadoop, Spark, Presto, Tencent Cloud, Go
+
 
 # Other Projects
 - [***REMI-z* Tokenizer and *MultiTrack* music data structure**](https://github.com/Sonata165/REMI-z){:target="_blank"}  
