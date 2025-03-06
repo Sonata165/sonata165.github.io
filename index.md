@@ -71,10 +71,11 @@ Academic Reviewers
   </div>
   <div style="width: 66%;">
     <p>
-    I am currently a proud PhD candidate (last year) in the <a href="https://smcnus.comp.nus.edu.sg/" target="_blank">Sound and Music Computing Lab</a>, School of Computing, National University of Singapore, advised by Prof. <a href="https://www.comp.nus.edu.sg/cs/people/wangye/" target="_blank">Ye Wang (王晔)</a>. My research focuses on advancing music information retrieval (MIR), audio and speech processing, and natural language processing (NLP) through deep learning techniques. I am particularly interested in the automatic transcription, generation, and translation of music and lyrics, with a strong emphasis on self-supervised learning (SSL), transfer learning, multimodal learning, and integrating controllability into SSL models. Prior to joining NUS, I earned my Bachelor's degree in Computer Science with honors from the Harbin Institute of Technology and completed my bachelor's thesis on piano music transcription at the Auditory Intelligence Research Center, advised by Prof. <a href="http://homepage.hit.edu.cn/hanjiqing?lang=zh" target="_blank">Jiqing Han (韩纪庆)</a>.
+    I am currently a proud PhD candidate (last year) in the <a href="https://smcnus.comp.nus.edu.sg/" target="_blank">Sound and Music Computing Lab</a>, School of Computing, National University of Singapore, advised by Prof. <a href="https://www.comp.nus.edu.sg/cs/people/wangye/" target="_blank">Ye Wang (王晔)</a>. My research focuses on advancing music information retrieval (MIR), audio and speech processing, and natural language processing (NLP) through deep learning techniques. I am particularly interested in the automatic transcription, generation, and translation of music and lyrics, with a strong focus on self-supervised learning, transfer learning, and controlled generation for real-world applications. Prior to joining NUS, I earned my Bachelor's degree in Computer Science with honors from the Harbin Institute of Technology and completed my bachelor's thesis on piano music transcription at the Auditory Intelligence Research Center, advised by Prof. <a href="http://homepage.hit.edu.cn/hanjiqing?lang=zh" target="_blank">Jiqing Han (韩纪庆)</a>.
     </p>
   </div>
 </div>
+<!-- with a strong focus on self-supervised learning & transfer learning for real-world applications. -->
 
 <div>
   <p>
@@ -128,10 +129,10 @@ Academic Reviewers
 <br>
 
 # Publications
-- **[Lead Instrument Detection from Multitrack Music](assets/pdf/papers/Lead_Instrument_Detection_from_Multitrack_Music.pdf){:target="_blank"}**  
+- **[Lead Instrument Detection from Multitrack Music](https://arxiv.org/pdf/2503.03232){:target="_blank"}**  
   **Longshen Ou**, [Yu Takahashi](https://yuu-t.github.io/){:target="_blank"}, and [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/){:target="_blank"}  
   *2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2025)*  
-  [ [preprint](assets/pdf/papers/Lead_Instrument_Detection_from_Multitrack_Music.pdf){:target="_blank"} | [code + model + dataset](https://github.com/Sonata165/LeadInstrumentDetection) ]
+  [ [ArXiv](https://arxiv.org/pdf/2503.03232){:target="_blank"} | [code + model + dataset](https://github.com/Sonata165/LeadInstrumentDetection) ]
   <!-- 2024.08.28 -->
 
 - **[DNA Storage Toolkit: A Modular End-to-End DNA Data Storage Codec and Simulator](https://ieeexplore.ieee.org/abstract/document/10590050/){:target="_blank"}**  
@@ -202,7 +203,7 @@ the model’s ability to learn music-specific concepts and handle noisy labels.
 ### Research Intern, Yamaha Corporation, MixerAI Team
 📍 Hamamatsu, Japan · *May 2024 – Aug 2024*  
 👨‍🏫 **Mentor:** Dr. [Yu Takahashi](https://yuu-t.github.io/){:target="_blank"}
-- First work on lead instrument detection from multitrack music, providing annotated datasets and benchmark
+- First work on [lead instrument detection](https://arxiv.org/pdf/2503.03232){:target="_blank"} from multitrack music, providing annotated datasets and benchmark
 models. Work published in ICASSP 2025.  
 
 ### Research Intern, Harvard University, Data Systems Laboratory  
