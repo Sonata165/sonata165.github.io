@@ -136,7 +136,6 @@ Academic Reviewers
   **Longshen Ou**, [Yu Takahashi](https://yuu-t.github.io/){:target="_blank"}, and [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/){:target="_blank"}  
   *2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2025)*  
   [ [ArXiv](https://arxiv.org/pdf/2503.03232){:target="_blank"} | [code + model + dataset](https://github.com/Sonata165/LeadInstrumentDetection) ]
-  <!-- 2024.08.28 -->
 
 - **[Transfer Learning of wav2vec 2.0 for Automatic Lyric Transcription](https://arxiv.org/abs/2207.09747)**  
   **Longshen Ou**\*, [Xiangming Gu](https://guxm2021.github.io/){:target="_blank"}\*, and [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/){:target="_blank"}  
@@ -156,7 +155,7 @@ Academic Reviewers
 - **[Songs Across Borders: Singable and Controllable Neural Lyric Translation](https://aclanthology.org/2023.acl-long.27/){:target="_blank"}**  
   **Longshen Ou**, [Xichu Ma](https://dblp.org/pid/179/9890.html){:target="_blank"}, [Min-Yen Kan](https://www.comp.nus.edu.sg/~kanmy/){:target="_blank"}, [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/){:target="_blank"}  
   *The 61st Annual Meeting of the Association for Computational Linguistics (ACL 2023)*  
-  [ [demo](/lyric_translation) | [code](https://github.com/Sonata165/ControllableLyricTranslation) ]
+  [ [demo](/lyric_translation) | [code](https://github.com/Sonata165/ControllableLyricTranslation) | [ISMIR 2023 Late Breaking Demo](https://ismir2023program.ismir.net/lbd_347.html){:target="_blank"} ]
 
 - **[LOAF-M2L: Joint Learning of Wording and Formatting for Singable Melody-to-Lyric Generation](https://arxiv.org/abs/2307.02146){:target="_blank"}**  
   **Longshen Ou**, [Xichu Ma](https://dblp.org/pid/179/9890.html){:target="_blank"}, and [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/){:target="_blank"}  
@@ -173,7 +172,6 @@ Academic Reviewers
   *Proceedings of the 30th ACM International Conference on Multimedia (ACM Multimedia 2022)*   
   [ [demo](https://n20em.github.io/){:target="_blank"} | [code](https://github.com/guxm2021/MM_ALT){:target="_blank"} | [dataset](https://zenodo.org/record/7545968){:target="_blank"} | [press](https://www.comp.nus.edu.sg/news/features/2023-marvellous-richness-wye/){:target="_blank"} ]
 
-
 ### Other Sequence Transformation
 
 - **[DNA Storage Toolkit: A Modular End-to-End DNA Data Storage Codec and Simulator](https://ieeexplore.ieee.org/abstract/document/10590050/){:target="_blank"}**  
@@ -183,15 +181,11 @@ Academic Reviewers
 
 
 <!-- ## Preprint -->
-
 <!-- - **[Automatic Hyper-Parameter Optimization Based on Mapping Discovery from Data to Hyper-Parameters](https://arxiv.org/abs/2003.01751){:target="_blank"}**  
   [Bozhou Chen](https://www.researchgate.net/profile/Bozhou-Chen){:target="_blank"}, [Kaixin Zhang](https://www.researchgate.net/profile/Kaixin-Zhang-6){:target="_blank"}, **Longshen Ou**, [Chenmin Ba](https://dblp.uni-trier.de/pid/259/9983.html){:target="_blank"}, [Hongzhi Wang](https://dblp.org/pid/81/940.html){:target="_blank"}, and [Chunnan Wang](https://scholar.google.com/citations?user=F0xRt20AAAAJ&hl=en){:target="_blank"}.  
   *arXiv:2003.01751* (2020) -->
 
-## Demo & Workshop Papers
-- **[Singable and Controllable Neural Lyric Translation: a Late-Breaking Showcase](https://ismir2023program.ismir.net/lbd_347.html){:target="_blank"}**  
-  **Longshen Ou**, [Xichu Ma](https://dblp.org/pid/179/9890.html){:target="_blank"}, and [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/){:target="_blank"}  
-  *Late Breaking Demo at the 24rd Int. Society for Music Information Retrieval Conf. (ISMIR 2023)*  
+<!-- ## Demo & Workshop Papers -->
   
 <br>
 
