@@ -132,30 +132,30 @@ Academic Reviewers
 
 ### Audio Content Analysis
 
-- **[Lead Instrument Detection from Multitrack Music](https://arxiv.org/pdf/2503.03232){:target="_blank"}**  
+- [**Lead Instrument Detection from Multitrack Music**](https://arxiv.org/pdf/2503.03232){:target="_blank"}  
   **Longshen Ou**, [Yu Takahashi](https://yuu-t.github.io/){:target="_blank"}, and [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/){:target="_blank"}  
   *2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2025)*  
-  [ [ArXiv](https://arxiv.org/pdf/2503.03232){:target="_blank"} | [code + model + dataset](https://github.com/Sonata165/LeadInstrumentDetection) ]
+  [ [code + model + dataset](https://github.com/Sonata165/LeadInstrumentDetection) | [ArXiv](https://arxiv.org/pdf/2503.03232){:target="_blank"} ]
 
-- **[Transfer Learning of wav2vec 2.0 for Automatic Lyric Transcription](https://arxiv.org/abs/2207.09747)**  
+- [**Transfer Learning of wav2vec 2.0 for Automatic Lyric Transcription**](https://archives.ismir.net/ismir2022/paper/000107.pdf){:target="_blank"}  
   **Longshen Ou**\*, [Xiangming Gu](https://guxm2021.github.io/){:target="_blank"}\*, and [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/){:target="_blank"}  
   *Proceedings of the 23rd International Society for Music Information Retrieval Conf. (ISMIR 2022)*  
-  [ [code](https://github.com/guxm2021/ALT_SpeechBrain) ]
+  [ [code](https://github.com/guxm2021/ALT_SpeechBrain){:target="_blank"} | [ArXiv](https://arxiv.org/abs/2207.09747){:target="_blank"} ]
 
-- [**Exploring Transformer’s Potential on Automatic Piano Transcription**](https://ieeexplore.ieee.org/abstract/document/9746789)  
+- [**Exploring Transformer’s Potential on Automatic Piano Transcription**](https://ieeexplore.ieee.org/abstract/document/9746789){:target="_blank"}  
   **Longshen Ou**, [Ziyi Guo](https://www.linkedin.com/in/zi-yi-guo/){:target="_blank"}, [Emmanouil Benetos](https://www.eecs.qmul.ac.uk/~emmanouilb/){:target="_blank"}, [Jiqing Han](https://dblp.org/pid/h/JiqingHan.html){:target="_blank"}, and [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/){:target="_blank"}    
   *2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2022)*
 
 ### Controlled Generation (Text & Symbolic Music)
-- **[Unifying Multitrack Music Arrangement via Reconstruction Fine-Tuning and Efficient Tokenization](https://arxiv.org/abs/2408.15176){:target="_blank"}**  
+- [**Unifying Multitrack Music Arrangement via Reconstruction Fine-Tuning and Efficient Tokenization**](https://arxiv.org/abs/2408.15176){:target="_blank"}  
   **Longshen Ou**, [Jingwei Zhao](https://zhaojw1998.github.io/){:target="_blank"}, [Ziyu Wang](https://scholar.google.com/citations?user=QFOh6EgAAAAJ&hl=en){:target="_blank"}, [Gus Xia](https://mbzuai.ac.ae/study/faculty/dr-gus-xia/){:target="_blank"}, and [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/){:target="_blank"}  
   *IJCAI 2025 submission*  
-  [ [demo](https://ae4rtjsyr.github.io/) | [ArXiv](https://arxiv.org/abs/2408.15176){:target="_blank"} ]
+  [ [demo](https://ae4rtjsyr.github.io/){:target="_blank"} | [ArXiv](https://arxiv.org/abs/2408.15176){:target="_blank"} ]
 
 - **[Songs Across Borders: Singable and Controllable Neural Lyric Translation](https://aclanthology.org/2023.acl-long.27/){:target="_blank"}**  
   **Longshen Ou**, [Xichu Ma](https://dblp.org/pid/179/9890.html){:target="_blank"}, [Min-Yen Kan](https://www.comp.nus.edu.sg/~kanmy/){:target="_blank"}, [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/){:target="_blank"}  
   *The 61st Annual Meeting of the Association for Computational Linguistics (ACL 2023)*  
-  [ [demo](/lyric_translation) | [code](https://github.com/Sonata165/ControllableLyricTranslation) | [ISMIR 2023 Late Breaking Demo](https://ismir2023program.ismir.net/lbd_347.html){:target="_blank"} ]
+  [ [demo](/lyric_translation){:target="_blank"} | [code](https://github.com/Sonata165/ControllableLyricTranslation){:target="_blank"} | [ISMIR 2023 Late Breaking Demo](https://ismir2023program.ismir.net/lbd_347.html){:target="_blank"} | [ArXiv](https://arxiv.org/abs/2305.16816){:target="_blank"} ]
 
 - **[LOAF-M2L: Joint Learning of Wording and Formatting for Singable Melody-to-Lyric Generation](https://arxiv.org/abs/2307.02146){:target="_blank"}**  
   **Longshen Ou**, [Xichu Ma](https://dblp.org/pid/179/9890.html){:target="_blank"}, and [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/){:target="_blank"}  
@@ -170,7 +170,7 @@ Academic Reviewers
 - **[MM-ALT: A Multimodal Automatic Lyric Transcription System](https://dl.acm.org/doi/abs/10.1145/3503161.3548411)** (*<span style="color:red">Oral, Top Paper Award</span>*)  
   [Xiangming Gu](https://guxm2021.github.io/){:target="_blank"}\*, **Longshen Ou**\*, [Danielle Ong](https://www.linkedin.com/in/danielle-ong-854b88177/){:target="_blank"}, and [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/){:target="_blank"}  
   *Proceedings of the 30th ACM International Conference on Multimedia (ACM Multimedia 2022)*   
-  [ [demo](https://n20em.github.io/){:target="_blank"} | [code](https://github.com/guxm2021/MM_ALT){:target="_blank"} | [dataset](https://zenodo.org/record/7545968){:target="_blank"} | [press](https://www.comp.nus.edu.sg/news/features/2023-marvellous-richness-wye/){:target="_blank"} ]
+  [ [demo](https://n20em.github.io/){:target="_blank"} | [code](https://github.com/guxm2021/MM_ALT){:target="_blank"} | [dataset](https://zenodo.org/record/7545968){:target="_blank"} | [press](https://www.comp.nus.edu.sg/news/features/2023-marvellous-richness-wye/){:target="_blank"} | [ArXiv](https://arxiv.org/abs/2207.06127){:target="_blank"} ]
 
 ### Other Sequence Transformation
 
