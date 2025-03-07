@@ -151,7 +151,7 @@ Academic Reviewers
 - **[Unifying Multitrack Music Arrangement via Reconstruction Fine-Tuning and Efficient Tokenization](https://arxiv.org/abs/2408.15176){:target="_blank"}**  
   **Longshen Ou**, [Jingwei Zhao](https://zhaojw1998.github.io/){:target="_blank"}, [Ziyu Wang](https://scholar.google.com/citations?user=QFOh6EgAAAAJ&hl=en){:target="_blank"}, [Gus Xia](https://mbzuai.ac.ae/study/faculty/dr-gus-xia/){:target="_blank"}, and [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/){:target="_blank"}  
   *IJCAI 2025 submission*  
-  [ [preprint](assets/pdf/papers/Automatic_Arrangement.pdf){:target="_blank"} | [demo](https://ae4rtjsyr.github.io/) | [ArXiv](https://arxiv.org/abs/2408.15176){:target="_blank"} ]
+  [ [demo](https://ae4rtjsyr.github.io/) | [ArXiv](https://arxiv.org/abs/2408.15176){:target="_blank"} ]
 
 - **[Songs Across Borders: Singable and Controllable Neural Lyric Translation](https://aclanthology.org/2023.acl-long.27/){:target="_blank"}**  
   **Longshen Ou**, [Xichu Ma](https://dblp.org/pid/179/9890.html){:target="_blank"}, [Min-Yen Kan](https://www.comp.nus.edu.sg/~kanmy/){:target="_blank"}, [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/){:target="_blank"}  
