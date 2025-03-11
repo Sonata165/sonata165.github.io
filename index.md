@@ -256,10 +256,10 @@ models. Work published in ICASSP 2025.
 # Academic Reviewers
 - IEEE TAFFC (2024)
 - EAI ArtsIT 2024
-- ACM TOMM (2024)
+- ACM TOMM (2024, 2025)
 - ACM Multimedia 2023, 2024
 - ACL Rolling Review (2024)
-- TASLP (2024)
+- TASLP (2024, 2025)
 - ISMIR 2022, 2023
 
 <br>
