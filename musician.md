@@ -203,22 +203,21 @@ In recent years, I have primarily focused on arranging and performing contempora
         <iframe src="https://www.youtube.com/embed/vAAhXHuWJmI?si=PPZzhf9AdKDMeD1u;controls=0&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
     <div class="video">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/Yq8uPWmY2h0?si=QaEBj7TG458zx6bJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/Yq8uPWmY2h0?si=QaEBj7TG458zx6bJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/R-_N1yTjPWk?si=ThoI3oTloO7Bsl9R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
     <div class="video">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/MJq7VNlBH2c?si=wi50aKNIZVEmjF-I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
 </div>
-- [**Romance No. 3 'Elegy' (Guitar Cover)**](https://www.youtube.com/watch?v=MJq7VNlBH2c){:target="_blank"}  
-  [[Recording](https://www.youtube.com/watch?v=MJq7VNlBH2c){:target="_blank"}] - 2024.12
-- [**Gentle Breeze (そよ風) (Guitar Cover)**](https://www.youtube.com/watch?v=vAAhXHuWJmI){:target="_blank"}  
-  [[Recording](https://www.youtube.com/watch?v=vAAhXHuWJmI){:target="_blank"}] - 2024.5
-- [**Night Street (Guitar Cover)**](https://www.bilibili.com/video/BV17Y411w7Av){:target="_blank"}  
-  [[Recording](https://www.bilibili.com/video/BV17Y411w7Av/){:target="_blank"}] - 2022.5
-- [**Message (Vocal Cover)**](https://www.bilibili.com/audio/au398879){:target="_blank"}  
-  [[Recording](https://www.bilibili.com/audio/au398879){:target="_blank"}]- 2018.7
-- [**Gungnir, the Striking Spear (撃槍・ガングニール) (Vocal Cover)**](https://www.bilibili.com/audio/au387526){:target="_blank"}  
-  [[Recording](https://www.bilibili.com/audio/au387526){:target="_blank"}]- 2018.7
+
+
+- [**Take Me Home, Country Road (Guitar Cover)**](https://www.youtube.com/watch?v=R-_N1yTjPWk){:target="_blank"} - 2025.3
+- [**Romance No. 3 'Elegy' (Guitar Cover)**](https://www.youtube.com/watch?v=MJq7VNlBH2c){:target="_blank"} - 2024.12
+- [**Gentle Breeze (そよ風) (Guitar Cover)**](https://www.youtube.com/watch?v=vAAhXHuWJmI){:target="_blank"} - 2024.5  
+- [**Night Street (Guitar Cover)**](https://www.bilibili.com/video/BV17Y411w7Av){:target="_blank"} - 2022.5  
+- [**Message (Vocal Cover)**](https://www.bilibili.com/audio/au398879){:target="_blank"} - 2018.7  
+- [**Gungnir, the Striking Spear (撃槍・ガングニール) (Vocal Cover)**](https://www.bilibili.com/audio/au387526){:target="_blank"} - 2018.7  
 
 
 
