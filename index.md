@@ -132,7 +132,7 @@ Academic Reviewers
 
 ### Audio Content Analysis
 
-- [**Lead Instrument Detection from Multitrack Music**](https://arxiv.org/pdf/2503.03232){:target="_blank"}  
+- [**Lead Instrument Detection from Multitrack Music**](https://ieeexplore.ieee.org/abstract/document/10889928/){:target="_blank"}  
   **Longshen Ou**, [Yu Takahashi](https://yuu-t.github.io/){:target="_blank"}, and [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/){:target="_blank"}  
   *2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2025)*  
   [ [code + model + dataset](https://github.com/Sonata165/LeadInstrumentDetection) | [ArXiv](https://arxiv.org/pdf/2503.03232){:target="_blank"} ]
@@ -205,7 +205,7 @@ the model’s ability to learn music-specific concepts and handle noisy labels.
 ### Research Intern, Yamaha Corporation, MixerAI Team
 📍 Hamamatsu, Japan · *May 2024 – Aug 2024*  
 👨‍🏫 **Mentor:** Dr. [Yu Takahashi](https://yuu-t.github.io/){:target="_blank"}
-- First work on [lead instrument detection](https://arxiv.org/pdf/2503.03232){:target="_blank"} from multitrack music, providing annotated datasets and benchmark
+- First work on [lead instrument detection](https://ieeexplore.ieee.org/abstract/document/10889928/){:target="_blank"} from multitrack music, providing annotated datasets and benchmark
 models. Work published in ICASSP 2025.  
 
 ### Research Intern, Harvard University, Data Systems Laboratory  
