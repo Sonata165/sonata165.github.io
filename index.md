@@ -129,6 +129,7 @@ Academic Reviewers
 <br>
 
 # Publications
+(* indicates equal contribution)
 
 ### Audio Content Analysis
 
