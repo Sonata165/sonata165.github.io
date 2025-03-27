@@ -35,7 +35,7 @@ Academic Reviewers
 
 # I'm an AI Researcher in NLP and Audio Processing.
 
-<b>[Open to Work] I'm open to Singapore-based part-time roles, starting from July 2025 </b>
+<!-- <b>[Open to Work] I'm open to Singapore-based part-time roles, starting from July 2025 </b> -->
 
 <!-- Style for image width at intro (responsive) -->
 <!-- <style>
