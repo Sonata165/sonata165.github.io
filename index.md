@@ -191,6 +191,17 @@ Academic Reviewers
 <br>
 
 # Internships
+
+### Associate Member (Research Collaboration), Sea AI Lab (SAIL)
+📍 Singapore · *Mar 2025 – Ongoing*  
+👨‍🏫 **Mentor:** Dr. [Longxu Dou](https://longxudou.github.io/){:target="_blank"}, Dr. [Bin Wang](https://binwang.xyz/){:target="_blank"}
+- I am integrating better audio understanding ability to LLMs.
+
+### Algorithm Engineer Intern, Huawei Singapore Research Center
+📍 Singapore · *Mar 2025 – Ongoing*  
+👨‍🏫 **Mentor:** Dr. [Hao Jia](https://www.linkedin.com/in/jia-hao-60a06737/?originalSubdomain=sg){:target="_blank"}
+- I am working on Text-to-Speech related projects.
+
 ### Research Intern, Sony Computer Science Laboratories (Sony CSL)
 📍 Tokyo, Japan · *Aug 2024 – Nov 2024*  
 👨‍🏫 **Mentor:** Dr. [Taketo Akama](https://x.com/tuktoe){:target="_blank"}
