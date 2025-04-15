@@ -33,7 +33,7 @@ Academic Reviewers
 [ <a href="#recent-news">News</a> | <a href="#publications">Publications</a> | <a href="#internships">Internships</a> | <a href="#other-projects">Projects</a> | <a href="#honors-and-awards">Awards</a> | <a href="#teaching">Teaching</a> | <a href="#academic-reviewers">Reviewer</a> ]
 </div>
 
-# I'm an AI Researcher in Audio, MIR, and NLP
+# I'm an AI Researcher in Audio, NLP, and Music
 
 <!-- <b>[Open to Work] I'm open to Singapore-based part-time roles, starting from July 2025 </b> -->
 
