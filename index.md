@@ -270,6 +270,7 @@ models. Work published in ICASSP 2025.
 <br>
 
 # Academic Reviewers
+- NeurIPS 2025
 - IEEE TAFFC (2024)
 - EAI ArtsIT 2024
 - ACM TOMM (2024, 2025)
