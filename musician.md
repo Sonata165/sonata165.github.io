@@ -176,6 +176,7 @@ In recent years, I have focused on arranging and performing contemporary pop mus
   [[Recording](){:target="_blank"}] - 2018.8
 - [**Backlit Flügel (逆光のフリューゲル)**](https://www.bilibili.com/audio/au428238){:target="_blank"}  
   [[Recording](){:target="_blank"}] - 2018.7
+- [**My First Album: 格调STYLE**](https://drive.google.com/file/d/1G-IIq_t0WrfmUpEqVWOw5x40EDJVbQIV/view?usp=sharing){:target="_blank"} - 2017.8  
 
 
 **Solo Guitar Arrangements**
