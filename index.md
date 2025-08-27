@@ -30,7 +30,7 @@ Academic Reviewers
 
 <!-- Navigator -->
 <div style="text-align:center;">
-[ <a href="#recent-news">News</a> | <a href="#publications">Publications</a> | <a href="#internships">Internships</a> | <a href="#other-projects">Projects</a> | <a href="#honors-and-awards">Awards</a> | <a href="#teaching">Teaching</a> | <a href="#academic-reviewers">Reviewer</a> ]
+[ <a href="#recent-news">News</a> | <a href="#publications">Publications</a> | <a href="#internships">Internships</a> | <a href="#other-projects">Projects</a> | <a href="#honors-and-awards">Awards</a> | <a href="#invited-talks">Invited Talks</a> | <a href="#teaching">Teaching</a> | <a href="#academic-reviewers">Reviewer</a> ]
 </div>
 
 # I'm an AI Researcher in Audio, NLP, and Music
@@ -193,44 +193,40 @@ Academic Reviewers
 
 # Internships
 
-### Associate Member (Research Collaboration), Sea AI Lab (SAIL)
-📍 Singapore · *Mar 2025 – Ongoing*  
-👨‍🏫 **Mentor:** Dr. [Longxu Dou](https://longxudou.github.io/){:target="_blank"}, Dr. [Bin Wang](https://binwang.xyz/){:target="_blank"}
+### Sea AI Lab (SAIL), Singapore  
+**Associate Member (Research Collaboration)** · *Mar 2025 – Jun 2025*  
+Mentor: Dr. [Longxu Dou](https://longxudou.github.io/){:target="_blank"}, Dr. [Bin Wang](https://binwang.xyz/){:target="_blank"}  
 - I am integrating better audio understanding ability to LLMs.
 
-### Algorithm Engineer Intern, Huawei Singapore Research Center
-📍 Singapore · *Mar 2025 – Ongoing*  
-👨‍🏫 **Mentor:** Dr. [Hao Jia](https://www.linkedin.com/in/jia-hao-60a06737/?originalSubdomain=sg){:target="_blank"}
+### Huawei Singapore Research Center, Singapore  
+**Algorithm Engineer Intern** · *Mar 2025 – Jun 2025*  
+Mentor: Dr. [Hao Jia](https://www.linkedin.com/in/jia-hao-60a06737/?originalSubdomain=sg){:target="_blank"}  
 - I am working on Text-to-Speech related projects.
 
-### Research Intern, Sony Computer Science Laboratories (Sony CSL)
-📍 Tokyo, Japan · *Aug 2024 – Nov 2024*  
-👨‍🏫 **Mentor:** Dr. [Taketo Akama](https://x.com/tuktoe){:target="_blank"}
-- Designed a tokenization scheme for Whisper to represent melody note sequences, enabling efficient
-transcription of musical elements.
-- Fine-tuned Whisper for lyric and melody transcription using frame-level and end-to-end approaches, achieving
-performance comparable to state-of-the-art models.
-- Implemented semi-supervised techniques, including auxiliary transposition-equivariant loss, pseudo-labeling,
-noisy student model, and FixMatch, to enhance transcription performance.
-- Applied diverse data augmentation strategies (time shift, time stretch, SpecAugment, and pitch shift) to improve
-the model’s ability to learn music-specific concepts and handle noisy labels.
+### Sony Computer Science Laboratories (Sony CSL), Tokyo  
+**Research Intern** · *Aug 2024 – Nov 2024*  
+Mentor: Dr. [Taketo Akama](https://x.com/tuktoe){:target="_blank"}  
+- Designed a tokenization scheme for Whisper to represent melody note sequences, enabling efficient transcription of musical elements.  
+- Fine-tuned Whisper for lyric and melody transcription using frame-level and end-to-end approaches, achieving performance comparable to state-of-the-art models.  
+- Implemented semi-supervised techniques, including auxiliary transposition-equivariant loss, pseudo-labeling, noisy student model, and FixMatch, to enhance transcription performance.  
+- Applied diverse data augmentation strategies (time shift, time stretch, SpecAugment, and pitch shift) to improve the model’s ability to learn music-specific concepts and handle noisy labels.
 
-### Research Intern, Yamaha Corporation, MixerAI Team
-📍 Hamamatsu, Japan · *May 2024 – Aug 2024*  
-👨‍🏫 **Mentor:** Dr. [Yu Takahashi](https://yuu-t.github.io/){:target="_blank"}
-- First work on [lead instrument detection](https://ieeexplore.ieee.org/abstract/document/10889928/){:target="_blank"} from multitrack music, providing annotated datasets and benchmark
-models. Work published in ICASSP 2025.  
 
-### Research Intern, Harvard University, Data Systems Laboratory  
-📍 Remote · *Aug 2020 – Sep 2020*  
-👨‍🏫 **Mentor:** Prof. [Stratos Idreos](https://scholar.google.com/citations?user=rg6Bl5YAAAAJ&hl=en){:target="_blank"}
+### Yamaha Corporation, MixerAI Team, Hamamatsu  
+**Research Intern** · *May 2024 – Aug 2024*  
+Mentor: Dr. [Yu Takahashi](https://yuu-t.github.io/){:target="_blank"}  
+- First work on [lead instrument detection](https://ieeexplore.ieee.org/abstract/document/10889928/){:target="_blank"} from multitrack music, providing annotated datasets and benchmark models. Work published in ICASSP 2025.  
+
+### Harvard University, Data Systems Laboratory (Remote)  
+**Research Intern** · *Aug 2020 – Sep 2020*  
+Mentor: Prof. [Stratos Idreos](https://scholar.google.com/citations?user=rg6Bl5YAAAAJ&hl=en){:target="_blank"}  
 - Contributed to the research [More or Less: When and How to Build Convolutional Neural Network Ensembles](https://openreview.net/pdf?id=z5Z023VBmDZ){:target="_blank"}, accepted at ICLR 2021.  
 
-### Back End Developer, Tencent, CDG Department  
-📍 Shenzhen, China · *July 2020 – Aug 2020*  
-👨‍🏫 **Mentor:** Luo Yunlong 
-- Enhanced a distributed online analytical processing system for user engagement data analysis.
-- Accelerated query processing speed by 120x through a distributed storage caching strategy.
+### Tencent, CDG Department, Shenzhen  
+**Back End Developer** · *Jul 2020 – Aug 2020*  
+Mentor: Luo Yunlong  
+- Enhanced a distributed online analytical processing system for user engagement data analysis.  
+- Accelerated query processing speed by 120x through a distributed storage caching strategy.  
 - Skills: Docker, Kubernetes, OLAP, Hadoop, Spark, Presto, Tencent Cloud, Go
 
 
@@ -260,6 +256,13 @@ models. Work published in ICASSP 2025.
 - **Honor Degree of Bachelor of Engineering**, issued by Harbin Institute of Technology Honors School, 2021.6.
 - **People Scholarship** (6%), issued by Harbin Institute of Technology, 2020.6.
 - **Third Prize**, Sogou Innovative Practice Project for College Student, 2018.10.
+
+<br>
+
+# Invited Talks
+- **AI in Music: From Understanding to Creation**, invited talk at Huawei Hisilicon, 2025.08.27.  
+  [ [Slides](https://docs.google.com/presentation/d/15augkvwT4N1Qp2AkdbcD0RS5DdP3GnfU9XhNELUHwaw/edit?usp=sharing) ]
+- **My Research in Music AI: Audio, Lyrics, and Symbolic Generation**, invited talk at Sony CSL, 2024.11.21.
 
 <br>
 
