@@ -102,7 +102,8 @@ Academic Reviewers
 
 <div style="height: 100px; overflow-y: scroll; border: 1px solid #ccc; padding: 10px; font-family: Times New Roman;background-color: gainsboro;">
 <ul>
-    <li> <b>[2024.12]</b> The paper <i>Lead Instrument Detection from Multitrack Music</i> is accepted by ICASSP 2025. </li>
+    <li> <b>[2025.9]</b> The paper <i><a href="https://arxiv.org/abs/2408.15176" target="_blank">Unifying Symbolic Music Arrangement: Track-Aware Reconstruction and Structured Tokenization</a></i> is accepted by NeurIPS 2025. </li>
+    <li> <b>[2024.12]</b> The paper <i><a href="https://ieeexplore.ieee.org/abstract/document/10889928/" target="_blank">Lead Instrument Detection from Multitrack Music</a></i> is accepted by ICASSP 2025. </li>
     <li> <b>[2024.12]</b> <a href="https://github.com/Sonata165/REMI-z" target="_blank">REMI-z tokenizer and MultiTrack music data structure</a> is now available in <a href="https://pypi.org/project/REMI-z/" target="_blank">PyPI</a>. This is my first open source project on pip :) </li>
     <li> <b>[2024.8]</b> I started my internship at Sony Computer Science Laboratories. </li>
     <li> <b>[2024.5]</b> I started my internship at YAMAHA at Hamamatsu, Shizuoka, Japan. </li>
@@ -148,11 +149,10 @@ Academic Reviewers
   *2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2022)*
 
 ### Controlled Generation (Text & Symbolic Music)
-- [**Unifying Multitrack Music Arrangement via Reconstruction Fine-Tuning and Efficient Tokenization**](https://arxiv.org/abs/2408.15176){:target="_blank"}  
-  **Longshen Ou**, [Jingwei Zhao](https://zhaojw1998.github.io/){:target="_blank"}, [Ziyu Wang](https://scholar.google.com/citations?user=QFOh6EgAAAAJ&hl=en){:target="_blank"}, [Gus Xia](https://mbzuai.ac.ae/study/faculty/dr-gus-xia/){:target="_blank"}, and [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/){:target="_blank"}  
-  *NeurIPS 2025 submission*  
-  [ [ArXiv](https://arxiv.org/abs/2408.15176){:target="_blank"} ]
-  <!-- [ [Demo](https://ae4rtjsyr.github.io/){:target="_blank"} | [ArXiv](https://arxiv.org/abs/2408.15176){:target="_blank"} ] -->
+- [**Unifying Symbolic Music Arrangement: Track-Aware Reconstruction and Structured Tokenization**](https://arxiv.org/abs/2408.15176){:target="_blank"}  
+  **Longshen Ou**, [Jingwei Zhao](https://zhaojw1998.github.io/){:target="_blank"}, [Ziyu Wang](https://scholar.google.com/citations?user=QFOh6EgAAAAJ&hl=en){:target="_blank"}, [Gus Xia](https://mbzuai.ac.ae/study/faculty/dr-gus-xia/){:target="_blank"}, [Qihao Liang](https://www.linkedin.com/in/qihao-liang-3a17ba249/), [Torin Hopkins](https://www.torinhopkins.com/), and [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/){:target="_blank"}  
+  *Accepted by NeurIPS 2025*  
+  [ [Demo](https://ae4rtjsyr.github.io/){:target="_blank"} | [ArXiv](https://arxiv.org/abs/2408.15176){:target="_blank"} ]
 
 - [**Songs Across Borders: Singable and Controllable Neural Lyric Translation**](https://aclanthology.org/2023.acl-long.27/){:target="_blank"}  
   **Longshen Ou**, [Xichu Ma](https://dblp.org/pid/179/9890.html){:target="_blank"}, [Min-Yen Kan](https://www.comp.nus.edu.sg/~kanmy/){:target="_blank"}, [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/){:target="_blank"}  
