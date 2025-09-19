@@ -193,17 +193,17 @@ Academic Reviewers
 
 # Internships
 
-### Sea AI Lab (SAIL), Singapore  
+### **Sea AI Lab (SAIL), Singapore**  
 **Associate Member (Research Collaboration)** · *Mar 2025 – Jun 2025*  
 Mentor: Dr. [Longxu Dou](https://longxudou.github.io/){:target="_blank"}, Dr. [Bin Wang](https://binwang.xyz/){:target="_blank"}  
 - I am integrating better audio understanding ability to LLMs.
 
-### Huawei Singapore Research Center, Singapore  
+### **Huawei Singapore Research Center, Singapore**  
 **Algorithm Engineer Intern** · *Mar 2025 – Jun 2025*  
 Mentor: Dr. [Hao Jia](https://www.linkedin.com/in/jia-hao-60a06737/?originalSubdomain=sg){:target="_blank"}  
 - I am working on Text-to-Speech related projects.
 
-### Sony Computer Science Laboratories (Sony CSL), Tokyo  
+### **Sony Computer Science Laboratories (Sony CSL)**  
 **Research Intern** · *Aug 2024 – Nov 2024*  
 Mentor: Dr. [Taketo Akama](https://x.com/tuktoe){:target="_blank"}  
 - Designed a tokenization scheme for Whisper to represent melody note sequences, enabling efficient transcription of musical elements.  
@@ -212,17 +212,17 @@ Mentor: Dr. [Taketo Akama](https://x.com/tuktoe){:target="_blank"}
 - Applied diverse data augmentation strategies (time shift, time stretch, SpecAugment, and pitch shift) to improve the model’s ability to learn music-specific concepts and handle noisy labels.
 
 
-### Yamaha Corporation, MixerAI Team, Hamamatsu  
+### **Yamaha Corporation, MixerAI Team**, Hamamatsu  
 **Research Intern** · *May 2024 – Aug 2024*  
 Mentor: Dr. [Yu Takahashi](https://yuu-t.github.io/){:target="_blank"}  
 - First work on [lead instrument detection](https://ieeexplore.ieee.org/abstract/document/10889928/){:target="_blank"} from multitrack music, providing annotated datasets and benchmark models. Work published in ICASSP 2025.  
 
-### Harvard University, Data Systems Laboratory (Remote)  
+### **Harvard University, Data Systems Laboratory**  
 **Research Intern** · *Aug 2020 – Sep 2020*  
 Mentor: Prof. [Stratos Idreos](https://scholar.google.com/citations?user=rg6Bl5YAAAAJ&hl=en){:target="_blank"}  
 - Contributed to the research [More or Less: When and How to Build Convolutional Neural Network Ensembles](https://openreview.net/pdf?id=z5Z023VBmDZ){:target="_blank"}, accepted at ICLR 2021.  
 
-### Tencent, CDG Department, Shenzhen  
+### **Tencent, CDG Department**, Shenzhen  
 **Back End Developer** · *Jul 2020 – Aug 2020*  
 Mentor: Luo Yunlong  
 - Enhanced a distributed online analytical processing system for user engagement data analysis.  
