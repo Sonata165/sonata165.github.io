@@ -237,6 +237,7 @@ In recent years, I have focused on arranging and performing contemporary pop mus
 
 
 ## Performance
+- [**Geyao's Live at Wire Entertainment**](https://youtu.be/JqGJYjfbwQc) - 2024.11
 - **Sound and Music Computing Lab Concert 2024** - 2024.10
   - [**Seria's Song**](https://youtu.be/Lxo0b75DGWU){:target="_blank"}
   - [**Daddy's Lessons**](https://youtu.be/Dgdj5ASytxc){:target="_blank"}
