@@ -152,7 +152,7 @@ Academic Reviewers
 - [**Unifying Symbolic Music Arrangement: Track-Aware Reconstruction and Structured Tokenization**](https://neurips.cc/virtual/2025/poster/119044){:target="_blank"}  
   **Longshen Ou**, [Jingwei Zhao](https://zhaojw1998.github.io/){:target="_blank"}, [Ziyu Wang](https://scholar.google.com/citations?user=QFOh6EgAAAAJ&hl=en){:target="_blank"}, [Gus Xia](https://mbzuai.ac.ae/study/faculty/dr-gus-xia/){:target="_blank"}, [Qihao Liang](https://www.linkedin.com/in/qihao-liang-3a17ba249/), [Torin Hopkins](https://www.torinhopkins.com/), and [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/){:target="_blank"}  
   *Accepted by NeurIPS 2025*  
-  [ [Demo](https://ae4rtjsyr.github.io/){:target="_blank"} | [ArXiv](https://arxiv.org/abs/2408.15176){:target="_blank"} ]
+  [ [Demo](https://ae4rtjsyr.github.io/){:target="_blank"} | [Code](https://github.com/Sonata165/music2music_code){:target="_blank"} | [ArXiv](https://arxiv.org/abs/2408.15176){:target="_blank"} ]
 
 - [**Songs Across Borders: Singable and Controllable Neural Lyric Translation**](https://aclanthology.org/2023.acl-long.27/){:target="_blank"}  
   **Longshen Ou**, [Xichu Ma](https://dblp.org/pid/179/9890.html){:target="_blank"}, [Min-Yen Kan](https://www.comp.nus.edu.sg/~kanmy/){:target="_blank"}, [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/){:target="_blank"}  
