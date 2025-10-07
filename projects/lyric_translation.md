@@ -4,10 +4,6 @@ title: "Songs Across Boarders: Singable and Controllable Neural Lyric Translatio
 permalink: /lyric_translation
 ---
 
-<!-- Viewer Counter Tag -->
-<!-- <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
-</script> -->
-
 <!-- Google Analytics tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-MK1PD93QHP"></script>
 <script>
