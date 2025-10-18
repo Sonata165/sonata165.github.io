@@ -71,7 +71,7 @@ Academic Reviewers
   </div>
   <div style="width: 66%;">
     <p>
-    I am a last-year PhD candidate in the <a href="https://smcnus.comp.nus.edu.sg/" target="_blank">Sound and Music Computing Lab</a>, School of Computing, National University of Singapore, advised by Prof. <a href="https://www.comp.nus.edu.sg/cs/people/wangye/" target="_blank">Ye Wang (王晔)</a>. My research focuses on advancing music information retrieval (MIR), audio and speech processing, and natural language processing (NLP) through deep learning techniques. I am particularly interested in the automatic transcription, generation, and translation of music and lyrics, with a strong focus on self-supervised learning, transfer learning, and controlled generation for real-world applications. Prior to joining NUS, I earned my Bachelor's degree in Computer Science with honors from the Harbin Institute of Technology and completed my bachelor's thesis on piano music transcription at the Auditory Intelligence Research Center, advised by Prof. <a href="http://homepage.hit.edu.cn/hanjiqing?lang=zh" target="_blank">Jiqing Han (韩纪庆)</a>.
+    I am a last-year PhD candidate in the <a href="https://smcnus.comp.nus.edu.sg/" target="_blank">Sound and Music Computing Lab</a>, School of Computing, National University of Singapore, advised by Prof. <a href="https://www.comp.nus.edu.sg/cs/people/wangye/" target="_blank">Ye Wang (王晔)</a>. My research focuses on advancing music information retrieval (MIR), audio and speech processing, and natural language processing (NLP) through deep learning methods. I am particularly interested in the automatic transcription, generation, and translation of music and lyrics, with a strong focus on self-supervised learning, transfer learning, and controlled generation for real-world applications. Prior to joining NUS, I earned my Bachelor's degree in Computer Science with honors from the Harbin Institute of Technology and completed my bachelor's thesis on piano music transcription at the Auditory Intelligence Research Center, advised by Prof. <a href="http://homepage.hit.edu.cn/hanjiqing?lang=zh" target="_blank">Jiqing Han (韩纪庆)</a>.
     </p>
   </div>
 </div>
@@ -151,7 +151,7 @@ Academic Reviewers
 ### Controlled Generation (Text & Symbolic Music)
 - [**Unifying Symbolic Music Arrangement: Track-Aware Reconstruction and Structured Tokenization**](https://neurips.cc/virtual/2025/poster/119044){:target="_blank"}  
   **Longshen Ou**, [Jingwei Zhao](https://zhaojw1998.github.io/){:target="_blank"}, [Ziyu Wang](https://scholar.google.com/citations?user=QFOh6EgAAAAJ&hl=en){:target="_blank"}, [Gus Xia](https://mbzuai.ac.ae/study/faculty/dr-gus-xia/){:target="_blank"}, [Qihao Liang](https://www.linkedin.com/in/qihao-liang-3a17ba249/), [Torin Hopkins](https://www.torinhopkins.com/), and [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/){:target="_blank"}  
-  *Accepted by NeurIPS 2025*  
+  *The Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS 2025)*  
   [ [Demo](/automatic_arrangement){:target="_blank"} | [Code](https://github.com/Sonata165/music2music_code){:target="_blank"} | [ArXiv](https://arxiv.org/abs/2408.15176){:target="_blank"} ]
 <!-- [Demo](https://ae4rtjsyr.github.io/){:target="_blank"} -->
 
