@@ -28,7 +28,7 @@ Contact
 <!-- Updates: I am putting more arrangements and recordings on this site. -->
 
 <div style="text-align:center;">
-[ <a href="#recent-news">News</a> | <a href="#recordings">Recordings</a> | <a href="#arrangements">Arrangements</a> | <a href="#performance">Performance</a> | <a href="#tools-for-musicians">Toolkits</a> | <a href="#certificate-and-awards">Awards</a> | <a href="#contact-me">Contact Me</a> ]
+[ <a href="#recent-news">News</a> | <a href="#recordings">Recordings</a> | <a href="#performance">Performance</a> | <a href="#tools-for-musicians">Toolkits</a> | <a href="#certificate-and-awards">Awards</a> | <a href="#contact-me">Contact Me</a> ]
 </div>
 
 
@@ -223,7 +223,7 @@ In recent years, I have focused on arranging and performing contemporary pop mus
 
 
 
-## Other Arrangements
+<!-- ## Other Arrangements
 - [**Fly Me to the Moon (Chord Melody Guitar)**](assets/pdf/sheet_music/Fly me to the moon.pdf){:target="_blank"} - 2024.1. 
 - [**Girl (女孩) (Violin Accompaniment within the Band)**](assets/pdf/sheet_music/Girl.pdf){:target="_blank"} - 2023.8. Original song by WeiBird (韦礼安). 
 - [**Womxnly (玫瑰少年) (Violin Accompaniment within the Band)**](){:target="_blank"} - 2023.8. Original song by Jolin Tsai. 
@@ -232,7 +232,7 @@ In recent years, I have focused on arranging and performing contemporary pop mus
 - [**First Love (Violin Accompaniment within the Band)**](){:target="_blank"} - 2023.2.
 - [**不死鸟之炎 (Violin Duet)**](){:target="_blank"} - 2020.5.
 - [**Morvan (Duet for Violin and Guitar)**](){:target="_blank"} - 2018.5.
-- [**Unkown Pollution (Violin Duet)**](){:target="_blank"} - 2018.2.
+- [**Unkown Pollution (Violin Duet)**](){:target="_blank"} - 2018.2. -->
 
 
 
