@@ -493,3 +493,13 @@ Arrange for instrument: <em style="color: #d62728;">Drumset</em>.
 
 <script src="/assets/js/html-midi-player-bundle.js"></script>
 <script src="/assets/js/midi-audio-sync.js"></script>
+
+## Citation
+<pre style="background-color: #f0f0f0; font-family: Courier, Consolas, monospace;">
+@inproceedings{ou2025unifying,
+  title     = {Unifying Symbolic Music Arrangement: Track-Aware Reconstruction and Structured Tokenization},
+  author    = {Ou, Longshen and Zhao, Jingwei and Wang, Ziyu and Xia, Gus and Liang, Qihao and Hopkins, Torin and Wang, Ye},
+  booktitle = {Proceedings of the 39th Conference on Neural Information Processing Systems (NeurIPS)},
+  year      = {2025}
+}
+</pre>
