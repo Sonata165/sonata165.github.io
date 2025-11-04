@@ -1,1 +1,0 @@
-This is Longshen Ou's personal website, powered by Jekyll.
