@@ -3,9 +3,6 @@ layout: page
 title: "Unifying Symbolic Music Arrangement: Track-Aware Reconstruction and Structured Tokenization"
 permalink: /automatic_arrangement
 ---
-
-NeurIPS 2025 Submission 19229
-
  
 <!-- Google Analytics tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-MK1PD93QHP"></script>
@@ -17,8 +14,8 @@ NeurIPS 2025 Submission 19229
   gtag('config', 'G-MK1PD93QHP');
 </script>
 
+NeurIPS 2025 Submission 19229
 
-Being updated ...
 
 # **Links**: [ [Paper](https://arxiv.org/abs/2408.15176){:target="_blank"} ] | [ [Code](https://github.com/Sonata165/music2music_code){:target="_blank"} ] | [ [Citation](#citation) ]
 
