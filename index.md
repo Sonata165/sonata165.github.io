@@ -160,7 +160,7 @@ Academic Reviewers
   *The 61st Annual Meeting of the Association for Computational Linguistics (ACL 2023)*  
   [ [Demo](/lyric_translation){:target="_blank"} | [Code](https://github.com/Sonata165/ControllableLyricTranslation){:target="_blank"} | [ISMIR 2023 Late Breaking Demo](https://ismir2023program.ismir.net/lbd_347.html){:target="_blank"} | [ArXiv](https://arxiv.org/abs/2305.16816){:target="_blank"} ]
 
-- [**LOAF-M2L: Joint Learning of Wording and Formatting for Singable Melody-to-Lyric Generation**](https://arxiv.org/abs/2307.02146){:target="_blank"}  
+- [**Joint Learning of Wording and Formatting for Singable Melody-to-Lyric Generation**](https://arxiv.org/abs/2307.02146){:target="_blank"}  
   **Longshen Ou**, [Xichu Ma](https://dblp.org/pid/179/9890.html){:target="_blank"}, and [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/){:target="_blank"}  
   *Journal of New Music Research 2023 submission*  
 
