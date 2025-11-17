@@ -213,6 +213,7 @@ In recent years, I have focused on arranging and performing contemporary pop mus
     </div>
 </div>
 
+- [**Like a Star**](https://www.youtube.com/watch?v=KONyitl9bt8){:target="_blank"} - 2025.11
 - [**Freedom (Kimama) (Guitar Cover)**](https://www.youtube.com/watch?v=r4G54wsKhEM){:target="_blank"} - 2025.7
 - [**Take Me Home, Country Road (Guitar Cover)**](https://www.youtube.com/watch?v=R-_N1yTjPWk){:target="_blank"} - 2025.3
 - [**Romance No. 3 'Elegy' (Guitar Cover)**](https://www.youtube.com/watch?v=MJq7VNlBH2c){:target="_blank"} - 2024.12
