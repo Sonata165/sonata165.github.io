@@ -198,7 +198,7 @@ In recent years, I have focused on arranging and performing contemporary pop mus
 - [**FIRST LOVE SONG**](https://www.bilibili.com/video/BV1HV411g7FR/){:target="_blank"} -   
   [[Sheet](){:target="_blank"}] - 2023.6
 
-**Covers**
+**Guitar Covers**
 
 <div class="video-container">
     <div class="video">
@@ -213,12 +213,15 @@ In recent years, I have focused on arranging and performing contemporary pop mus
     </div>
 </div>
 
-- [**Like a Star**](https://www.youtube.com/watch?v=KONyitl9bt8){:target="_blank"} - 2025.11
-- [**Freedom (Kimama) (Guitar Cover)**](https://www.youtube.com/watch?v=r4G54wsKhEM){:target="_blank"} - 2025.7
-- [**Take Me Home, Country Road (Guitar Cover)**](https://www.youtube.com/watch?v=R-_N1yTjPWk){:target="_blank"} - 2025.3
-- [**Romance No. 3 'Elegy' (Guitar Cover)**](https://www.youtube.com/watch?v=MJq7VNlBH2c){:target="_blank"} - 2024.12
-- [**Gentle Breeze (そよ風) (Guitar Cover)**](https://www.youtube.com/watch?v=vAAhXHuWJmI){:target="_blank"} - 2024.5  
-- [**Night Street (Guitar Cover)**](https://www.bilibili.com/video/BV17Y411w7Av){:target="_blank"} - 2022.5  
+- [**Like a Star - Kim Young So**](https://www.youtube.com/watch?v=KONyitl9bt8){:target="_blank"} - 2025.11
+- [**Freedom (Kimama) - Koujun**](https://www.youtube.com/watch?v=r4G54wsKhEM){:target="_blank"} - 2025.7
+- [**Take Me Home, Country Road - John Denver / Koujun**](https://www.youtube.com/watch?v=R-_N1yTjPWk){:target="_blank"} - 2025.3
+- [**Romance No. 3 'Elegy' - John Brunning / Xuefei Yang**](https://www.youtube.com/watch?v=MJq7VNlBH2c){:target="_blank"} - 2024.12
+- [**Gentle Breeze (そよ風) - Koujun**](https://www.youtube.com/watch?v=vAAhXHuWJmI){:target="_blank"} - 2024.5  
+- [**Night Street - Yuki Matsui**](https://www.bilibili.com/video/BV17Y411w7Av){:target="_blank"} - 2022.5  
+
+**Vocal Covers**
+(Just for fun)
 - [**Message (Vocal Cover)**](https://www.bilibili.com/audio/au398879){:target="_blank"} - 2018.7  
 - [**Gungnir, the Striking Spear (撃槍・ガングニール) (Vocal Cover)**](https://www.bilibili.com/audio/au387526){:target="_blank"} - 2018.7  
 
