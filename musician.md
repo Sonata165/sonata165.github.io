@@ -205,7 +205,6 @@ In recent years, I have focused on arranging and performing contemporary pop mus
         <iframe src="https://www.youtube.com/embed/vAAhXHuWJmI?si=PPZzhf9AdKDMeD1u;controls=0&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
     <div class="video">
-        <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/Yq8uPWmY2h0?si=QaEBj7TG458zx6bJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
         <iframe width="560" height="315" src="https://www.youtube.com/embed/R-_N1yTjPWk?si=ThoI3oTloO7Bsl9R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
     <div class="video">
