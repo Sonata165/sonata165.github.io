@@ -181,7 +181,7 @@ Academic Reviewers
   *Proceedings of the 30th ACM International Conference on Multimedia (ACM Multimedia 2022)*   
   [ [Demo](https://n20em.github.io/){:target="_blank"} | [Code](https://github.com/guxm2021/MM_ALT){:target="_blank"} | [Dataset](https://zenodo.org/record/7545968){:target="_blank"} | [Press](https://www.comp.nus.edu.sg/news/features/2023-marvellous-richness-wye/){:target="_blank"} | [ArXiv](https://arxiv.org/abs/2207.06127){:target="_blank"} ]
 
-### Other Sequence Transformation
+### Applied Sequence Modeling: DNA
 
 - [**DNA Storage Toolkit: A Modular End-to-End DNA Data Storage Codec and Simulator**](https://ieeexplore.ieee.org/abstract/document/10590050/){:target="_blank"}  
   [Puru Sharma](https://prongs1996.github.io/){:target="_blank"}, Gary Goh, Bin Gao, **Longshen Ou**, Dehui Lin, Deepak Sharma, Djordje Jevdjic  
