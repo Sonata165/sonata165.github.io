@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Unifying Symbolic Music Arrangement: Track-Aware Reconstruction and Structured Tokenization"
-permalink: /automatic_arrangement
+title: "PhraseLDM: Latent Diffusion for Full-Song Multitrack Symbolic Music Generation"
+permalink: /midi_ldm
 ---
  
 <!-- Google Analytics tag (gtag.js) -->
@@ -14,8 +14,6 @@ permalink: /automatic_arrangement
   gtag('config', 'G-MK1PD93QHP');
 </script>
 
-NeurIPS 2025 Submission 19229
-
 
 # **Links**: [ [Paper](https://arxiv.org/abs/2408.15176){:target="_blank"} ] | [ [Code](https://github.com/Sonata165/music2music_code){:target="_blank"} ] | [ [Citation](#citation) ]
 
@@ -23,8 +21,6 @@ Abstract: We present a unified framework for automatic multitrack music arrangem
 
 <!-- Merged from ae4rtjsyr.github.io front page. Assets referenced via CDN to avoid 404 errors. -->
 
-<!-- Bootstrap CSS -->
-<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"> -->
 <!-- Font Awesome -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 <!-- Animate.css -->
