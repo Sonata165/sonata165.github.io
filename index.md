@@ -150,7 +150,7 @@ Academic Reviewers
 
 ### Symbolic Music Generation
 
-- **PhraseLDM: Latent Diffusion for Full-Song Multitrack Symbolic Music Generation**  
+- **PhraseVAE and PhraseLDM: Latent Diffusion for Full-Song Multitrack Symbolic Music Generation**  
   [ [Demo](/midi_ldm) ]
 
 - [**Unifying Symbolic Music Arrangement: Track-Aware Reconstruction and Structured Tokenization**](https://neurips.cc/virtual/2025/poster/119044){:target="_blank"}  
