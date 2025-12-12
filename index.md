@@ -243,6 +243,9 @@ Mentor: Luo Yunlong
   This tool helps to convert your music between MIDI and REMI-z representation, which is an efficient sequence representation of multitrack music, meanwhile facilitate manipulate the music at bar level.  
   [ [github](https://github.com/Sonata165/REMI-z) | [PyPI](https://pypi.org/project/REMI-z/) ]
 
+- [**Guitar Arranger**](https://github.com/Sonata165/GuitarArranger){:target="_blank"}  
+  This tool generates solo guitar arrangements from any MIDI song. It models both left-hand fingering and right-hand picking patterns. The system consists of two main modules: **Voicer**, which finds economical fretboard positions to play melody and harmony simultaneously across all musical blocks; and **Arpeggiator**, which generates picking patterns that simulate the rhythmic feel of the original piece.
+
 - [**Unofficial MuseCoco**](https://github.com/Sonata165/UnofficialMuseCoco){:target="_blank"}  
   This is a Hugging Face Transformers implementation of [MuseCoco](https://arxiv.org/abs/2306.00110)'s attribute-to-music generation model, originally built on Fairseq, which has not been actively maintained for years. The old version tightly coupled the model, configuration, task, and data pipeline, making it difficult to modify, while also re-generating all prefixes at inference, causing unnecessary slowdowns. This revamped version, based on Hugging Face GPT-2, is much more flexible, allowing for easier customization and fine-tuning while significantly improving inference speed by continuing generation from a given prefix instead of recomputing everything. A faster, more modular, and user-friendly implementation.
 
