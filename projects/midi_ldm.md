@@ -20,6 +20,9 @@ permalink: /midi_ldm
 Abstract: This technical report presents a new paradigm for full-song symbolic music generation. Existing symbolic models operate on note-attribute tokens and suffer from extremely long sequences, limited context length, and weak support for long-range structure. We address these issues by introducing PhraseVAE and PhraseLDM, the first latent diffusion framework designed for multitrack symbolic music. PhraseVAE compresses variable-length note sequences into compact 64-dimensional phrase-level representations with high reconstruction fidelity, allowing efficient training and a well-structured latent space. Built on this latent space, PhraseLDM generates an entire multi-track song in a single pass without any autoregressive components. The system eliminates bar-wise sequential modeling, supports up to 128 bars of music (8 minutes in 64 bpm), and produces complete songs with coherent local texture, idiomatic instrument patterns, and clear global structure. With only 45M parameters, our framework generates a full song within seconds while maintaining competitive musical quality and generation diversity. Together, these results show that phrase-level latent diffusion provides an effective and scalable solution to long-sequence modeling in symbolic music generation. We hope this work encourages future symbolic music research to move beyond note-attribute tokens and to consider phrase-level units as a more effective and musically meaningful modeling target.
 
 
+## Demos
+Here we present [generated samples](https://drive.google.com/file/d/1NbEQTythbUfEKNGDaoPU8c8RpMzqBvkT/view?usp=sharing){:target="_blank"} collected throughout the entire course of the project, without cherry-picking.
+
 
 ## Citation
 <pre style="background-color: #f0f0f0; font-family: Courier, Consolas, monospace;">
