@@ -152,7 +152,7 @@ Academic Reviewers
 
 - [**PhraseVAE and PhraseLDM: Latent Diffusion for Full-Song Multitrack Symbolic Music Generation**](/assets/pdf/papers/PhraseLDM_Report.pdf){:target="_blank"}  
   **Longshen Ou**, [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/){:target="_blank"}  
-  [ [Demo](/midi_ldm) ]
+  [ [Demo](/midi_ldm) ] | [ [ArXiv](https://arxiv.org/abs/2512.11348){:target="_blank"} ]
 
 - [**Unifying Symbolic Music Arrangement: Track-Aware Reconstruction and Structured Tokenization**](https://neurips.cc/virtual/2025/poster/119044){:target="_blank"}  
   **Longshen Ou**, [Jingwei Zhao](https://zhaojw1998.github.io/){:target="_blank"}, [Ziyu Wang](https://scholar.google.com/citations?user=QFOh6EgAAAAJ&hl=en){:target="_blank"}, [Gus Xia](https://mbzuai.ac.ae/study/faculty/dr-gus-xia/){:target="_blank"}, [Qihao Liang](https://www.linkedin.com/in/qihao-liang-3a17ba249/), [Torin Hopkins](https://www.torinhopkins.com/), and [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/){:target="_blank"}  
