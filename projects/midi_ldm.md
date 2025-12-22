@@ -487,7 +487,7 @@ Below are some representative (cherry picked) results to showcase the generation
       <audio controls style="width: 100%; margin-bottom: 1em;">
         <source src="assets/for_projects/PhraseLDM/quality_showcase/texture/1.mp3" type="audio/mpeg">
       </audio>
-      <p style="font-size: 12px; color: #666; margin: 0; line-height: 1.4;">Delicate arpeggiated patterns with subtle dynamics.</p>
+      <p style="font-size: 12px; color: #666; margin: 0; line-height: 1.4;">Classic arpeggiated patterns, resolving with a II–V–I progression.</p>
     </div>
   </div>
 
@@ -500,7 +500,7 @@ Below are some representative (cherry picked) results to showcase the generation
       <audio controls style="width: 100%; margin-bottom: 1em;">
         <source src="assets/for_projects/PhraseLDM/quality_showcase/texture/2.mp3" type="audio/mpeg">
       </audio>
-      <p style="font-size: 12px; color: #666; margin: 0; line-height: 1.4;">Rich chordal progressions with melodic bass lines.</p>
+      <p style="font-size: 12px; color: #666; margin: 0; line-height: 1.4;">Chord stabs with a syncopated bass, and occasional fast arpeggios to drive the momentum forward.</p>
     </div>
   </div>
 
@@ -513,7 +513,7 @@ Below are some representative (cherry picked) results to showcase the generation
       <audio controls style="width: 100%; margin-bottom: 1em;">
         <source src="assets/for_projects/PhraseLDM/quality_showcase/texture/3.mp3" type="audio/mpeg">
       </audio>
-      <p style="font-size: 12px; color: #666; margin: 0; line-height: 1.4;">Rhythmic patterns with syncopated accompaniment.</p>
+      <p style="font-size: 12px; color: #666; margin: 0; line-height: 1.4;">A semi-arpeggiated pattern with an embedded counter-melody, forming an intricate texture, punctuated by short block-chord stabs for surprise.</p>
     </div>
   </div>
 
