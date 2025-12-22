@@ -15,7 +15,7 @@ permalink: /midi_ldm
 </script>
 
 
-# **Links**: [ [Paper](){:target="_blank"} ] | [ [Code](https://github.com/Sonata165/PhraseLDM_code){:target="_blank"} ] | [ [Citation](#citation) ]
+# **Links**: [ [Paper](https://arxiv.org/abs/2512.11348){:target="_blank"} ] | [ [Code](https://github.com/Sonata165/PhraseLDM_code){:target="_blank"} ] | [ [Citation](#citation) ]
 
 Abstract: This technical report presents a new paradigm for full-song symbolic music generation. Existing symbolic models operate on note-attribute tokens and suffer from extremely long sequences, limited context length, and weak support for long-range structure. We address these issues by introducing PhraseVAE and PhraseLDM, the first latent diffusion framework designed for multitrack symbolic music. PhraseVAE compresses variable-length note sequences into compact 64-dimensional phrase-level representations with high reconstruction fidelity, allowing efficient training and a well-structured latent space. Built on this latent space, PhraseLDM generates an entire multi-track song in a single pass without any autoregressive components. The system eliminates bar-wise sequential modeling, supports up to 128 bars of music (8 minutes in 64 bpm), and produces complete songs with coherent local texture, idiomatic instrument patterns, and clear global structure. With only 45M parameters, our framework generates a full song within seconds while maintaining competitive musical quality and generation diversity. Together, these results show that phrase-level latent diffusion provides an effective and scalable solution to long-sequence modeling in symbolic music generation. We hope this work encourages future symbolic music research to move beyond note-attribute tokens and to consider phrase-level units as a more effective and musically meaningful modeling target.
 
@@ -472,7 +472,7 @@ function showTab3(tabNumber) {
 
 ### Quality Showcase
 
-Below are some representative (cherry picked) results to showcase the local quality.
+Below are some representative (cherry picked) results to showcase the generation quality.
 
 #### Piano Textures
 
@@ -530,10 +530,10 @@ Below are some representative (cherry picked) results to showcase the local qual
       <img src="assets/for_projects/PhraseLDM/quality_showcase/intro/1.png" alt="Intro Song 1 Piano Roll" style="width: 100%; height: auto;">
     </div>
     <div>
-      <img src="assets/for_projects/PhraseLDM/quality_showcase/intro/1.png" alt="Intro Song 2 Piano Roll" style="width: 100%; height: auto;">
+      <img src="assets/for_projects/PhraseLDM/quality_showcase/intro/2.png" alt="Intro Song 2 Piano Roll" style="width: 100%; height: auto;">
     </div>
     <div>
-      <img src="assets/for_projects/PhraseLDM/quality_showcase/intro/1.png" alt="Intro Song 3 Piano Roll" style="width: 100%; height: auto;">
+      <img src="assets/for_projects/PhraseLDM/quality_showcase/intro/3.png" alt="Intro Song 3 Piano Roll" style="width: 100%; height: auto;">
     </div>
   </div>
 
@@ -551,7 +551,7 @@ Below are some representative (cherry picked) results to showcase the local qual
     </div>
     <div>
       <audio controls style="width: 100%;">
-        <source src="assets/for_projects/PhraseLDM/quality_showcase/intro/1.mp3" type="audio/mpeg">
+        <source src="assets/for_projects/PhraseLDM/quality_showcase/intro/3.mp3" type="audio/mpeg">
       </audio>
     </div>
   </div>
@@ -568,10 +568,10 @@ Below are some representative (cherry picked) results to showcase the local qual
       <img src="assets/for_projects/PhraseLDM/quality_showcase/outro/1.png" alt="Outro Song 1 Piano Roll" style="width: 100%; height: auto;">
     </div>
     <div>
-      <img src="assets/for_projects/PhraseLDM/quality_showcase/outro/1.png" alt="Outro Song 2 Piano Roll" style="width: 100%; height: auto;">
+      <img src="assets/for_projects/PhraseLDM/quality_showcase/outro/2.png" alt="Outro Song 2 Piano Roll" style="width: 100%; height: auto;">
     </div>
     <div>
-      <img src="assets/for_projects/PhraseLDM/quality_showcase/outro/1.png" alt="Outro Song 3 Piano Roll" style="width: 100%; height: auto;">
+      <img src="assets/for_projects/PhraseLDM/quality_showcase/outro/3.png" alt="Outro Song 3 Piano Roll" style="width: 100%; height: auto;">
     </div>
   </div>
 
@@ -589,7 +589,7 @@ Below are some representative (cherry picked) results to showcase the local qual
     </div>
     <div>
       <audio controls style="width: 100%;">
-        <source src="assets/for_projects/PhraseLDM/quality_showcase/outro/1.mp3" type="audio/mpeg">
+        <source src="assets/for_projects/PhraseLDM/quality_showcase/outro/3.mp3" type="audio/mpeg">
       </audio>
     </div>
   </div>
@@ -606,7 +606,7 @@ Below are some representative (cherry picked) results to showcase the local qual
       <img src="assets/for_projects/PhraseLDM/quality_showcase/interlude/1.png" alt="Interlude Song 1 Piano Roll" style="width: 100%; height: auto;">
     </div>
     <div>
-      <img src="assets/for_projects/PhraseLDM/quality_showcase/interlude/1.png" alt="Interlude Song 2 Piano Roll" style="width: 100%; height: auto;">
+      <img src="assets/for_projects/PhraseLDM/quality_showcase/interlude/2.png" alt="Interlude Song 2 Piano Roll" style="width: 100%; height: auto;">
     </div>
   </div>
 
