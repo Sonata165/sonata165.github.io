@@ -17,12 +17,12 @@ permalink: /midi_ldm
 
 # **Links**: [ [Paper](https://arxiv.org/abs/2512.11348){:target="_blank"} ] | [ [Code](https://github.com/Sonata165/PhraseLDM_code){:target="_blank"} ] | [ [Citation](#citation) ]
 
-Abstract: This technical report presents a new paradigm for full-song symbolic music generation. Existing symbolic models operate on note-attribute tokens and suffer from extremely long sequences, limited context length, and weak support for long-range structure. We address these issues by introducing PhraseVAE and PhraseLDM, the first latent diffusion framework designed for multitrack symbolic music. PhraseVAE compresses variable-length note sequences into compact 64-dimensional phrase-level representations with high reconstruction fidelity, allowing efficient training and a well-structured latent space. Built on this latent space, PhraseLDM generates an entire multi-track song in a single pass without any autoregressive components. The system eliminates bar-wise sequential modeling, supports up to 128 bars of music (8 minutes in 64 bpm), and produces complete songs with coherent local texture, idiomatic instrument patterns, and clear global structure. With only 45M parameters, our framework generates a full song within seconds while maintaining competitive musical quality and generation diversity. Together, these results show that phrase-level latent diffusion provides an effective and scalable solution to long-sequence modeling in symbolic music generation. We hope this work encourages future symbolic music research to move beyond note-attribute tokens and to consider phrase-level units as a more effective and musically meaningful modeling target.
+Abstract: This technical report presents a new paradigm for full-song symbolic music generation. Existing symbolic models operate on note-attribute tokens and suffer from extremely long sequences, limited context length, and weak support for long-range structure. We address these issues by introducing PhraseVAE and PhraseLDM, the first latent diffusion framework designed for **full-song multitrack** symbolic music. PhraseVAE compresses an arbitrary variable-length polyphonic note sequence into a single compact 64-dimensional phrase-level latent representation with high reconstruction fidelity, allowing a well-structured latent space and efficient generative modeling. Built on this latent space, PhraseLDM generates an entire multi-track song in a single pass without any autoregressive components. The system eliminates bar-wise sequential modeling, supports up to 128 bars of music (8 minutes at 64 bpm), and produces complete songs with coherent local texture, idiomatic instrument patterns, and clear global structure. With only 45M parameters, our framework generates a full song within seconds while maintaining competitive musical quality and generation diversity. Together, these results show that phrase-level latent diffusion provides an effective and scalable solution to long-sequence modeling in symbolic music generation. We hope this work encourages future symbolic music research to move beyond note-attribute tokens and to consider phrase-level units as a more effective and musically meaningful modeling target.
 
 
 ## Demos
 
-Here are some generation examples from our models.
+Here are some generation examples from our models. The model is trained with a 3-track pop music dataset (POP909), the training set size is around 800 songs.
 
 **Table of Contents:**
 - [Demos](#demos)
@@ -43,7 +43,7 @@ You can also download [all generated samples](https://drive.google.com/file/d/1N
 
 
 ### Full Song Generation Results
-Below we present a random subset of LDM generation (no cherry-picking as well).
+Below we present a randomly selected subset of LDM generations (no cherry-picking).
 
 #### Unconditional Model
 
@@ -200,14 +200,18 @@ Below we present a random subset of LDM generation (no cherry-picking as well).
 
 <script>
 function showTab(tabNumber) {
-  // Hide all tab contents
-  document.querySelectorAll('.tab-content').forEach(tab => {
-    tab.classList.remove('active');
+  // Hide all tab1 contents
+  document.querySelectorAll('[id^="tab-"]').forEach(tab => {
+    if (tab.id.startsWith('tab-') && !tab.id.startsWith('tab2-') && !tab.id.startsWith('tab3-') && !tab.id.includes('btn')) {
+      tab.classList.remove('active');
+    }
   });
   
-  // Remove active class from all tab buttons
-  document.querySelectorAll('.tab-btn').forEach(btn => {
-    btn.classList.remove('active');
+  // Remove active class from all tab1 buttons
+  document.querySelectorAll('[id^="tab-btn-"]').forEach(btn => {
+    if (btn.id.startsWith('tab-btn-') && !btn.id.startsWith('tab-btn2-') && !btn.id.startsWith('tab-btn3-')) {
+      btn.classList.remove('active');
+    }
   });
   
   // Show selected tab content
@@ -474,7 +478,7 @@ function showTab3(tabNumber) {
 
 Below are some representative (cherry picked) results to showcase the generation quality.
 
-#### Piano Textures
+#### Piano Track's Textures
 
 <div style="margin: 2em 0;">
   

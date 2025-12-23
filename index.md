@@ -16,6 +16,18 @@ Teaching
 Academic Reviewers
  -->
 
+<!-- <link rel="icon" href="{{ '/assets/ico.png' | relative_url }}"> -->
+
+<!--
+Source - https://stackoverflow.com/a/34348243
+Posted by user1167662
+Retrieved 2025-12-23, License - CC BY-SA 3.0
+-->
+
+<!-- <link rel="shortcut icon" type="image/png" href="{{ "/favicon.png" | prepend: site.baseurl }}" > -->
+
+
+
 
 <!-- Google Analytics tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-MK1PD93QHP"></script>
@@ -79,7 +91,7 @@ Academic Reviewers
 
 <div>
   <p>
-  Moreover, I am a professional-level violinist and guitarist. Please visit the "<a href="/musician">As Musician</a>" page to explore my music portfolio. I feel incredibly fortunate to have discovered my passion for music and to have the opportunity to work and conduct research in a music-related field. My love for music energizes and motivates me to continually grow and excel in this area.
+  Moreover, I am a professional-level violinist and a self-taught guitarist. Please visit the "<a href="/musician">As Musician</a>" page to explore my music portfolio. I feel incredibly fortunate to have discovered my passion for music and to have the opportunity to work and conduct research in a music-related field. My love for music energizes and motivates me to continually grow and excel in this area.
   </p>
 </div>
 
