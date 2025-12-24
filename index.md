@@ -164,6 +164,7 @@ Retrieved 2025-12-23, License - CC BY-SA 3.0
 
 - [**PhraseVAE and PhraseLDM: Latent Diffusion for Full-Song Multitrack Symbolic Music Generation**](/assets/pdf/papers/PhraseLDM_Report.pdf){:target="_blank"}  
   **Longshen Ou**, [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/){:target="_blank"}  
+  *Technical Report*  
   [ [Demo](/midi_ldm) ] | [ [ArXiv](https://arxiv.org/abs/2512.11348){:target="_blank"} ]
 
 - [**Unifying Symbolic Music Arrangement: Track-Aware Reconstruction and Structured Tokenization**](https://neurips.cc/virtual/2025/poster/119044){:target="_blank"}  
