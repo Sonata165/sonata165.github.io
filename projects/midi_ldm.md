@@ -43,7 +43,7 @@ You can also download [all generated samples](https://drive.google.com/file/d/1N
 
 
 ### Full Song Generation Results
-Below we present a randomly selected subset of LDM generations (no cherry-picking).
+Below we present a random subset of LDM generations (no cherry-picking).
 
 #### Unconditional Model
 
