@@ -476,7 +476,7 @@ function showTab3(tabNumber) {
 
 ### Quality Showcase
 
-Below are some representative (cherry picked) results to showcase the generation quality.
+Below are some representative results to showcase the generation quality.
 
 #### Piano Track's Textures
 
