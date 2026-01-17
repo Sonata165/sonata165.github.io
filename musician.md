@@ -212,12 +212,13 @@ In recent years, I have focused on arranging and performing contemporary pop mus
     </div>
 </div>
 
+- [**Starry Night - Reo**](https://www.youtube.com/watch?v=bRDuc5BBCvI){:target="_blank"} - 2026.01
 - [**Like a Star - Kim Young So**](https://www.youtube.com/watch?v=KONyitl9bt8){:target="_blank"} - 2025.11
-- [**Freedom (Kimama) - Koujun**](https://www.youtube.com/watch?v=r4G54wsKhEM){:target="_blank"} - 2025.7
+- [**Freedom (Kimama) - Koujun**](https://www.youtube.com/watch?v=r4G54wsKhEM){:target="_blank"} - 2025.07
 - [**Take Me Home, Country Road - John Denver / Koujun**](https://www.youtube.com/watch?v=R-_N1yTjPWk){:target="_blank"} - 2025.3
 - [**Romance No. 3 'Elegy' - John Brunning / Xuefei Yang**](https://www.youtube.com/watch?v=MJq7VNlBH2c){:target="_blank"} - 2024.12
-- [**Gentle Breeze (そよ風) - Koujun**](https://www.youtube.com/watch?v=vAAhXHuWJmI){:target="_blank"} - 2024.5  
-- [**Night Street - Yuki Matsui**](https://www.bilibili.com/video/BV17Y411w7Av){:target="_blank"} - 2022.5  
+- [**Gentle Breeze (そよ風) - Koujun**](https://www.youtube.com/watch?v=vAAhXHuWJmI){:target="_blank"} - 2024.05  
+- [**Night Street - Yuki Matsui**](https://www.bilibili.com/video/BV17Y411w7Av){:target="_blank"} - 2022.05  
 
 **Vocal Covers**
 (Just for fun)
