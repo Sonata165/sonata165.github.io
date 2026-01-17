@@ -255,7 +255,9 @@ In recent years, I have focused on arranging and performing contemporary pop mus
 - **Sound and Music Computing Lab Concert 2022** [[website](https://smcnus.comp.nus.edu.sg/seminar_concert_2022)] - 2022.11
   - [**Summer Vacation (Guitar Solo)**](https://www.youtube.com/watch?v=vxo2-RwofMc)
   - [**Czardas (Violin and accordion duet)**](https://www.youtube.com/watch?v=MkQuAEDdVng)
-- **Longshen's Violin Solo Concert** at Harbin Institute Technology theater [[Press](https://today.hit.edu.cn/article/2018/10/23/60252)] [[Part 1](https://youtu.be/wojnOz5sR-Y)] [[Part 2](https://youtu.be/Szr9QMVq-NY)] - 2018.10
+- **Longshen's Violin Solo Concert** at Harbin Institute of Technology theater [[Press 1](https://today.hit.edu.cn/article/2018/10/23/60252){:target="_blank"}] [[Press 2](assets/pdf/solo-concert-press.pdf){:target="_blank"}] - 2018.10  
+  - [Part 1](https://youtu.be/wojnOz5sR-Y): Classical music
+  - [Part 2](https://youtu.be/Szr9QMVq-NY): Contemporary music
 - **Ji Xiaoquan's Works Music Concert**: Caprice Basque (Pablo de Sarasate) - 2016.1
 - **The 65th Anniversary Celebration Concert of Sino-Czech Diplomatic Relations**, with the Xi'an Tieyi High School Symphony Orchestra - 2014.8
 
