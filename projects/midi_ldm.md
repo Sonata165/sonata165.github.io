@@ -31,7 +31,7 @@ Here are some generation examples from our models. The model is trained with a 3
     - [Length Conditioned Model](#length-conditioned-model)
     - [Length and Structure Conditioned Model](#length-and-structure-conditioned-model)
   - [Quality Showcase](#quality-showcase)
-    - [Piano Textures](#piano-textures)
+    - [Piano Textures](#piano-tracks-textures)
     - [Intro](#intro)
     - [Outro](#outro)
     - [Interlude](#interlude)
