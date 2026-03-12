@@ -183,6 +183,7 @@ Retrieved 2025-12-23, License - CC BY-SA 3.0
 - [**Joint Learning of Wording and Formatting for Singable Melody-to-Lyric Generation**](https://arxiv.org/abs/2307.02146){:target="_blank"}  
   **Longshen Ou**, [Xichu Ma](https://dblp.org/pid/179/9890.html){:target="_blank"}, and [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/){:target="_blank"}  
   *Journal of New Music Research 2023 submission*  
+<!-- demo: https://5t3dj1lt.github.io/ -->
 
 ### Multimodal Content Understanding
 - [**Automatic Lyric Transcription and Automatic Music Transcription from Multimodal Singing**](https://dl.acm.org/doi/abs/10.1145/3651310){:target="_blank"}  
