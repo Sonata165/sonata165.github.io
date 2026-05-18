@@ -45,7 +45,7 @@ Retrieved 2025-12-23, License - CC BY-SA 3.0
 [ <a href="#recent-news">News</a> | <a href="#publications">Publications</a> | <a href="#internships">Internships</a> | <a href="#other-projects">Projects</a> | <a href="#honors-and-awards">Awards</a> | <a href="#invited-talks">Invited Talks</a> | <a href="#teaching">Teaching</a> | <a href="#academic-reviewers">Reviewer</a> ]
 </div>
 
-# I'm an AI Researcher in Audio, NLP, and Music
+# I'm an AI Engineer in Audio and Music
 
 <!-- <b>[Open to Work] I'm open to Singapore-based part-time roles, starting from July 2025 </b> -->
 
@@ -83,7 +83,7 @@ Retrieved 2025-12-23, License - CC BY-SA 3.0
   </div>
   <div style="width: 66%;">
     <p>
-    I am a last-year PhD candidate in the <a href="https://smcnus.comp.nus.edu.sg/" target="_blank">Sound and Music Computing Lab</a>, School of Computing, National University of Singapore, advised by Prof. <a href="https://www.comp.nus.edu.sg/cs/people/wangye/" target="_blank">Ye Wang (王晔)</a>. My research focuses on advancing music information retrieval (MIR), audio and speech processing, and natural language processing (NLP) through deep learning methods. I am particularly interested in the automatic transcription, generation, and translation of music and lyrics, with a strong focus on self-supervised learning, transfer learning, and controlled generation for real-world applications. Prior to joining NUS, I earned my Bachelor's degree in Computer Science with honors from the Harbin Institute of Technology and completed my bachelor's thesis on piano music transcription at the Auditory Intelligence Research Center, advised by Prof. <a href="http://homepage.hit.edu.cn/hanjiqing?lang=zh" target="_blank">Jiqing Han (韩纪庆)</a>.
+    I am a <b>Machine Learning Engineer</b> in the <b>Audio Core team at <a href="https://bandlabtechnologies.com/" target="_blank">BandLab</a></b>, led by Dr. <a href="https://www.linkedin.com/in/taemincho/" target="_blank">Taemin Cho</a>. I recently obtained my PhD from the <a href="https://smcnus.comp.nus.edu.sg/" target="_blank">Sound and Music Computing Lab</a>, School of Computing, National University of Singapore, advised by Prof. <a href="https://www.comp.nus.edu.sg/cs/people/wangye/" target="_blank">Ye Wang (王晔)</a>. My research focuses on advancing music information retrieval (MIR), audio and speech processing, and natural language processing (NLP) through deep learning methods. I am particularly interested in the automatic transcription, generation, and translation of music and lyrics, with a strong focus on self-supervised learning, transfer learning, and controlled generation for real-world applications. Prior to joining NUS, I earned my Bachelor's degree in Computer Science with honors from the Harbin Institute of Technology and completed my bachelor's thesis on piano music transcription at the Auditory Intelligence Research Center, advised by Prof. <a href="http://homepage.hit.edu.cn/hanjiqing?lang=zh" target="_blank">Jiqing Han (韩纪庆)</a>.
     </p>
   </div>
 </div>
@@ -114,6 +114,7 @@ Retrieved 2025-12-23, License - CC BY-SA 3.0
 
 <div style="height: 100px; overflow-y: scroll; border: 1px solid #ccc; padding: 10px; font-family: Times New Roman;background-color: gainsboro;">
 <ul>
+    <li> <b>[2026.5]</b> I joined <a href="https://bandlabtechnologies.com/" target="_blank">BandLab</a> as a Machine Learning Engineer. Looking forward to contributing to the product and the music technology field. </li>
     <li> <b>[2025.9]</b> The paper <i><a href="https://arxiv.org/abs/2408.15176" target="_blank">Unifying Symbolic Music Arrangement: Track-Aware Reconstruction and Structured Tokenization</a></i> is accepted by NeurIPS 2025. </li>
     <li> <b>[2024.12]</b> The paper <i><a href="https://ieeexplore.ieee.org/abstract/document/10889928/" target="_blank">Lead Instrument Detection from Multitrack Music</a></i> is accepted by ICASSP 2025. </li>
     <li> <b>[2024.12]</b> <a href="https://github.com/Sonata165/REMI-z" target="_blank">REMI-z tokenizer and MultiTrack music data structure</a> is now available in <a href="https://pypi.org/project/REMI-z/" target="_blank">PyPI</a>. This is my first open source project on pip :) </li>
