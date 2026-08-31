@@ -35,3 +35,8 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 # Theme
 gem "just-the-docs"
 
+# Fix for new ruby versions
+gem "csv"
+gem "base64"
+gem "logger"
+gem "bigdecimal"

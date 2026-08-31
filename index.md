@@ -174,7 +174,7 @@ Retrieved 2025-12-23, License - CC BY-SA 3.0
   [ [Demo](/automatic_arrangement){:target="_blank"} | [Code](https://github.com/Sonata165/music2music_code){:target="_blank"} | [REMI-z MIDI Toolkit](https://github.com/Sonata165/REMI-z){:target="_blank"} | [Slides](https://docs.google.com/presentation/d/1OVBA214D9vSVBATvfPinO3bju9C_x7Sx-njRxV_BTxc/edit?usp=sharing){:target="_blank"} | [ArXiv](https://arxiv.org/abs/2408.15176){:target="_blank"} ]
 <!-- [Demo](https://ae4rtjsyr.github.io/){:target="_blank"} -->
 
-### Lyric Generation (Text & Symbolic Music)
+### Lyric Generation
 
 - [**Songs Across Borders: Singable and Controllable Neural Lyric Translation**](https://aclanthology.org/2023.acl-long.27/){:target="_blank"}  
   **Longshen Ou**, [Xichu Ma](https://dblp.org/pid/179/9890.html){:target="_blank"}, [Min-Yen Kan](https://www.comp.nus.edu.sg/~kanmy/){:target="_blank"}, [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/){:target="_blank"}  
