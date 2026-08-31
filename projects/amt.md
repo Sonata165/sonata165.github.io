@@ -70,7 +70,7 @@ Below we present the song <a href="https://www.youtube.com/watch?v=XWS1IRF_IFA" 
   <div class="demo-row">
     <div class="demo-meta">
       <span class="demo-label">Original Audio</span>
-      <p class="demo-note">A typical fingerstyle arrangement for solo acoustic guitar.</p>
+      <p class="demo-note">A well-known fingerstyle arrangement for solo acoustic guitar.</p>
     </div>
     <div class="demo-main">
       <audio controls preload="none">
@@ -125,6 +125,18 @@ Below we present the song <a href="https://www.youtube.com/watch?v=XWS1IRF_IFA" 
         <source src="/assets/for_projects/amt/angelina/hft.mp3" type="audio/mpeg">
       </audio>
       <img src="/assets/for_projects/amt/angelina/hft.png" alt="hFT">
+    </div>
+  </div>
+  <div class="demo-row">
+    <div class="demo-meta">
+      <span class="demo-label">YourMT3+</span>
+      <p class="demo-note">Onset prediction is decent; offset / duration is off.</p>
+    </div>
+    <div class="demo-main">
+      <audio controls preload="none">
+        <source src="/assets/for_projects/amt/angelina/ymt3.mp3" type="audio/mpeg">
+      </audio>
+      <img src="/assets/for_projects/amt/angelina/ymt3.png" alt="YourMT3+">
     </div>
   </div>
   <div class="demo-row">
