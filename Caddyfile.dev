@@ -1,0 +1,33 @@
+# Local development server for the built site in _site/.
+#
+# Used instead of `jekyll serve` because Jekyll's built-in WEBrick server
+# handles HTTP Range requests and aborted media connections poorly, which
+# breaks <audio>/<video> playback on page refresh in local dev only.
+# See Readme.md and ./serve-range.sh.
+{
+	auto_https off
+	admin off
+
+	# Quiet Caddy's startup INFO chatter so the dev banner stays readable.
+	log {
+		level ERROR
+	}
+}
+
+:4000 {
+	root * _site
+
+	# Jekyll writes `permalink: /amt` to _site/amt.html, so extensionless
+	# URLs need the .html fallback that `jekyll serve` does automatically.
+	try_files {path} {path}.html {path}/index.html
+
+	file_server
+
+	handle_errors {
+		@404 expression {err.status_code} == 404
+		handle @404 {
+			rewrite * /404.html
+			file_server
+		}
+	}
+}

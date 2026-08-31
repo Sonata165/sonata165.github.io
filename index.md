@@ -114,7 +114,7 @@ Retrieved 2025-12-23, License - CC BY-SA 3.0
 
 <div style="height: 100px; overflow-y: scroll; border: 1px solid #ccc; padding: 10px; font-family: Times New Roman;background-color: gainsboro;">
 <ul>
-    <li> <b>[2026.5]</b> I joined <a href="https://bandlabtechnologies.com/" target="_blank">BandLab</a> as a Machine Learning Engineer. Looking forward to contributing to the product and the music technology field. </li>
+    <li> <b>[2026.5]</b> I joined <a href="https://bandlabtechnologies.com/" target="_blank">BandLab</a> as a Machine Learning Engineer. Looking forward to contributing to the product and the music technology field! </li>
     <li> <b>[2025.9]</b> The paper <i><a href="https://arxiv.org/abs/2408.15176" target="_blank">Unifying Symbolic Music Arrangement: Track-Aware Reconstruction and Structured Tokenization</a></i> is accepted by NeurIPS 2025. </li>
     <li> <b>[2024.12]</b> The paper <i><a href="https://ieeexplore.ieee.org/abstract/document/10889928/" target="_blank">Lead Instrument Detection from Multitrack Music</a></i> is accepted by ICASSP 2025. </li>
     <li> <b>[2024.12]</b> <a href="https://github.com/Sonata165/REMI-z" target="_blank">REMI-z tokenizer and MultiTrack music data structure</a> is now available in <a href="https://pypi.org/project/REMI-z/" target="_blank">PyPI</a>. This is my first open source project on pip :) </li>
@@ -146,6 +146,10 @@ Retrieved 2025-12-23, License - CC BY-SA 3.0
 (* indicates equal contribution)
 
 ### Audio Content Analysis
+
+<!-- - [**Harmonica: Accurate and Lightweight Instrument-Agnostic Music Transcription**](/assets/pdf/papers/ICASSP_2027_AMT__ArXiv_.pdf){:target="_blank"}  
+  **Longshen Ou**, Hector Martel, Joe Hennessy-Priest, Taemin Cho  
+  [ [Demo](/amt){:target="_blank"} | [ArXiv](/assets/pdf/papers/ICASSP_2027_AMT__ArXiv_.pdf){:target="_blank"} ] -->
 
 - [**Lead Instrument Detection from Multitrack Music**](https://ieeexplore.ieee.org/abstract/document/10889928/){:target="_blank"}  
   **Longshen Ou**, [Yu Takahashi](https://yuu-t.github.io/){:target="_blank"}, and [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/){:target="_blank"}  
