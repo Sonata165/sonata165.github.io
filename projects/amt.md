@@ -184,7 +184,7 @@ On difficult instruments and phrases, our model make less mistakes.
 } -->
 @article{ou2026harmonica,
   title={Harmonica: Accurate and Lightweight Instrument-Agnostic Music Transcription},
-  author={Ou, Longshen and Martel, Hector and Hennessy-Priest, Joe and Cho, Taemin},
+  author={Ou, Longshen and Martel, H{\'e}ctor and Hennessy-Priest, Joe and Cho, Taemin},
   year={2026}
 }
 </pre>
