@@ -19,7 +19,9 @@ permalink: /amt
 
 # **Links**: [ [Paper](/assets/pdf/papers/ICASSP_2027_AMT__ArXiv_.pdf){:target="_blank"}   ] | [ [Citation](#citation) ]
 
-We introduces *Harmonica*, a family of instrument-agnostic music transcription models built around multi-depth harmonic convolution. At each model scale, *Harmonica* achieves the best performance among the evaluated models: the x-large model attains state-of-the-art performance in instrument-agnostic transcription, while the medium variant offers competitive accuracy with faster inference than all baselines. Pushing the limit of computational efficiency, the nano variant has only 26.3K parameters and runs at 1,622.5x real time, yet achieves a frame F1 of 0.796 on the development set, 14.6 percentage points higher than Basic Pitch. We further demonstrate that multi-depth harmonic convolution effectively exploits harmonic information to benefit transcription performance through comparative experiments with existing harmonic aggregation methods, including harmonic stacking, harmonic attention, single-depth harmonic convolution, and the HD-Conv layer.
+We introduce *Harmonica*, a family of instrument-agnostic automatic music transcription (AMT) models built around multi-depth harmonic convolution. At each model scale, *Harmonica* achieves the best performance among the evaluated models: the x-large model attains state-of-the-art performance in instrument-agnostic transcription, while the medium variant offers competitive accuracy with faster inference than all baselines. Pushing the limit of computational efficiency, the nano variant has only 26.3K parameters and runs at 1,622.5x real time, yet achieves a frame F1 of 0.796 on the development set, 14.6 percentage points higher than Basic Pitch. We further demonstrate that multi-depth harmonic convolution effectively exploits harmonic information to benefit transcription performance through comparative experiments with existing harmonic aggregation methods, including harmonic stacking, harmonic attention, single-depth harmonic convolution, and the HD-Conv layer. 
+
+Together, these results demonstrate the potential of efficient, instrument-agnostic architectures for practical AMT, with *Harmonica* already deployed as the [**Audio-to-MIDI service in BandLab**](https://help.bandlab.com/hc/en-us/articles/37575596722329-Converting-Audio-to-MIDI) to support accessible music creation.
 
 
 ## Performance at a Glance
@@ -55,7 +57,7 @@ Here we demonstrate the model's capability to transcribe various music pieces.
 
 
 ### Full Song Transcription
-Below we present the song <a href="https://www.youtube.com/watch?v=XWS1IRF_IFA" target="_blank">Angelina from Tommy Emmanuel</a> and transcription from different models. Note that this is an out-of-domain case for all models, since there is no fingerstyle solo guitar in the training set.
+Below we present the song <a href="https://www.youtube.com/watch?v=XWS1IRF_IFA" target="_blank">Angelina from Tommy Emmanuel</a> along with transcriptions from different models. Note that this is an out-of-domain case for all models, since there is no fingerstyle solo guitar in the training set.
 
 <style>
 .demo-list { margin-bottom: 1.2em; }
@@ -121,7 +123,7 @@ Below we present the song <a href="https://www.youtube.com/watch?v=XWS1IRF_IFA" 
   <div class="demo-row">
     <div class="demo-meta">
       <span class="demo-label">hFT</span>
-      <p class="demo-note">Consistently hallucinate notes in the high register.</p>
+      <p class="demo-note">Consistently hallucinates notes in the high register.</p>  
     </div>
     <div class="demo-main">
       <audio controls preload="none">
@@ -171,7 +173,7 @@ Below we present the song <a href="https://www.youtube.com/watch?v=XWS1IRF_IFA" 
 
 ### Quality Showcase
 
-Our model is capable to handle various instruments, various timbre, various styles and genres. 
+Our model is capable to handle various instruments, various timbre, various styles and genres, more accurately than prior models.
 <!-- On difficult materials, our model make less mistakes. -->
 
 <style>
