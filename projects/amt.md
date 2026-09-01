@@ -15,6 +15,8 @@ permalink: /amt
 </script>
 
 
+<p style="font-size: 0.85em; color: #666; margin: 0 0 0.6em;">The model can run on an iPhone 15. Please refer to Appendix A in the <a href="/assets/pdf/papers/ICASSP_2027_AMT__ArXiv_.pdf" target="_blank">arXiv version</a> for details.</p>
+
 # **Links**: [ [Paper](/assets/pdf/papers/ICASSP_2027_AMT__ArXiv_.pdf){:target="_blank"}   ] | [ [Citation](#citation) ]
 
 We introduces *Harmonica*, a family of instrument-agnostic music transcription models built around multi-depth harmonic convolution. At each model scale, *Harmonica* achieves the best performance among the evaluated models: the x-large model attains state-of-the-art performance in instrument-agnostic transcription, while the medium variant offers competitive accuracy with faster inference than all baselines. Pushing the limit of computational efficiency, the nano variant has only 26.3K parameters and runs at 1,622.5x real time, yet achieves a frame F1 of 0.796 on the development set, 14.6 percentage points higher than Basic Pitch. We further demonstrate that multi-depth harmonic convolution effectively exploits harmonic information to benefit transcription performance through comparative experiments with existing harmonic aggregation methods, including harmonic stacking, harmonic attention, single-depth harmonic convolution, and the HD-Conv layer.
