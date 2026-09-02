@@ -21,7 +21,7 @@ permalink: /amt
 
 We introduce *Harmonica*, a family of instrument-agnostic automatic music transcription (AMT) models built around multi-depth harmonic convolution. At each model scale, *Harmonica* achieves the best performance among the evaluated models: the x-large model attains state-of-the-art performance in instrument-agnostic transcription, while the medium variant offers competitive accuracy with faster inference than all baselines. Pushing the limit of computational efficiency, the nano variant has only 26.3K parameters and runs at 1,622.5x real time, yet achieves a frame F1 of 0.796 on the development set, 14.6 percentage points higher than Basic Pitch. We further demonstrate that multi-depth harmonic convolution effectively exploits harmonic information to benefit transcription performance through comparative experiments with existing harmonic aggregation methods, including harmonic stacking, harmonic attention, single-depth harmonic convolution, and the HD-Conv layer. 
 
-Together, these results demonstrate the potential of efficient, instrument-agnostic architectures for practical AMT, with *Harmonica* already deployed as the [**Audio-to-MIDI service in BandLab**](https://help.bandlab.com/hc/en-us/articles/37575596722329-Converting-Audio-to-MIDI) to support accessible music creation.
+Together, these results demonstrate the potential of efficient, instrument-agnostic architectures for practical AMT, with *Harmonica* already deployed as the [**Audio-to-MIDI service**](https://help.bandlab.com/hc/en-us/articles/37575596722329-Converting-Audio-to-MIDI){:target="_blank"} in [**BandLab Studio**](https://www.bandlab.com/){:target="_blank"} to support accessible music creation.
 
 
 ## Performance at a Glance
