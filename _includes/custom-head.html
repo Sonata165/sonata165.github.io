@@ -9,3 +9,32 @@
 <link rel="shortcut icon" href="/assets/favicon/favicon.ico" />
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png" />
 <link rel="manifest" href="/assets/favicon/site.webmanifest" />
+
+<!-- Open links in a new tab site-wide.
+     Exceptions: same-page anchors (#foo), mailto:/tel:, links that already
+     set target, and anything opted out with class="same-tab". -->
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  // Set to true to keep links to your own pages (e.g. /musician) in the same tab.
+  var SAME_TAB_FOR_INTERNAL = false;
+
+  document.querySelectorAll('a[href]').forEach(function (a) {
+    if (a.hasAttribute('target')) return;                 // respect explicit target
+    if (a.classList.contains('same-tab')) return;         // manual opt-out
+
+    var href = a.getAttribute('href');
+    if (!href || href.charAt(0) === '#') return;          // in-page anchor
+
+    var url;
+    try { url = new URL(a.href, location.href); } catch (e) { return; }
+    if (url.protocol !== 'http:' && url.protocol !== 'https:') return;  // mailto:, tel:, etc.
+
+    var internal = url.host === location.host;
+    if (internal && url.pathname === location.pathname && url.hash) return;  // anchor on this page
+    if (internal && SAME_TAB_FOR_INTERNAL) return;
+
+    a.setAttribute('target', '_blank');
+    a.setAttribute('rel', (a.getAttribute('rel') ? a.getAttribute('rel') + ' ' : '') + 'noopener noreferrer');
+  });
+});
+</script>
