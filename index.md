@@ -147,9 +147,9 @@ Retrieved 2025-12-23, License - CC BY-SA 3.0
 
 ### Audio Content Analysis
 
-<!-- - [**Harmonica: Accurate and Lightweight Instrument-Agnostic Music Transcription**](/assets/pdf/papers/ICASSP_2027_AMT__ArXiv_.pdf){:target="_blank"}  
-  **Longshen Ou**, Hector Martel, Joe Hennessy-Priest, Taemin Cho  
-  [ [Demo](/amt){:target="_blank"} | [ArXiv](/assets/pdf/papers/ICASSP_2027_AMT__ArXiv_.pdf){:target="_blank"} ] -->
+- [**Harmonica: Accurate and Lightweight Instrument-Agnostic Music Transcription**](/assets/pdf/papers/ICASSP_2027_AMT__ArXiv_.pdf){:target="_blank"}  
+  **Longshen Ou**, Héctor Martel, Joe Hennessy-Priest, Taemin Cho  
+  [ [Demo](/amt){:target="_blank"} | [ArXiv](/assets/pdf/papers/ICASSP_2027_AMT__ArXiv_.pdf){:target="_blank"} ]
 
 - [**Lead Instrument Detection from Multitrack Music**](https://ieeexplore.ieee.org/abstract/document/10889928/){:target="_blank"}  
   **Longshen Ou**, [Yu Takahashi](https://yuu-t.github.io/){:target="_blank"}, and [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/){:target="_blank"}  
@@ -208,13 +208,6 @@ Retrieved 2025-12-23, License - CC BY-SA 3.0
   *2024 IEEE Int'l Symposium on Performance Analysis of Systems and Software (ISPASS 2024)*  
   [ [Slides](https://prongs1996.github.io/assets/pdf/ispass24presentation.pdf){:target="_blank"} ]
 
-
-<!-- ## Preprint -->
-<!-- - **[Automatic Hyper-Parameter Optimization Based on Mapping Discovery from Data to Hyper-Parameters](https://arxiv.org/abs/2003.01751){:target="_blank"}**  
-  [Bozhou Chen](https://www.researchgate.net/profile/Bozhou-Chen){:target="_blank"}, [Kaixin Zhang](https://www.researchgate.net/profile/Kaixin-Zhang-6){:target="_blank"}, **Longshen Ou**, [Chenmin Ba](https://dblp.uni-trier.de/pid/259/9983.html){:target="_blank"}, [Hongzhi Wang](https://dblp.org/pid/81/940.html){:target="_blank"}, and [Chunnan Wang](https://scholar.google.com/citations?user=F0xRt20AAAAJ&hl=en){:target="_blank"}.  
-  *arXiv:2003.01751* (2020) -->
-
-<!-- ## Demo & Workshop Papers -->
   
 <br>
 
