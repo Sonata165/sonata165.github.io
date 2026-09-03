@@ -102,7 +102,7 @@ piano-roll { display: block; }
         <span class="demo-label">Ours (x-large)</span>
         <play-toggle for="#roll-ours"></play-toggle>
       </div>
-      <p class="demo-note">An accurate transcription. Nothing lands outside the shared pitch axis.</p>
+      <p class="demo-note">An accurate transcription. </p>
     </div>
     <div class="demo-main">
       <audio id="roll-ours" class="pr-silent" preload="metadata">
@@ -118,7 +118,7 @@ piano-roll { display: block; }
         <span class="demo-label">MT3</span>
         <play-toggle for="#roll-mt3"></play-toggle>
       </div>
-      <p class="demo-note">Many duplicated and hallucinated notes &mdash; 1801 in all, and 53 above the axis. The polyphony is obviously beyond what a single guitar can do.</p>
+      <p class="demo-note">Many duplicated and hallucinated notes. The polyphony level is obviously beyond with what a single guitar can do.</p>
     </div>
     <div class="demo-main">
       <audio id="roll-mt3" class="pr-silent" preload="metadata">
@@ -134,7 +134,7 @@ piano-roll { display: block; }
         <span class="demo-label">Basic Pitch</span>
         <play-toggle for="#roll-bp"></play-toggle>
       </div>
-      <p class="demo-note">Lots of notes are broken into multiple pieces, visible as stuttered runs of short bars.</p>
+      <p class="demo-note">Lots of notes are broken into multiple pieces.</p>
     </div>
     <div class="demo-main">
       <audio id="roll-bp" class="pr-silent" preload="metadata">
@@ -150,7 +150,7 @@ piano-roll { display: block; }
         <span class="demo-label">hFT</span>
         <play-toggle for="#roll-hft"></play-toggle>
       </div>
-      <p class="demo-note">Consistently hallucinates notes in the high register: 51 notes above the axis, reaching MIDI 105.</p>
+      <p class="demo-note">Consistently hallucinates notes in the high register.</p>
     </div>
     <div class="demo-main">
       <audio id="roll-hft" class="pr-silent" preload="metadata">
@@ -166,7 +166,7 @@ piano-roll { display: block; }
         <span class="demo-label">YourMT3+</span>
         <play-toggle for="#roll-ymt3"></play-toggle>
       </div>
-      <p class="demo-note">Onset prediction is decent; offset / duration is off, so bars run long or short.</p>
+      <p class="demo-note">Onset prediction is decent; offset / duration is off.</p>
     </div>
     <div class="demo-main">
       <audio id="roll-ymt3" class="pr-silent" preload="metadata">
@@ -182,7 +182,7 @@ piano-roll { display: block; }
         <span class="demo-label">Transkun</span>
         <play-toggle for="#roll-transkun"></play-toggle>
       </div>
-      <p class="demo-note">Many notes are missing in the output &mdash; only 660, the sparsest roll here.</p>
+      <p class="demo-note">Many notes are missing in the output, the sparsest output here.</p>
     </div>
     <div class="demo-main">
       <audio id="roll-transkun" class="pr-silent" preload="metadata">
