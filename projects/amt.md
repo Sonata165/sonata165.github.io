@@ -57,7 +57,7 @@ Here we demonstrate the model's capability to transcribe various music pieces.
 
 
 ### Full Song Transcription
-Below we present the song <a href="https://www.youtube.com/watch?v=XWS1IRF_IFA" target="_blank">Angelina from Tommy Emmanuel</a> along with transcriptions from different models. Note that this is an out-of-domain case for all models, since there is no fingerstyle solo guitar in the training set.
+Below we present the song <a href="https://www.youtube.com/watch?v=XWS1IRF_IFA" target="_blank">Angelina from Tommy Emmanuel</a> along with transcriptions from different models. Transcription is rendered with the acoustic guitar soundbank in GarageBand. Note that this is an out-of-domain case for all models, since there is no fingerstyle solo guitar in the training set.
 
 <style>
 .demo-list { margin-bottom: 1.2em; }
@@ -213,7 +213,9 @@ piano-roll { display: block; }
 
 ### Quality Showcase
 
-Our model is capable to handle various instruments, various timbre, various styles and genres, more accurately than prior models.
+Our model is capable to handle various instruments, various timbre, various styles and genres, more accurately than prior models. 
+
+Each transcription is rendered with a soundbank with similar timbre as the input audio.
 <!-- On difficult materials, our model make less mistakes. -->
 
 <style>
