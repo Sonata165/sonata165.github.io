@@ -105,7 +105,7 @@ Retrieved 2025-12-23, License - CC BY-SA 3.0
   <a href="https://www.linkedin.com/in/longshen-ou/">LinkedIn</a> &middot; 
   <a href="https://orcid.org/0000-0002-1725-8361">ORCID</a> &middot; 
   <a href="assets/pdf/CV/2025-01 Longshen.pdf">Full CV</a> &middot; 
-  <a href="https://twitter.com/LongshenO">Twitter</a> &middot; 
+  <a href="https://twitter.com/LongshenO">X / Twitter</a> &middot; 
   <a href="/assets/images/WechatQR.jpeg">WeChat</a>
 </div>
 
