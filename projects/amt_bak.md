@@ -17,7 +17,7 @@ permalink: /amt_bak
 
 <p style="font-size: 0.85em; color: #666; margin: 0 0 0.6em;">The model can run on an iPhone 15. Please refer to Appendix A in the <a href="/assets/pdf/papers/ICASSP_2027_AMT__ArXiv_.pdf" target="_blank">arXiv version</a> for details.</p>
 
-# **Links**: [ [Paper](/assets/pdf/papers/ICASSP_2027_AMT__ArXiv_.pdf){:target="_blank"}   ] | [ [Citation](#citation) ]
+# **Links**: [ [Paper](https://arxiv.org/abs/2609.04640) ] | [ [Citation](#citation) ]
 
 We introduce *Harmonica*, a family of instrument-agnostic automatic music transcription (AMT) models built around multi-depth harmonic convolution. At each model scale, *Harmonica* achieves the best performance among the evaluated models: the x-large model attains state-of-the-art performance in instrument-agnostic transcription, while the medium variant offers competitive accuracy with faster inference than all baselines. Pushing the limit of computational efficiency, the nano variant has only 26.3K parameters and runs at 1,622.5x real time, yet achieves a frame F1 of 0.796 on the development set, 14.6 percentage points higher than Basic Pitch. We further demonstrate that multi-depth harmonic convolution effectively exploits harmonic information to benefit transcription performance through comparative experiments with existing harmonic aggregation methods, including harmonic stacking, harmonic attention, single-depth harmonic convolution, and the HD-Conv layer. 
 
@@ -57,7 +57,7 @@ Here we demonstrate the model's capability to transcribe various music pieces.
 
 
 ### Full Song Transcription
-Below we present the song <a href="https://www.youtube.com/watch?v=XWS1IRF_IFA" target="_blank">Angelina from Tommy Emmanuel</a> along with transcriptions from different models. Note that this is an out-of-domain case for all models, since there is no fingerstyle solo guitar in the training set.
+Below we present the song <a href="https://www.youtube.com/watch?v=XWS1IRF_IFA" target="_blank">Angelina from Tommy Emmanuel</a> along with transcriptions from different models. Transcription is rendered with the acoustic guitar soundbank in GarageBand. Note that this is an out-of-domain case for all models, since there is no fingerstyle solo guitar in the training set.
 
 <style>
 .demo-list { margin-bottom: 1.2em; }
@@ -69,103 +69,143 @@ Below we present the song <a href="https://www.youtube.com/watch?v=XWS1IRF_IFA" 
 .demo-main { flex: 1; min-width: 0; }
 .demo-main audio { width: 100%; height: 28px; display: block; }
 .demo-main img { width: 100%; display: block; margin-top: 0.2em; }
+/* rows whose transport lives in the meta column instead of a native player */
+.demo-main audio.pr-silent { display: none; }
+.demo-head { display: flex; align-items: center; gap: 0.5em; }
+.demo-head .demo-label { margin: 0; }
+piano-roll, wave-form { display: block; }
+/* push the transport to the column's right edge, so every row's button lands
+   on the same x no matter how long the model name is */
+.demo-head play-toggle { margin-left: auto; flex: none; }
 </style>
 
 <div class="demo-list">
   <div class="demo-row">
     <div class="demo-meta">
-      <span class="demo-label">Original Audio</span>
+      <div class="demo-head">
+        <span class="demo-label">Original Audio</span>
+        <play-toggle for="#roll-orig"></play-toggle>
+      </div>
       <p class="demo-note">A well-known fingerstyle arrangement for solo acoustic guitar.</p>
     </div>
     <div class="demo-main">
-      <audio controls preload="none">
+      <audio id="roll-orig" class="pr-silent" preload="metadata">
         <source src="/assets/for_projects/amt/angelina/angelina.mp3" type="audio/mpeg">
       </audio>
-      <img src="/assets/for_projects/amt/angelina/waveform.png" alt="Original recording">
+      <wave-form src="/assets/for_projects/amt/angelina/angelina.mp3"
+                 audio="#roll-orig" height="96" duration="158.1"></wave-form>
     </div>
   </div>
   <div class="demo-row">
     <div class="demo-meta">
-      <span class="demo-label">Ours (x-large)</span>
-      <p class="demo-note">An accurate transcription.</p>
+      <div class="demo-head">
+        <span class="demo-label">Ours (x-large)</span>
+        <play-toggle for="#roll-ours"></play-toggle>
+      </div>
+      <p class="demo-note">An accurate transcription. </p>
     </div>
     <div class="demo-main">
-      <audio controls preload="none">
+      <audio id="roll-ours" class="pr-silent" preload="metadata">
         <source src="/assets/for_projects/amt/angelina/ours-xl.mp3" type="audio/mpeg">
       </audio>
-      <img src="/assets/for_projects/amt/angelina/ours-xl.png" alt="Ours (X-Large)">
+      <piano-roll src="/assets/for_projects/amt/angelina/midis/angelina_cnn_xl.mid"
+                  audio="#roll-ours" height="96" lo="39" hi="82" duration="158.1"></piano-roll>
     </div>
   </div>
   <div class="demo-row">
     <div class="demo-meta">
-      <span class="demo-label">MT3</span>
+      <div class="demo-head">
+        <span class="demo-label">MT3</span>
+        <play-toggle for="#roll-mt3"></play-toggle>
+      </div>
       <p class="demo-note">Many duplicated and hallucinated notes. The polyphony level is obviously beyond with what a single guitar can do.</p>
     </div>
     <div class="demo-main">
-      <audio controls preload="none">
+      <audio id="roll-mt3" class="pr-silent" preload="metadata">
         <source src="/assets/for_projects/amt/angelina/mt3.mp3" type="audio/mpeg">
       </audio>
-      <img src="/assets/for_projects/amt/angelina/mt3.png" alt="MT3">
+      <piano-roll src="/assets/for_projects/amt/angelina/midis/angelina_mt3.mid"
+                  audio="#roll-mt3" height="96" lo="39" hi="82" duration="158.1"></piano-roll>
     </div>
   </div>
   <div class="demo-row">
     <div class="demo-meta">
-      <span class="demo-label">Basic Pitch</span>
+      <div class="demo-head">
+        <span class="demo-label">Basic Pitch</span>
+        <play-toggle for="#roll-bp"></play-toggle>
+      </div>
       <p class="demo-note">Lots of notes are broken into multiple pieces.</p>
     </div>
     <div class="demo-main">
-      <audio controls preload="none">
+      <audio id="roll-bp" class="pr-silent" preload="metadata">
         <source src="/assets/for_projects/amt/angelina/basic-pitch.mp3" type="audio/mpeg">
       </audio>
-      <img src="/assets/for_projects/amt/angelina/basic-pitch.png" alt="Basic Pitch">
+      <piano-roll src="/assets/for_projects/amt/angelina/midis/angelina_bs.mid"
+                  audio="#roll-bp" height="96" lo="39" hi="82" duration="158.1"></piano-roll>
     </div>
   </div>
   <div class="demo-row">
     <div class="demo-meta">
-      <span class="demo-label">hFT</span>
-      <p class="demo-note">Consistently hallucinates notes in the high register.</p>  
+      <div class="demo-head">
+        <span class="demo-label">hFT</span>
+        <play-toggle for="#roll-hft"></play-toggle>
+      </div>
+      <p class="demo-note">Consistently hallucinates notes in the high register.</p>
     </div>
     <div class="demo-main">
-      <audio controls preload="none">
+      <audio id="roll-hft" class="pr-silent" preload="metadata">
         <source src="/assets/for_projects/amt/angelina/hft.mp3" type="audio/mpeg">
       </audio>
-      <img src="/assets/for_projects/amt/angelina/hft.png" alt="hFT">
+      <piano-roll src="/assets/for_projects/amt/angelina/midis/angelina_hft.mid"
+                  audio="#roll-hft" height="96" lo="39" hi="82" duration="158.1"></piano-roll>
     </div>
   </div>
   <div class="demo-row">
     <div class="demo-meta">
-      <span class="demo-label">YourMT3+</span>
+      <div class="demo-head">
+        <span class="demo-label">YourMT3+</span>
+        <play-toggle for="#roll-ymt3"></play-toggle>
+      </div>
       <p class="demo-note">Onset prediction is decent; offset / duration is off.</p>
     </div>
     <div class="demo-main">
-      <audio controls preload="none">
+      <audio id="roll-ymt3" class="pr-silent" preload="metadata">
         <source src="/assets/for_projects/amt/angelina/ymt3.mp3" type="audio/mpeg">
       </audio>
-      <img src="/assets/for_projects/amt/angelina/ymt3.png" alt="YourMT3+">
+      <piano-roll src="/assets/for_projects/amt/angelina/midis/angelina_ymt3.mid"
+                  audio="#roll-ymt3" height="96" lo="39" hi="82" duration="158.1"></piano-roll>
     </div>
   </div>
   <div class="demo-row">
     <div class="demo-meta">
-      <span class="demo-label">Transkun</span>
-      <p class="demo-note">Many notes are missing in the output.</p>
+      <div class="demo-head">
+        <span class="demo-label">Transkun</span>
+        <play-toggle for="#roll-transkun"></play-toggle>
+      </div>
+      <p class="demo-note">Many notes are missing in the output, the sparsest output here.</p>
     </div>
     <div class="demo-main">
-      <audio controls preload="none">
+      <audio id="roll-transkun" class="pr-silent" preload="metadata">
         <source src="/assets/for_projects/amt/angelina/transkun.mp3" type="audio/mpeg">
       </audio>
-      <img src="/assets/for_projects/amt/angelina/transkun.png" alt="Transkun">
+      <piano-roll src="/assets/for_projects/amt/angelina/midis/angelina_transkun.mid"
+                  audio="#roll-transkun" height="96" lo="39" hi="82" duration="158.1"></piano-roll>
     </div>
   </div>
   <div class="demo-row">
     <div class="demo-meta">
-      <span class="demo-label">SFT-CRNN</span>
+      <div class="demo-head">
+        <span class="demo-label">SFT-CRNN</span>
+        <play-toggle for="#roll-sft"></play-toggle>
+      </div>
       <p class="demo-note">Many note onsets are not paired with note offsets, depressing its frame-level performance.</p>
     </div>
     <div class="demo-main">
-      <audio controls preload="none">
+      <audio id="roll-sft" class="pr-silent" preload="metadata">
         <source src="/assets/for_projects/amt/angelina/sft.mp3" type="audio/mpeg">
       </audio>
-      <img src="/assets/for_projects/amt/angelina/sft.png" alt="SFT-CRNN">
+      <piano-roll src="/assets/for_projects/amt/angelina/midis/angelina_sft.mid"
+                  audio="#roll-sft" height="96" lo="39" hi="82" duration="158.1"></piano-roll>
     </div>
   </div>
 </div>
@@ -173,7 +213,9 @@ Below we present the song <a href="https://www.youtube.com/watch?v=XWS1IRF_IFA" 
 
 ### Quality Showcase
 
-Our model is capable to handle various instruments, various timbre, various styles and genres, more accurately than prior models.
+Our model is capable to handle various instruments, various timbre, various styles and genres, more accurately than prior models. 
+
+Each transcription is rendered with a soundbank with similar timbre as the input audio.
 <!-- On difficult materials, our model make less mistakes. -->
 
 <style>
@@ -192,7 +234,11 @@ table.qs tbody tr th { text-align: left; white-space: nowrap; font-weight: 500; 
 table.qs tbody tr td.qs-ours { background: #eef6ff; }
 table.qs thead th.qs-ours { background: #d9e9fb; }
 .qs-btn { width: 26px; height: 26px; border-radius: 50%; border: 1px solid #bbb; background: #fff;
-          cursor: pointer; font-size: 11px; line-height: 1; padding: 0; color: #333; }
+          cursor: pointer; padding: 0; color: #333;
+          /* inline-flex, not flex: the cell centres it with text-align */
+          display: inline-flex; align-items: center; justify-content: center;
+          vertical-align: middle; }
+.qs-btn svg { width: 16px; height: 16px; display: block; fill: currentColor; }
 .qs-btn:hover { border-color: #007cba; color: #007cba; }
 .qs-btn.playing { background: #007cba; border-color: #007cba; color: #fff; }
 .qs-hint { font-size: 0.78em; color: #666; margin: 0 0 1.2em; }
@@ -232,6 +278,14 @@ table.qs thead th.qs-ours { background: #d9e9fb; }
     violin: "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='currentColor' d='M11 2a1 1 0 0 0-1 1v6a.5.5 0 0 0 .5.5H12a.5.5 0 0 1 .5.5a.5.5 0 0 1-.5.5h-1.5C9.73 10.5 9 9.77 9 9V5.16C7.27 5.6 6 7.13 6 9v1.5A2.5 2.5 0 0 1 8.5 13A2.5 2.5 0 0 1 6 15.5V17c0 2.77 2.23 5 5 5h2c2.77 0 5-2.23 5-5v-1.5a2.5 2.5 0 0 1-2.5-2.5a2.5 2.5 0 0 1 2.5-2.5V9c0-2.22-1.78-4-4-4V3a1 1 0 0 0-1-1zm-.25 14.5h2.5l-.5 3.5h-1.5z'/></svg>",
     strings4: "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><g fill='currentColor'><g transform='translate(-0.8,-0.8) scale(0.6)'><path d='M11 2a1 1 0 0 0-1 1v6a.5.5 0 0 0 .5.5H12a.5.5 0 0 1 .5.5a.5.5 0 0 1-.5.5h-1.5C9.73 10.5 9 9.77 9 9V5.16C7.27 5.6 6 7.13 6 9v1.5A2.5 2.5 0 0 1 8.5 13A2.5 2.5 0 0 1 6 15.5V17c0 2.77 2.23 5 5 5h2c2.77 0 5-2.23 5-5v-1.5a2.5 2.5 0 0 1-2.5-2.5a2.5 2.5 0 0 1 2.5-2.5V9c0-2.22-1.78-4-4-4V3a1 1 0 0 0-1-1zm-.25 14.5h2.5l-.5 3.5h-1.5z'/></g><g transform='translate(10.4,-0.8) scale(0.6)'><path d='M11 2a1 1 0 0 0-1 1v6a.5.5 0 0 0 .5.5H12a.5.5 0 0 1 .5.5a.5.5 0 0 1-.5.5h-1.5C9.73 10.5 9 9.77 9 9V5.16C7.27 5.6 6 7.13 6 9v1.5A2.5 2.5 0 0 1 8.5 13A2.5 2.5 0 0 1 6 15.5V17c0 2.77 2.23 5 5 5h2c2.77 0 5-2.23 5-5v-1.5a2.5 2.5 0 0 1-2.5-2.5a2.5 2.5 0 0 1 2.5-2.5V9c0-2.22-1.78-4-4-4V3a1 1 0 0 0-1-1zm-.25 14.5h2.5l-.5 3.5h-1.5z'/></g><g transform='translate(-0.8,10.4) scale(0.6)'><path d='M11 2a1 1 0 0 0-1 1v6a.5.5 0 0 0 .5.5H12a.5.5 0 0 1 .5.5a.5.5 0 0 1-.5.5h-1.5C9.73 10.5 9 9.77 9 9V5.16C7.27 5.6 6 7.13 6 9v1.5A2.5 2.5 0 0 1 8.5 13A2.5 2.5 0 0 1 6 15.5V17c0 2.77 2.23 5 5 5h2c2.77 0 5-2.23 5-5v-1.5a2.5 2.5 0 0 1-2.5-2.5a2.5 2.5 0 0 1 2.5-2.5V9c0-2.22-1.78-4-4-4V3a1 1 0 0 0-1-1zm-.25 14.5h2.5l-.5 3.5h-1.5z'/></g><g transform='translate(10.4,10.4) scale(0.6)'><path d='M11 2a1 1 0 0 0-1 1v6a.5.5 0 0 0 .5.5H12a.5.5 0 0 1 .5.5a.5.5 0 0 1-.5.5h-1.5C9.73 10.5 9 9.77 9 9V5.16C7.27 5.6 6 7.13 6 9v1.5A2.5 2.5 0 0 1 8.5 13A2.5 2.5 0 0 1 6 15.5V17c0 2.77 2.23 5 5 5h2c2.77 0 5-2.23 5-5v-1.5a2.5 2.5 0 0 1-2.5-2.5a2.5 2.5 0 0 1 2.5-2.5V9c0-2.22-1.78-4-4-4V3a1 1 0 0 0-1-1zm-.25 14.5h2.5l-.5 3.5h-1.5z'/></g></g></svg>",
     saxophone: "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='currentColor' d='M4 2a1 1 0 0 0-1 1a1 1 0 0 0 1 1a3 3 0 0 1 3 3v8.5c0 3.6 2.9 6.5 6.5 6.5s6.5-2.9 6.5-6.5V13a1 1 0 0 0 1-1a1 1 0 0 0-1-1h-6a1 1 0 0 0-1 1a1 1 0 0 0 1 1v2a1 1 0 0 1-1 1a1 1 0 0 1-1-1v-4a1 1 0 0 0 1-1a1 1 0 0 0-1-1V8a1 1 0 0 0 1-1a1 1 0 0 0-1-1v-.5A3.5 3.5 0 0 0 8.5 2z'/></svg>"
+  };
+
+  // Drawn rather than typed: the \u25B6 and \u23F8 characters carry their own
+  // side bearings and baseline metrics, so no amount of text centring puts
+  // them in the middle of a circle.  Geometry matches <play-toggle>.
+  var TRANSPORT = {
+    play: "<svg viewBox='0 0 24 24' aria-hidden='true'><polygon points='8,4 21,12 8,20'/></svg>",
+    pause: "<svg viewBox='0 0 24 24' aria-hidden='true'><rect x='7' y='4' width='4' height='16' rx='0.8'/><rect x='13' y='4' width='4' height='16' rx='0.8'/></svg>"
   };
 
   var SEGMENTS = [
@@ -298,7 +352,7 @@ table.qs thead th.qs-ours { background: #d9e9fb; }
       var btn = document.createElement("button");
       btn.type = "button";
       btn.className = "qs-btn";
-      btn.textContent = "▶";
+      btn.innerHTML = TRANSPORT.play;
       btn.setAttribute("aria-label", "Play " + m.label + ", " + seg.label);
       btn.setAttribute("data-src", srcFor(seg, m));
       td.appendChild(btn);
@@ -313,7 +367,7 @@ table.qs thead th.qs-ours { background: #d9e9fb; }
 
   function reset() {
     if (current) {
-      current.textContent = "▶";
+      current.innerHTML = TRANSPORT.play;
       current.classList.remove("playing");
     }
     current = null;
@@ -338,7 +392,7 @@ table.qs thead th.qs-ours { background: #d9e9fb; }
     audio.src = btn.getAttribute("data-src");
     audio.play();
     current = btn;
-    btn.textContent = "⏸";
+    btn.innerHTML = TRANSPORT.pause;
     btn.classList.add("playing");
   });
 })();
@@ -367,6 +421,8 @@ table.qs thead th.qs-ours { background: #d9e9fb; }
 <!-- WOW.js -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 <!-- Note: creative.js removed - if needed, functionality should be reimplemented or file copied to assets -->
+
+<script src="/assets/js/piano-roll.js"></script>
 
 <script src="/assets/js/html-midi-player-bundle.js"></script>
 <script src="/assets/js/midi-audio-sync.js"></script>

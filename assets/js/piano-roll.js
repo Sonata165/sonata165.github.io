@@ -1,5 +1,10 @@
 /**
- * <piano-roll> -- a dependency-free piano-roll visualiser driven by an <audio> element.
+ * Dependency-free audio visualizers driven by an <audio> element:
+ * <piano-roll> for a transcription, <wave-form> for the recording itself, and
+ * <play-toggle> for a transport button when the <audio> is not on the page.
+ * Each is documented above its own class; the piano roll follows.
+ *
+ * <piano-roll> -- a piano-roll visualizer driven by an <audio> element.
  *
  *   <audio id="my-audio" controls preload="metadata">
  *     <source src="song.mp3" type="audio/mpeg">
@@ -299,6 +304,124 @@
     return TICK_STEPS[TICK_STEPS.length - 1];
   }
 
+  /* ---- shared plumbing -------------------------------------------------
+
+     <piano-roll> and <wave-form> are the same widget over different material:
+     a canvas whose x-axis is time, clocked by an <audio> element it does not
+     own.  Everything that follows from that -- the clock, seeking, and keeping
+     the backing store at the right device-pixel scale -- lives here so the two
+     stay in step.  Each view supplies _layout() and _draw(). */
+
+  /* The audio element is the only clock.  Every frame the view reads
+     audio.currentTime and draws; it keeps no time state of its own, so seeking
+     and scrubbing cannot drift out of sync. */
+  function bindAudioClock(view) {
+    var syncDuration = function () {
+      if (view.fixedDuration) return;      // pinned to a shared axis
+      if (view.audio.duration && isFinite(view.audio.duration)) {
+        // Prefer the recording's own length: note onsets are absolute
+        // seconds into that recording, so this keeps the x-axis honest.
+        if (view.duration !== view.audio.duration) {
+          view.duration = view.audio.duration;
+          view._layout();
+        }
+      }
+    };
+    syncDuration();
+    view.audio.addEventListener('loadedmetadata', syncDuration);
+    view.audio.addEventListener('durationchange', syncDuration);
+
+    view.audio.addEventListener('play', function () {
+      view._playing = true;
+      if (!view._raf) view._raf = requestAnimationFrame(view._onFrame);
+    });
+    ['pause', 'ended', 'seeked', 'seeking', 'timeupdate'].forEach(function (evt) {
+      view.audio.addEventListener(evt, function () {
+        if (evt === 'pause' || evt === 'ended') view._playing = false;
+        view._draw();          // a single repaint covers scrubbing while paused
+      });
+    });
+  }
+
+  /* Click anywhere on the canvas to seek there; arrows nudge, space toggles. */
+  function bindSeek(view) {
+    view.canvas.addEventListener('click', function (e) {
+      if (!view.audio || !view.duration) return;
+      var rect = view.canvas.getBoundingClientRect();
+      var frac = (e.clientX - rect.left) / rect.width;
+      view.audio.currentTime = Math.max(0, Math.min(view.duration, frac * view.duration));
+    });
+
+    view.addEventListener('keydown', function (e) {
+      if (!view.audio || !view.duration) return;
+      var step = e.shiftKey ? 1 : 5;
+      if (e.key === 'ArrowLeft') {
+        view.audio.currentTime = Math.max(0, view.audio.currentTime - step);
+      } else if (e.key === 'ArrowRight') {
+        view.audio.currentTime = Math.min(view.duration, view.audio.currentTime + step);
+      } else if (e.key === ' ') {
+        if (view.audio.paused) view.audio.play(); else view.audio.pause();
+      } else {
+        return;
+      }
+      e.preventDefault();
+    });
+  }
+
+  /* The canvas backing store is sized in device pixels, so it has to be
+     rebuilt whenever devicePixelRatio changes -- which is exactly what
+     browser zoom does.  A ResizeObserver alone misses this: .wrapper is
+     capped at a fixed 740px, so on a wide window zooming does not change
+     the element's CSS box at all and nothing fires. */
+  function watchScale(view) {
+    var mq = null;
+
+    function onChange() {
+      view._layout();
+      arm();               // the old query no longer matches; re-arm at the new ratio
+    }
+
+    function arm() {
+      if (mq) mq.removeEventListener('change', onChange);
+      mq = window.matchMedia('(resolution: ' + (window.devicePixelRatio || 1) + 'dppx)');
+      mq.addEventListener('change', onChange);
+    }
+
+    arm();
+    window.addEventListener('resize', function () { view._layout(); });
+  }
+
+  /* Background, vertical time grid and the ruler labels: the frame both views
+     draw their material into. */
+  function paintTimeAxis(view, ctx) {
+    var g = view._geom;
+    ctx.fillStyle = '#fff';
+    ctx.fillRect(0, 0, g.bw, g.bh);
+
+    var step = pickTickStep(view.duration, g.w);
+    var t;
+    ctx.fillStyle = '#f4f4f4';
+    for (t = step; t < view.duration; t += step) {
+      ctx.fillRect(Math.round(t * g.xOfD), g.topD, g.hair, g.rollHD);
+    }
+
+    if (view.showRuler) {
+      ctx.fillStyle = '#aaa';
+      ctx.font = axisFont(g);
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'top';
+      for (t = step; t < view.duration; t += step) {
+        ctx.fillText(fmtTime(t), Math.round(t * g.xOfD),
+                     g.topD + g.rollHD + Math.round(2 * g.dpr));
+      }
+    }
+  }
+
+  function axisFont(g) {
+    return Math.round((g.h <= COMPACT_H ? 9 : 10) * g.dpr) +
+           'px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
+  }
+
   var STYLE = [
     ':host { display: block; position: relative; margin: 0.2em 0 0; }',
     'canvas { display: block; width: 100%; border: 1px solid #e8e8e8;',
@@ -351,12 +474,12 @@
       this._bindPointer();
       whenAudio(this.getAttribute('audio'), function (el) {
         self.audio = el;
-        self._bindAudio();
+        bindAudioClock(self);
         self._draw();
       });
 
       new ResizeObserver(function () { self._layout(); }).observe(this);
-      this._watchScale();
+      watchScale(this);
 
       fetch(this.getAttribute('src'))
         .then(function (r) {
@@ -409,64 +532,11 @@
       return [lo, hi, lo > data.lo || hi < data.hi];
     }
 
-    /* The canvas backing store is sized in device pixels, so it has to be
-       rebuilt whenever devicePixelRatio changes -- which is exactly what
-       browser zoom does.  A ResizeObserver alone misses this: .wrapper is
-       capped at a fixed 740px, so on a wide window zooming does not change
-       the element's CSS box at all and nothing fires. */
-    _watchScale() {
-      var self = this;
-      var mq = null;
-
-      function onChange() {
-        self._layout();
-        arm();               // the old query no longer matches; re-arm at the new ratio
-      }
-
-      function arm() {
-        if (mq) mq.removeEventListener('change', onChange);
-        mq = window.matchMedia('(resolution: ' + (window.devicePixelRatio || 1) + 'dppx)');
-        mq.addEventListener('change', onChange);
-      }
-
-      arm();
-      window.addEventListener('resize', function () { self._layout(); });
-    }
-
     disconnectedCallback() {
       if (this._raf) cancelAnimationFrame(this._raf);
     }
 
     /* ---- the audio element is the clock -------------------------------- */
-
-    _bindAudio() {
-      var self = this;
-      var syncDuration = function () {
-        if (self.fixedDuration) return;      // pinned to a shared axis
-        if (self.audio.duration && isFinite(self.audio.duration)) {
-          // Prefer the recording's own length: note onsets are absolute
-          // seconds into that recording, so this keeps the x-axis honest.
-          if (self.duration !== self.audio.duration) {
-            self.duration = self.audio.duration;
-            self._layout();
-          }
-        }
-      };
-      syncDuration();
-      this.audio.addEventListener('loadedmetadata', syncDuration);
-      this.audio.addEventListener('durationchange', syncDuration);
-
-      this.audio.addEventListener('play', function () {
-        self._playing = true;
-        if (!self._raf) self._raf = requestAnimationFrame(self._onFrame);
-      });
-      ['pause', 'ended', 'seeked', 'seeking', 'timeupdate'].forEach(function (evt) {
-        self.audio.addEventListener(evt, function () {
-          if (evt === 'pause' || evt === 'ended') self._playing = false;
-          self._draw();          // a single repaint covers scrubbing while paused
-        });
-      });
-    }
 
     _onFrame() {
       this._raf = 0;
@@ -478,13 +548,7 @@
 
     _bindPointer() {
       var self = this;
-
-      this.canvas.addEventListener('click', function (e) {
-        if (!self.audio || !self.duration) return;
-        var rect = self.canvas.getBoundingClientRect();
-        var frac = (e.clientX - rect.left) / rect.width;
-        self.audio.currentTime = Math.max(0, Math.min(self.duration, frac * self.duration));
-      });
+      bindSeek(this);
 
       this.canvas.addEventListener('mousemove', function (e) {
         if (!self.data || !self.duration) return;
@@ -504,21 +568,6 @@
 
       this.canvas.addEventListener('mouseleave', function () {
         self._tip.classList.remove('on');
-      });
-
-      this.addEventListener('keydown', function (e) {
-        if (!self.audio || !self.duration) return;
-        var step = e.shiftKey ? 1 : 5;
-        if (e.key === 'ArrowLeft') {
-          self.audio.currentTime = Math.max(0, self.audio.currentTime - step);
-        } else if (e.key === 'ArrowRight') {
-          self.audio.currentTime = Math.min(self.duration, self.audio.currentTime + step);
-        } else if (e.key === ' ') {
-          if (self.audio.paused) self.audio.play(); else self.audio.pause();
-        } else {
-          return;
-        }
-        e.preventDefault();
       });
     }
 
@@ -603,33 +652,12 @@
       var ctx = this.base.getContext('2d');
       ctx.setTransform(1, 0, 0, 1, 0, 0);
       ctx.imageSmoothingEnabled = false;
-      ctx.fillStyle = '#fff';
-      ctx.fillRect(0, 0, g.bw, g.bh);
+      paintTimeAxis(this, ctx);
 
       // horizontal reference lines at each C
       ctx.fillStyle = '#f1f1f1';
       for (var p = Math.ceil(this.lo / 12) * 12; p <= this.hi; p += 12) {
         ctx.fillRect(0, Math.round(g.topD + (this.hi - p + 1) * g.cellD), g.bw, g.hair);
-      }
-
-      // time grid
-      var step = pickTickStep(this.duration, g.w);
-      var t;
-      ctx.fillStyle = '#f4f4f4';
-      for (t = step; t < this.duration; t += step) {
-        ctx.fillRect(Math.round(t * g.xOfD), g.topD, g.hair, g.rollHD);
-      }
-
-      if (this.showRuler) {
-        ctx.fillStyle = '#aaa';
-        ctx.font = Math.round((g.h <= COMPACT_H ? 9 : 10) * g.dpr) +
-                   'px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
-        ctx.textAlign = 'center';
-        ctx.textBaseline = 'top';
-        for (t = step; t < this.duration; t += step) {
-          ctx.fillText(fmtTime(t), Math.round(t * g.xOfD),
-                       g.topD + g.rollHD + Math.round(2 * g.dpr));
-        }
       }
 
       // notes -- velocity drives lightness so the roll reads as one material
@@ -730,6 +758,400 @@
   }
 
   /**
+   * <wave-form> -- the same visualizer as <piano-roll>, but drawn from a
+   * recording instead of a transcription, so a row of audio sits on the same
+   * axis as the rows of MIDI beneath it.
+   *
+   *   <audio id="my-audio" preload="metadata">
+   *     <source src="song.mp3" type="audio/mpeg">
+   *   </audio>
+   *   <wave-form src="song.mp3" audio="#my-audio" duration="158.1"></wave-form>
+   *
+   * Peaks are measured from the mp3 in the browser rather than shipped as a
+   * picture, for the same reason the rolls parse their own .mid: a screenshot
+   * has no playhead, cannot be seeked, and silently goes stale the moment the
+   * audio behind it is replaced.  The file is decoded once and cached per URL,
+   * and the fetch is deferred until the element is near the viewport -- it is
+   * megabytes, and a reader who never scrolls this far should not pay for it.
+   *
+   * Attributes:
+   *   src          audio file to analyse   (default: the audio element's own)
+   *   audio        CSS selector for the <audio> element          (required)
+   *   height       canvas height in CSS pixels                   (default 130)
+   *   color        waveform colour                               (default #007cba)
+   *   active-color colour of the slice under the playhead        (default #e8590c)
+   *   duration     force the seconds the width represents, so this row shares
+   *                the rolls' time axis                (default: the audio's own)
+   *   ruler        "off" hides the time axis
+   */
+
+  /* Resolution of the stored envelope, in buckets per second.  Columns are
+     ~0.1s wide at this page's width, so 20ms buckets leave several per column
+     and survive a resize or a zoom without another decode. */
+  var PEAKS_PER_SEC = 50;
+
+  /* decodeAudioData resamples to the context's rate, and an envelope does not
+     need full bandwidth: asking for 11 kHz cuts the transient Float32 arrays
+     by four with no visible difference at ~1000 samples per drawn column. */
+  var ANALYSIS_RATE = 11025;
+
+  var PEAK_CACHE = {};        // url -> Promise of an envelope
+
+  function decodeAudio(ctx, buf) {
+    return new Promise(function (resolve, reject) {
+      // older Safari only has the callback form and returns undefined
+      var p = ctx.decodeAudioData(buf, resolve, reject);
+      if (p && p.then) p.then(resolve, reject);
+    });
+  }
+
+  /* Channel-averaged min / max / mean-square per bucket.  Keeping the extremes
+     as well as the RMS is what makes the drawn wave read like a wave: the
+     envelope shows the transients, the RMS body shows where the energy is. */
+  function extractPeaks(buffer) {
+    var n = buffer.length;
+    var per = Math.max(1, Math.round(buffer.sampleRate / PEAKS_PER_SEC));
+    var count = Math.ceil(n / per);
+    var min = new Float32Array(count);
+    var max = new Float32Array(count);
+    var ms = new Float32Array(count);
+    var chans = [];
+    var c;
+    for (c = 0; c < buffer.numberOfChannels; c++) chans.push(buffer.getChannelData(c));
+    var nch = chans.length || 1;
+    var peak = 0;
+
+    for (var b = 0; b < count; b++) {
+      var start = b * per;
+      var end = Math.min(n, start + per);
+      var lo = 0, hi = 0, sum = 0;
+      for (var i = start; i < end; i++) {
+        var v = 0;
+        for (c = 0; c < nch; c++) v += chans[c][i];
+        v /= nch;
+        if (v < lo) lo = v;
+        if (v > hi) hi = v;
+        sum += v * v;
+      }
+      min[b] = lo;
+      max[b] = hi;
+      ms[b] = end > start ? sum / (end - start) : 0;
+      if (-lo > peak) peak = -lo;
+      if (hi > peak) peak = hi;
+    }
+
+    return {
+      min: min, max: max, ms: ms, count: count, peak: peak,
+      spb: per / buffer.sampleRate,             // seconds per bucket
+      duration: n / buffer.sampleRate
+    };
+  }
+
+  function loadPeaks(url) {
+    if (PEAK_CACHE[url]) return PEAK_CACHE[url];
+
+    var Offline = window.OfflineAudioContext || window.webkitOfflineAudioContext;
+    var Online = window.AudioContext || window.webkitAudioContext;
+    var ctx;
+    try {
+      ctx = new Offline(1, 1, ANALYSIS_RATE);
+    } catch (e) {
+      if (!Online) return Promise.reject(new Error('no Web Audio'));
+      ctx = new Online();                       // decodes at the device rate
+    }
+
+    PEAK_CACHE[url] = fetch(url)
+      .then(function (r) {
+        if (!r.ok) throw new Error('HTTP ' + r.status);
+        return r.arrayBuffer();
+      })
+      .then(function (buf) { return decodeAudio(ctx, buf); })
+      .then(function (audioBuffer) {
+        var peaks = extractPeaks(audioBuffer);
+        // the decoded buffer is tens of megabytes; the envelope is ~100 KB
+        if (ctx.close) { try { ctx.close(); } catch (e) { /* offline ctx */ } }
+        return peaks;
+      });
+
+    return PEAK_CACHE[url];
+  }
+
+  class WaveForm extends HTMLElement {
+    connectedCallback() {
+      if (this._ready) return;
+      this._ready = true;
+
+      var root = this.attachShadow({ mode: 'open' });
+      var style = document.createElement('style');
+      style.textContent = STYLE;
+      this._canvas = document.createElement('canvas');
+      this._tip = document.createElement('div');
+      this._tip.className = 'tip';
+      root.appendChild(style);
+      root.appendChild(this._canvas);
+      root.appendChild(this._tip);
+
+      this.tabIndex = 0;
+      this.height = parseInt(this.getAttribute('height'), 10) || 130;
+      this.hsl = hexToHsl(this.getAttribute('color') || '#007cba');
+      this.activeColor = this.getAttribute('active-color') || '#e8590c';
+      this.fixedDuration = parseFloat(this.getAttribute('duration')) || 0;
+      this.showRuler = this.getAttribute('ruler') !== 'off';
+      this.canvas = this._canvas;
+      this.base = document.createElement('canvas');
+
+      this.audio = null;
+      this.peaks = null;
+      this.duration = this.fixedDuration;
+      this.status = 'reading waveform…';
+      this._playing = false;
+
+      var self = this;
+
+      this._onFrame = this._onFrame.bind(this);
+      this._bindPointer();
+      bindSeek(this);
+      whenAudio(this.getAttribute('audio'), function (el) {
+        self.audio = el;
+        bindAudioClock(self);
+        self._layout();
+        if (self._pending) self._load();     // was waiting on the audio's src
+      });
+
+      new ResizeObserver(function () { self._layout(); }).observe(this);
+      watchScale(this);
+      this._layout();
+      this._whenVisible(function () { self._load(); });
+    }
+
+    disconnectedCallback() {
+      if (this._raf) cancelAnimationFrame(this._raf);
+      if (this._io) this._io.disconnect();
+    }
+
+    /* ---- loading ------------------------------------------------------- */
+
+    _src() {
+      return this.getAttribute('src') ||
+             (this.audio && (this.audio.currentSrc || this.audio.src)) || '';
+    }
+
+    _whenVisible(cb) {
+      if (!('IntersectionObserver' in window)) return cb();
+      var self = this;
+      this._io = new IntersectionObserver(function (entries) {
+        for (var i = 0; i < entries.length; i++) {
+          if (entries[i].isIntersecting) {
+            self._io.disconnect();
+            self._io = null;
+            cb();
+            return;
+          }
+        }
+      }, { rootMargin: '300px' });
+      this._io.observe(this);
+    }
+
+    _load() {
+      if (this._loading) return;
+      var url = this._src();
+      if (!url) { this._pending = true; return; }   // retry once the audio resolves
+      this._pending = false;
+      this._loading = true;
+
+      var self = this;
+      loadPeaks(url).then(function (peaks) {
+        self.peaks = peaks;
+        self.status = '';
+        self._layout();
+      }).catch(function (err) {
+        self.status = 'waveform unavailable';
+        self._renderBase();
+        self._draw();
+        console.error('[wave-form] could not analyse', url, err);
+      });
+    }
+
+    /* ---- the audio element is the clock -------------------------------- */
+
+    _onFrame() {
+      this._raf = 0;
+      this._draw();
+      if (this._playing) this._raf = requestAnimationFrame(this._onFrame);
+    }
+
+    /* ---- interaction --------------------------------------------------- */
+
+    _bindPointer() {
+      var self = this;
+
+      this.canvas.addEventListener('mousemove', function (e) {
+        if (!self.duration) return;
+        var rect = self.canvas.getBoundingClientRect();
+        var x = e.clientX - rect.left;
+        self._tip.textContent = fmtTime((x / rect.width) * self.duration);
+        self._tip.style.left = x + 'px';
+        self._tip.style.top = (e.clientY - rect.top) + 'px';
+        self._tip.classList.add('on');
+      });
+
+      this.canvas.addEventListener('mouseleave', function () {
+        self._tip.classList.remove('on');
+      });
+    }
+
+    /* ---- rendering ------------------------------------------------------
+
+       As in <piano-roll>, every coordinate is a whole DEVICE pixel: one column
+       of the wave is barely a CSS pixel wide here, so a fractional rect turns
+       the whole envelope into grey mush. */
+
+    _layout() {
+      var w = this.clientWidth;
+      if (!w) return;
+      if (!this.duration && this.peaks) this.duration = this.peaks.duration;
+      if (!this.duration) return;              // nothing to scale the axis by yet
+
+      var h = this.height;
+      var dpr = window.devicePixelRatio || 1;
+      var rulerH = h <= COMPACT_H ? RULER_H_COMPACT : RULER_H;
+      var bottom = this.showRuler ? rulerH : PAD_Y;
+
+      var bw = Math.round(w * dpr);
+      var bh = Math.round(h * dpr);
+      [this.canvas, this.base].forEach(function (c) {
+        c.width = bw;
+        c.height = bh;
+      });
+      this.canvas.style.width = (bw / dpr) + 'px';
+      this.canvas.style.height = (bh / dpr) + 'px';
+
+      var topD = Math.round(PAD_Y * dpr);
+      var waveHD = bh - topD - Math.round(bottom * dpr);
+
+      this._geom = {
+        dpr: dpr, w: w, h: h, bw: bw, bh: bh,
+        topD: topD,
+        rollHD: waveHD,                        // named for paintTimeAxis
+        midD: topD + Math.round(waveHD / 2),
+        halfD: waveHD / 2,
+        hair: Math.max(1, Math.round(dpr / 2)),
+        lineD: Math.max(1, Math.round(dpr)),
+        xOfD: bw / this.duration
+      };
+
+      this._renderBase();
+      this._draw();
+    }
+
+    /* Lightness stands in for level the same way it stands in for velocity in
+       the roll, so the two rows read as one material: the quiet outer envelope
+       in the pale tone, the RMS body in the full one. */
+    _shade(k) {
+      var l = this.hsl.l + (1 - k) * 26;
+      return 'hsl(' + this.hsl.h.toFixed(0) + ',' + this.hsl.s.toFixed(0) + '%,' +
+             l.toFixed(0) + '%)';
+    }
+
+    /* Static layer: axis, then the wave itself.  Drawn once per resize. */
+    _renderBase() {
+      var g = this._geom;
+      if (!g) return;
+      var ctx = this.base.getContext('2d');
+      ctx.setTransform(1, 0, 0, 1, 0, 0);
+      ctx.imageSmoothingEnabled = false;
+      paintTimeAxis(this, ctx);
+
+      // zero line, matching the roll's octave rules
+      ctx.fillStyle = '#f1f1f1';
+      ctx.fillRect(0, g.midD, g.bw, g.hair);
+
+      if (!this.peaks) {
+        if (this.status) {
+          ctx.fillStyle = '#aaa';
+          ctx.font = axisFont(g);
+          ctx.textAlign = 'center';
+          ctx.textBaseline = 'middle';
+          ctx.fillText(this.status, Math.round(g.bw / 2), g.midD);
+        }
+        return;
+      }
+
+      this._paintWave(ctx, 0, g.bw, this._shade(0), this._shade(1));
+    }
+
+    /* One filled rect per device-pixel column, from x0 to x1.  `envColor`
+       paints peak-to-peak, `bodyColor` the RMS band inside it; passing the
+       same colour for both gives the solid slice used at the playhead. */
+    _paintWave(ctx, x0, x1, envColor, bodyColor) {
+      var g = this._geom;
+      var p = this.peaks;
+      // a quiet master would otherwise use half the height; cap the lift so a
+      // near-silent file does not become a wall of amplified noise
+      var gain = p.peak > 0 ? Math.min(1 / p.peak, 8) : 0;
+      var scale = g.halfD * gain;
+      var minH = Math.max(1, Math.round(g.dpr));
+
+      for (var x = Math.max(0, x0); x < Math.min(g.bw, x1); x++) {
+        var b0 = Math.floor((x / g.xOfD) / p.spb);
+        if (b0 >= p.count) break;
+        var b1 = Math.min(p.count - 1,
+                          Math.max(b0, Math.ceil(((x + 1) / g.xOfD) / p.spb) - 1));
+
+        var lo = 0, hi = 0, sum = 0;
+        for (var b = b0; b <= b1; b++) {
+          if (p.min[b] < lo) lo = p.min[b];
+          if (p.max[b] > hi) hi = p.max[b];
+          sum += p.ms[b];
+        }
+        var rms = Math.sqrt(sum / (b1 - b0 + 1));
+
+        var top = Math.round(g.midD - hi * scale);
+        var bot = Math.round(g.midD - lo * scale);
+        ctx.fillStyle = envColor;
+        ctx.fillRect(x, top, 1, Math.max(minH, bot - top));
+
+        var r = Math.round(rms * scale);
+        if (r >= 1) {
+          ctx.fillStyle = bodyColor;
+          ctx.fillRect(x, g.midD - r, 1, Math.max(minH, r * 2));
+        }
+      }
+    }
+
+    /* Per-frame layer: blit the static wave, then the playhead and the slice
+       sounding right now -- the wave's answer to the roll's lit-up notes. */
+    _draw() {
+      var g = this._geom;
+      if (!g) return;
+
+      var ctx = this.canvas.getContext('2d');
+      ctx.setTransform(1, 0, 0, 1, 0, 0);
+      ctx.imageSmoothingEnabled = false;
+      ctx.drawImage(this.base, 0, 0);      // identical dimensions: no resample
+
+      var now = this.audio ? this.audio.currentTime : 0;
+      var px = Math.max(0, Math.min(g.bw, Math.round(now * g.xOfD)));
+
+      // faint wash over the part already played
+      if (px > 0) {
+        ctx.fillStyle = 'rgba(0,124,186,0.045)';
+        ctx.fillRect(0, g.topD, px, g.rollHD);
+      }
+
+      if (this.peaks) {
+        var wD = Math.max(2, Math.round(2 * g.dpr));
+        this._paintWave(ctx, px - (wD >> 1), px - (wD >> 1) + wD,
+                        this.activeColor, this.activeColor);
+      }
+
+      // playhead
+      ctx.fillStyle = 'rgba(20,20,20,0.55)';
+      ctx.fillRect(Math.min(px, g.bw - g.lineD), g.topD, g.lineD, g.rollHD);
+    }
+  }
+
+  /**
    * <play-toggle for="#some-audio"> -- a round play/pause button for an audio
    * element that is not itself visible on the page.  Deliberately matches the
    * .qs-btn circles in the Quality Showcase table so the page keeps one idiom.
@@ -817,5 +1239,9 @@
 
   if (!window.customElements.get('piano-roll')) {
     window.customElements.define('piano-roll', PianoRoll);
+  }
+
+  if (!window.customElements.get('wave-form')) {
+    window.customElements.define('wave-form', WaveForm);
   }
 })();

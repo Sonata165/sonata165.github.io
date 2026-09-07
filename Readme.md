@@ -10,6 +10,54 @@ gem install bundler
 bundle install
 ```
 
+## Audio visualizers (`assets/js/piano-roll.js`)
+
+Three dependency-free custom elements — no build step, no npm. Used by the
+Harmonica pages (`/amt`, `/amt_bak`); `/piano_roll_prototype` is a scratch page
+for comparing render heights.
+
+| element | draws |
+| --- | --- |
+| `<piano-roll>` | notes parsed from a `.mid` |
+| `<wave-form>` | the envelope of an `.mp3` |
+| `<play-toggle>` | a play/pause button, for rows whose `<audio>` is hidden |
+
+```html
+<script src="/assets/js/piano-roll.js"></script>
+
+<audio id="orig" class="pr-silent" preload="metadata">
+  <source src="angelina.mp3" type="audio/mpeg">
+</audio>
+<play-toggle for="#orig"></play-toggle>
+<wave-form  src="angelina.mp3" audio="#orig" height="96" duration="158.1"></wave-form>
+<piano-roll src="angelina_mt3.mid" audio="#orig" height="96"
+            lo="39" hi="82" duration="158.1"></piano-roll>
+```
+
+Attributes — both: `audio` (selector, required), `height`, `color`,
+`active-color`, `duration`, `ruler="off"`. `<piano-roll>` also takes `src` (the
+`.mid`) and `lo`/`hi`/`clip` for the pitch axis; `<wave-form>` also takes `src`
+(the audio to analyse, defaults to the `<audio>`'s own).
+
+Properties:
+
+- **Time tracking.** The `<audio>` element is the only clock — the view reads
+  `audio.currentTime` every frame and holds no time state of its own, so seeking
+  and scrubbing cannot drift. Several views on one audio scrub together.
+- **Shared axis.** `duration` pins the seconds the width represents, so stacked
+  rows line up column-for-column even though their MP3s differ in length. A
+  shorter row simply ends before the right edge.
+- **Pixel resolution.** Everything is drawn on whole *device* pixels (the canvas
+  backing store is sized in them, the CSS box is set to match) — at this zoom
+  most notes are under two CSS pixels wide, and fractional coordinates smear
+  them. Redrawn on resize *and* on `devicePixelRatio` change, since browser zoom
+  moves the ratio without changing the CSS box.
+- **Live source.** Both parse the real `.mid`/`.mp3` in the browser, so nothing
+  goes stale when a file is replaced. `<wave-form>` defers its (multi-MB) fetch
+  until the element scrolls near the viewport and caches the envelope per URL.
+- **Interaction.** Click to seek, hover for a tooltip, <kbd>←</kbd>/<kbd>→</kbd>
+  nudge 5s (1s with shift), <kbd>space</kbd> toggles play.
+
 ## Notes / gotchas
 
 ### Converting a PDF figure to PNG
