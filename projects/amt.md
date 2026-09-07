@@ -73,7 +73,7 @@ Below we present the song <a href="https://www.youtube.com/watch?v=XWS1IRF_IFA" 
 .demo-main audio.pr-silent { display: none; }
 .demo-head { display: flex; align-items: center; gap: 0.5em; }
 .demo-head .demo-label { margin: 0; }
-piano-roll { display: block; }
+piano-roll, wave-form { display: block; }
 /* push the transport to the column's right edge, so every row's button lands
    on the same x no matter how long the model name is */
 .demo-head play-toggle { margin-left: auto; flex: none; }
@@ -92,8 +92,8 @@ piano-roll { display: block; }
       <audio id="roll-orig" class="pr-silent" preload="metadata">
         <source src="/assets/for_projects/amt/angelina/angelina.mp3" type="audio/mpeg">
       </audio>
-      <img src="/assets/for_projects/amt/angelina/waveform.png" alt="Original recording"
-           style="height: 96px; object-fit: fill;">
+      <wave-form src="/assets/for_projects/amt/angelina/angelina.mp3"
+                 audio="#roll-orig" height="96" duration="158.1"></wave-form>
     </div>
   </div>
   <div class="demo-row">
