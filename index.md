@@ -150,7 +150,7 @@ Retrieved 2025-12-23, License - CC BY-SA 3.0
 
 ### Audio Content Analysis
 
-- [**Harmonica: Accurate and Lightweight Instrument-Agnostic Music Transcription**](https://arxiv.org/abs/2609.04640)  
+- [**Harmonica: Accurate and Lightweight Instrument-Agnostic Music Transcription**](/assets/pdf/papers/ICASSP_2027_AMT__ArXiv_.pdf)  
   **Longshen Ou**, [Héctor Martel](https://www.linkedin.com/in/hmartelb/), [Joe Hennessy-Priest](https://www.linkedin.com/in/joe-hennessy-priest/), [Taemin Cho](https://www.linkedin.com/in/taemincho/)  
   [ [Demo](/amt) | [ArXiv](https://arxiv.org/abs/2609.04640) ]
 
