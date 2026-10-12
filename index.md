@@ -167,7 +167,7 @@ Retrieved 2025-12-23, License - CC BY-SA 3.0
   [ [Code](https://github.com/guxm2021/ALT_SpeechBrain) | [ArXiv](https://arxiv.org/abs/2207.09747) ]
 
 - [**Exploring Transformer’s Potential on Automatic Piano Transcription**](https://ieeexplore.ieee.org/abstract/document/9746789)  
-  **Longshen Ou**, [Ziyi Guo](https://www.linkedin.com/in/zi-yi-guo/), [Emmanouil Benetos](https://www.eecs.qmul.ac.uk/~emmanouilb/), [Jiqing Han](https://dblp.org/pid/h/JiqingHan.html), and [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/)    
+  **Longshen Ou**, [Emmanouil Benetos](https://www.eecs.qmul.ac.uk/~emmanouilb/), [Jiqing Han](https://dblp.org/pid/h/JiqingHan.html), and [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/)    
   *2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2022)*
 
 ### Symbolic Music Generation
